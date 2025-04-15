@@ -223,6 +223,12 @@
     <div class="timeline-container">
       <div class="timeline-scroll">
         <div class="timeline-content" :style="contentStyle">
+          <div v-for="year in timelineData.years" 
+               :key="year"
+               class="century-line"
+               :style="{ left: yearToPosition(year) + 'px' }">
+          </div>
+
           <div class="year-line birth" v-show="hoveredHuman" :style="{ left: yearToPosition(hoveredHuman?.birth) + 'px' }"></div>
           <div class="year-line death" v-show="hoveredHuman" :style="{ left: yearToPosition(hoveredHuman?.death) + 'px' }"></div>
 
