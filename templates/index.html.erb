@@ -210,6 +210,66 @@
       top: 0;
       bottom: 0;
     }
+
+    .tag-filter {
+      position: sticky;
+      left: 0;
+      margin: 20px;
+      background: white;
+      padding: 10px;
+      z-index: 1;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .tag-chip {
+      padding: 4px 12px;
+      border-radius: 16px;
+      cursor: pointer;
+      user-select: none;
+      transition: opacity 0.2s;
+    }
+
+    .tag-chip:hover {
+      opacity: 0.8;
+    }
+
+    .tag-chip.active {
+      outline: 2px solid currentColor;
+    }
+
+    .human-tags {
+      display: flex;
+      gap: 4px;
+      margin-left: 8px;
+    }
+
+    .tag-label {
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+
+    .tooltip .human-tags {
+      margin-bottom: 8px;
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+
+    .tooltip .tag-label {
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 12px;
+      color: white;
+    }
+
+    .tooltip .note-text {
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      padding-top: 8px;
+      margin-top: 8px;
+    }
   </style>
 </head>
 <body>
@@ -218,6 +278,17 @@
     
     <div class="name-filter">
       <input type="text" v-model="nameFilter" placeholder="名前でフィルター">
+    </div>
+
+    <div class="tag-filter">
+      <span v-for="(tag, id) in timelineData.tags" 
+            :key="id"
+            class="tag-chip"
+            :style="{ backgroundColor: tag.color + '20' }"
+            :class="{ active: selectedTags.includes(id) }"
+            @click="toggleTag(id)">
+        {{ tag.name }}
+      </span>
     </div>
 
     <div class="timeline-container">
@@ -278,7 +349,17 @@
               <div v-if="human.note" 
                    class="tooltip"
                    :style="{ display: activeTooltip === human.name ? 'block' : 'none' }">
-                {{ human.note }}
+                <div class="human-tags">
+                  <span v-for="tagId in human.tags" 
+                        :key="tagId" 
+                        class="tag-label"
+                        :style="{ backgroundColor: timelineData.tags[tagId].color + '40' }">
+                    {{ timelineData.tags[tagId].name }}
+                  </span>
+                </div>
+                <div class="note-text">
+                  {{ human.note }}
+                </div>
               </div>
             </div>
           </div>
@@ -298,13 +379,16 @@
         const hoveredHuman = ref(null);
         const activeTooltip = ref(null);
         const pinnedHumans = ref([]);
+        const selectedTags = ref([]);
 
         const filteredHumans = computed(() => {
           const filter = nameFilter.value.toLowerCase();
-          return timelineData.humans.filter(human => 
-            pinnedHumans.value.includes(human.name) || 
-            human.name.toLowerCase().includes(filter)
-          );
+          return timelineData.humans.filter(human => {
+            const nameMatch = human.name.toLowerCase().includes(filter);
+            const tagMatch = selectedTags.value.length === 0 || 
+                            (human.tags && human.tags.some(tag => selectedTags.value.includes(tag)));
+            return (pinnedHumans.value.includes(human.name) || (nameMatch && tagMatch));
+          });
         });
 
         const contentStyle = computed(() => {
@@ -326,10 +410,14 @@
 
         function barStyle(human) {
           const left = yearToPosition(human.birth);
-          const width = yearToPosition(human.death) - left - 20; // パディングを考慮
+          const width = yearToPosition(human.death) - left - 20;
+          const color = human.tags && human.tags[0] ? 
+                       timelineData.tags[human.tags[0]]?.color : 
+                       '#4CAF50';
           return {
             left: left + 'px',
-            width: width + 'px'
+            width: width + 'px',
+            backgroundColor: color
           };
         }
 
@@ -365,17 +453,28 @@
           }
         }
 
+        function toggleTag(tagId) {
+          const index = selectedTags.value.indexOf(tagId);
+          if (index === -1) {
+            selectedTags.value.push(tagId);
+          } else {
+            selectedTags.value.splice(index, 1);
+          }
+        }
+
         return {
           timelineData,
           nameFilter,
           hoveredHuman,
           activeTooltip,
+          pinnedHumans,
+          selectedTags,
           filteredHumans,
           contentStyle,
           yearToPosition,
           barStyle,
-          pinnedHumans,
-          togglePin
+          togglePin,
+          toggleTag
         };
       }
     }).mount('#app');

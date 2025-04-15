@@ -18,11 +18,28 @@
 `data/human.yaml`には偉人の情報を以下の形式で記述します：
 
 ```yaml
-- name: 人物名
-  birth: 生年
-  death: 没年
-  note: 詳細情報
+# タグの定義
+tags:
+  tag_id:          # タグのID（英数字）
+    name: タグ名    # 表示名
+    color: 色指定   # カラーコード
+
+# 人物データ
+humans:
+  - name: 人物名
+    birth: 生年
+    death: 没年
+    tags: [tag_id1, tag_id2]  # タグのID配列
+    note: 詳細情報
 ```
+
+### タグ機能
+
+- 各人物に複数のタグを付与可能
+- タグごとに色を指定可能
+- タグによるフィルタリング
+- 人物の表示色は最初のタグの色に従う
+- 詳細表示でタグ一覧を表示
 
 ## Additional
 

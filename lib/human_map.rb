@@ -4,7 +4,7 @@ require 'erb'
 
 class HumanMap
   def initialize
-    @humans = load_data
+    @data = load_data
     @start_year = -100  # BC100年から
     @end_year = 2024    # 現代まで
     @century_step = 100 # 100年ごとの区切り
@@ -35,7 +35,7 @@ class HumanMap
       startYear: @start_year,
       endYear: @end_year,
       centuryStep: @century_step,
-      pxPerCentury: 300
+      pxPerCentury: @px_per_century
     }
   end
 
@@ -43,7 +43,8 @@ class HumanMap
     {
       config: timeline_config,
       years: timeline_years,
-      humans: @humans
+      tags: @data['tags'],
+      humans: @data['humans'] # YAMLのhumansキーの配列を直接使用
     }
   end
 
