@@ -12,6 +12,27 @@ tags:
   politician:
     name: 政治家
     color: "#F44336"  # 赤
+  thinker:
+    name: 思想家
+    color: "#FF9800"  # オレンジ系
+  existentialist:
+    name: 実存主義
+    color: "#FF9800"  # オレンジ系
+  utilitarian:
+    name: 功利主義
+    color: "#CDDC39"  # ライム系
+  political_theorist:
+    name: 政治思想家
+    color: "#00BCD4"  # 水色
+  conservative:
+    name: 保守主義
+    color: "#9E9E9E"  # グレー系
+  feminist:
+    name: フェミニズム
+    color: "#E91E63"  # ピンク系
+  liberal:
+    name: リベラル
+    color: "#03A9F4"  # 明るい青系
 
 # 人物データ
 humans:
@@ -41,7 +62,87 @@ humans:
     tags: [politician]
     note: 十七条憲法を制定。遣隋使の派遣を行う。
   - name: 紫式部
-    birth: 973?
-    death: 1014?
+    birth: 973
+    death: 1014
     tags: [writer]
-    note: 『源氏物語』の作者。平安時代を代表する女流文学者。 
+    note: 『源氏物語』の作者。平安時代を代表する女流文学者。
+  - name: カール・マルクス
+    birth: 1818
+    death: 1883
+    tags: [thinker, philosopher]
+    note: 『資本論』の著者。歴史唯物論を唱え、共産主義の理論的基礎を築いた。
+  - name: マルティン・ハイデッガー
+    birth: 1889
+    death: 1976
+    tags: [thinker, philosopher]
+    note: 『存在と時間』の著者。現存在の分析を通じて存在論を再定義した。
+  - name: ハンナ・アーレント
+    birth: 1906
+    death: 1975
+    tags: [thinker, philosopher]
+    note: 『全体主義の起源』『人間の条件』などを著し、政治的思考を再構築した。
+  - name: フランシス・ベーコン
+    birth: 1561
+    death: 1626
+    tags: [thinker, scientist]
+    note: 経験論の祖として知られ、帰納法と観察に基づく科学的方法を提唱した。
+  - name: トマス・ホッブズ
+    birth: 1588
+    death: 1679
+    tags: [thinker, political_theorist]
+    note: 社会契約論を説いた『リヴァイアサン』で知られる。人間の自然状態は「万人の万人に対する闘争」と述べた。
+  - name: ジョン・ロック
+    birth: 1632
+    death: 1704
+    tags: [thinker, political_theorist]
+    note: 自由主義の源流とされる思想家で、政府の正統性は国民の同意に基づくとした。
+  - name: ジェレミ・ベンサム
+    birth: 1748
+    death: 1832
+    tags: [thinker, utilitarian]
+    note: 功利主義の創始者。「最大多数の最大幸福」を倫理と政治の原理に据えた。
+  - name: ジョン・スチュアート・ミル
+    birth: 1806
+    death: 1873
+    tags: [thinker, utilitarian, liberal]
+    note: ベンサムの功利主義を継承し発展。『自由論』『女性の隷従』などを著した。
+  - name: エドマンド・バーク
+    birth: 1729
+    death: 1797
+    tags: [thinker, conservative]
+    note: フランス革命を批判し、漸進的な改革を重視する保守思想を確立した。
+  - name: アレクシ・ド・トクヴィル
+    birth: 1805
+    death: 1859
+    tags: [thinker, political_theorist, conservative]
+    note: 『アメリカの民主主義』で民主制の発展とその課題を分析した。
+  - name: セーレン・キルケゴール
+    birth: 1813
+    death: 1855
+    tags: [thinker, existentialist]
+    note: 宗教的実存主義の先駆。主体的真理と「絶望」の概念で知られる。
+  - name: フリードリヒ・ニーチェ
+    birth: 1844
+    death: 1900
+    tags: [thinker, existentialist]
+    note: 「神は死んだ」などの語で知られる。近代西洋思想への根源的批判を展開。
+  - name: カール・ヤスパース
+    birth: 1883
+    death: 1969
+    tags: [thinker, existentialist]
+    note: 実存と「限界状況」による哲学を展開し、戦後のドイツ倫理にも影響を与えた。
+  - name: ジャン＝ポール・サルトル
+    birth: 1905
+    death: 1980
+    tags: [thinker, existentialist]
+    note: 無神論的実存主義を展開し、自由と責任の哲学を説いた。
+  - name: シモーヌ・ド・ボーヴォワール
+    birth: 1908
+    death: 1986
+    tags: [thinker, existentialist, feminist]
+    note: 『第二の性』で女性の歴史的抑圧を論じ、フェミニズム思想に大きな影響を与えた。
+  - name: ユルゲン・ハーバーマス
+    birth: 1929
+    death: ""  # 空文字列で現存を表現
+    tags: [thinker, philosopher]
+    note: フランクフルト学派の代表的思想家。コミュニケーション的行為の理論を展開。
