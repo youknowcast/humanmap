@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>偉人マップ</title>
+  <style>
+    .timeline-container {
+      position: relative;
+      margin: 50px 20px;
+      padding: 20px;
+    }
+
+    .timeline-scroll {
+      overflow-x: auto;
+      padding-bottom: 20px;
+      margin-left: 20px;
+    }
+
+    .timeline-content {
+      position: relative;
+      width: <%= total_width %>px;
+      min-height: 100%;
+      background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.03) 1px,
+        transparent 1px
+      );
+      background-size: <%= @px_per_century / 4 %>px 100%;
+      padding-bottom: 50px;
+    }
+
+    .timeline-axis {
+      position: relative;
+      height: 50px;
+      border-bottom: 2px solid #333;
+      margin-bottom: 30px;
+    }
+
+    .century-mark {
+      position: absolute;
+      bottom: 0;
+      transform: translateX(-50%);
+      text-align: center;
+      font-weight: bold;
+      color: #333;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    .century-mark::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      height: 15px;
+      width: 2px;
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 2;
+    }
+
+    .human-line {
+      position: relative;
+      height: 50px;
+      margin: 20px 0;
+    }
+
+    .human-bar {
+      position: relative;
+      height: 40px;
+      background-color: #4CAF50;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      color: white;
+      font-weight: bold;
+      white-space: nowrap;
+      gap: 8px;
+    }
+
+    .year-label {
+      position: absolute;
+      top: 42px;
+      transform: translateX(-50%);
+      font-size: 12px;
+      color: #666;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 0 4px;
+      border-radius: 2px;
+    }
+
+    .name-filter {
+      position: sticky;
+      left: 0;
+      margin: 20px;
+      background: white;
+      padding: 10px;
+      z-index: 1;
+    }
+
+    input[type="text"] {
+      padding: 8px;
+      font-size: 16px;
+      width: 200px;
+    }
+
+    .century-line {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background-color: rgba(0, 0, 0, 0.15);
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .tooltip {
+      position: absolute;
+      visibility: hidden;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 10px;
+      border-radius: 4px;
+      font-size: 14px;
+      width: 250px;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-bottom: 10px;
+      z-index: 100;
+      opacity: 0;
+      transition: none;
+      word-wrap: break-word;
+      white-space: normal;
+      line-height: 1.4;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      display: none;
+    }
+
+    .tooltip.active {
+      display: block;
+    }
+
+    .tooltip::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: 8px;
+      border-style: solid;
+      border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+    }
+
+    .human-bar:hover .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .human-bar::before,
+    .human-bar::after {
+      display: none;
+    }
+
+    .info-button {
+      background-color: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: white;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      font-size: 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      margin-left: auto;
+    }
+
+    .info-button:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .year-marker {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      bottom: -4px;
+      transform: translateX(-50%);
+      display: none;
+      z-index: 3;
+    }
+
+    .year-line {
+      position: absolute;
+      width: 1px;
+      top: 0;
+      bottom: 0;
+      background-color: rgba(76, 175, 80, 0.3);
+      display: none;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .year-marker.birth,
+    .year-line.birth {
+      background-color: #4CAF50;
+    }
+
+    .year-marker.death,
+    .year-line.death {
+      background-color: #f44336;
+    }
+  </style>
+</head>
+<body>
+  <h1>偉人マップ</h1>
+  
+  <div class="name-filter">
+    <input type="text" id="nameFilter" placeholder="名前でフィルター">
+  </div>
+
+  <div class="timeline-container">
+    <div class="timeline-scroll">
+      <div class="timeline-content">
+        <div class="year-line birth"></div>
+        <div class="year-line death"></div>
+
+        <div class="timeline-axis">
+          <% timeline_years.each do |year| %>
+            <div class="century-mark" style="left: <%= year_to_position(year) %>px;">
+              <%= year %>
+            </div>
+          <% end %>
+          <div class="year-marker birth"></div>
+          <div class="year-marker death"></div>
+        </div>
+
+        <% @humans.each do |human| %>
+          <div class="human-line" data-name="<%= human['name'] %>">
+            <div class="human-bar" 
+                 style="left: <%= year_to_position(human['birth']) %>px; 
+                        width: <%= calculate_bar_width(human['birth'], human['death']) %>px;"
+                 data-birth="<%= year_to_position(human['birth']) %>"
+                 data-death="<%= year_to_position(human['death']) %>">
+              <span><%= human['name'] %></span>
+              <% if human['note'] %>
+                <button class="info-button" title="詳細情報">ⓘ</button>
+                <div class="tooltip">
+                  <%= human['note'] %>
+                </div>
+              <% end %>
+            </div>
+            <span class="year-label" style="left: <%= year_to_position(human['birth']) %>px;">
+              <%= human['birth'] %>
+            </span>
+            <span class="year-label" style="left: <%= year_to_position(human['death']) %>px;">
+              <%= human['death'] %>
+            </span>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('nameFilter').addEventListener('input', function(e) {
+      const filter = e.target.value.toLowerCase();
+      document.querySelectorAll('.human-line').forEach(line => {
+        const name = line.dataset.name.toLowerCase();
+        line.style.display = name.includes(filter) ? 'block' : 'none';
+      });
+    });
+
+    // 初期スクロール位置を18世紀付近に設定
+    document.addEventListener('DOMContentLoaded', function() {
+      const scroll = document.querySelector('.timeline-scroll');
+      const scrollTo = <%= year_to_position(1800) - 500 %>; // 1800年付近が中央に来るように
+      scroll.scrollLeft = scrollTo;
+    });
+
+    // ツールチップの切り替え（クリックイベントをボタンに変更）
+    document.querySelectorAll('.info-button').forEach(button => {
+      button.addEventListener('click', function(e) {
+        e.stopPropagation();  // バブリングを停止
+        const tooltip = this.nextElementSibling;
+        
+        // 他のツールチップを全て非表示
+        document.querySelectorAll('.tooltip.active').forEach(tip => {
+          if (tip !== tooltip) {
+            tip.classList.remove('active');
+          }
+        });
+        
+        tooltip.classList.toggle('active');
+      });
+    });
+
+    // マーカーと垂直線の表示
+    document.querySelectorAll('.human-bar').forEach(bar => {
+      bar.addEventListener('mouseenter', function() {
+        const birthMarker = document.querySelector('.year-marker.birth');
+        const deathMarker = document.querySelector('.year-marker.death');
+        const birthLine = document.querySelector('.year-line.birth');
+        const deathLine = document.querySelector('.year-line.death');
+        
+        const birthPos = this.dataset.birth;
+        const deathPos = this.dataset.death;
+        
+        // マーカーの位置設定
+        birthMarker.style.left = `${birthPos}px`;
+        deathMarker.style.left = `${deathPos}px`;
+        
+        // 線の位置設定
+        birthLine.style.left = `${birthPos}px`;
+        deathLine.style.left = `${deathPos}px`;
+        
+        // 表示
+        birthMarker.style.display = 'block';
+        deathMarker.style.display = 'block';
+        birthLine.style.display = 'block';
+        deathLine.style.display = 'block';
+      });
+
+      bar.addEventListener('mouseleave', function() {
+        document.querySelectorAll('.year-marker, .year-line').forEach(el => {
+          el.style.display = 'none';
+        });
+      });
+    });
+
+    // ツールチップ以外の場所をクリックしたときに全てのツールチップを非表示
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.human-bar')) {
+        document.querySelectorAll('.tooltip.active').forEach(tip => {
+          tip.classList.remove('active');
+        });
+      }
+    });
+  </script>
+</body>
+</html> 
