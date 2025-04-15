@@ -1,4 +1,5 @@
 require 'yaml'
+require 'json'
 require 'erb'
 
 class HumanMap
@@ -27,6 +28,23 @@ class HumanMap
 
   def timeline_years
     (@start_year..@end_year).step(@century_step).to_a
+  end
+
+  def timeline_config
+    {
+      startYear: @start_year,
+      endYear: @end_year,
+      centuryStep: @century_step,
+      pxPerCentury: 300
+    }
+  end
+
+  def timeline_data
+    {
+      config: timeline_config,
+      years: timeline_years,
+      humans: @humans
+    }
   end
 
   def year_to_position(year)
