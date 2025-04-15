@@ -494,13 +494,20 @@
 
         const filteredHumans = computed(() => {
           const filter = nameFilter.value.toLowerCase();
-          return timelineData.humans.filter(human => {
-            const nameMatch = human.name.toLowerCase().includes(filter);
-            const tagMatch = selectedTags.value.length === 0 || 
-                            (human.tags && human.tags.some(tag => selectedTags.value.includes(tag)));
-            const pinnedMatch = !showPinnedOnly.value || pinnedHumans.value.includes(human.name);
-            return pinnedMatch && (pinnedHumans.value.includes(human.name) || (nameMatch && tagMatch));
-          });
+          return timelineData.humans
+            .filter(human => {
+              const nameMatch = human.name.toLowerCase().includes(filter);
+              const tagMatch = selectedTags.value.length === 0 || 
+                             (human.tags && human.tags.some(tag => selectedTags.value.includes(tag)));
+              const pinnedMatch = !showPinnedOnly.value || pinnedHumans.value.includes(human.name);
+              return pinnedMatch && (pinnedHumans.value.includes(human.name) || (nameMatch && tagMatch));
+            })
+            .sort((a, b) => {
+              // 生年を数値に変換（'?'は除去）
+              const birthA = parseInt(String(a.birth).replace(/\?/g, ''));
+              const birthB = parseInt(String(b.birth).replace(/\?/g, ''));
+              return birthA - birthB;  // 昇順（古い順）に並べ替え
+            });
         });
 
         const contentStyle = computed(() => {
@@ -522,7 +529,10 @@
 
         function barStyle(human) {
           const left = yearToPosition(human.birth);
-          const deathYear = human.death === '' ? timelineData.config.endYear : human.death;
+          // 死亡年が空文字列または未定義の場合は現在年まで
+          const deathYear = (!human.death || human.death === '') ? 
+                           timelineData.config.endYear : 
+                           human.death;
           const width = yearToPosition(deathYear) - left - 20;
           const color = human.tags && human.tags[0] ? 
                        timelineData.tags[human.tags[0]]?.color : 

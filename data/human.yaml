@@ -33,6 +33,27 @@ tags:
   liberal:
     name: リベラル
     color: "#03A9F4"  # 明るい青系
+  japanese_conservative:
+    name: 日本の保守
+    color: "#6D4C41"  # ダークブラウン系
+  literary_critic:
+    name: 文芸評論
+    color: "#BA68C8"
+  public_philosopher:
+    name: 現代思想
+    color: "#607D8B"
+  political_philosopher:
+    name: 政治理論
+    color: "#009688"
+  linguist:
+    name: 言語学者
+    color: "#8BC34A"  # 明るめの緑（科学系と差別化しつつも自然系）
+  occultist:
+    name: オカルティスト
+    color: "#673AB7"  # 妖しげな紫
+  poet:
+    name: 詩人
+    color: "#E91E63"
 
 # 人物データ
 humans:
@@ -146,3 +167,295 @@ humans:
     death: ""  # 空文字列で現存を表現
     tags: [thinker, philosopher]
     note: フランクフルト学派の代表的思想家。コミュニケーション的行為の理論を展開。
+  - name: 福田恆存
+    birth: 1912
+    death: 1994
+    tags: [thinker, japanese_conservative, literary_critic]
+    note: 戦後日本の代表的保守論客。翻訳家・劇作家としても知られる。漢字論争では旧字体擁護の立場。
+  - name: 金田一京助
+    birth: 1882
+    death: 1971
+    tags: [thinker, linguist]
+    note: 国語学者。漢字制限論争において福田恆存と論争。アイヌ語研究者でもある。
+  - name: 丸谷才一
+    birth: 1925
+    death: 2012
+    tags: [writer, literary_critic]
+    note: 保守的な文化論を展開し、文芸評論や小説で活躍。ユーモアと教養の融合を重視した文体が特徴。
+  - name: 平野啓一郎
+    birth: 1975
+    death: ""  # 空文字列で統一
+    tags: [writer, literary_critic, public_philosopher]
+    note: 『分人主義』を提唱。リベラルな視点から現代社会の倫理と個人を問う作家・思想家。
+  - name: 中野剛志
+    birth: 1971
+    death: ""
+    tags: [thinker, political_philosopher]
+    note: 経済評論家・思想家。現代の保守思想と反グローバリズムを語る。『富国と強兵』などで知られる。
+  - name: チャールズ・テイラー
+    birth: 1931
+    death: 
+    tags: [thinker, public_philosopher, political_philosopher]
+    note: 『マレーズ・オブ・モダニティ』『倫理のゆくえ』などで知られ、現代の共同体主義を代表する哲学者。
+  - name: ロジャー・スクルートン
+    birth: 1944
+    death: 2020
+    tags: [thinker, conservative, public_philosopher]
+    note: 英国の保守思想家。美学や伝統を重視し、欧州懐疑論にも一貫していた。
+  - name: マイケル・ポランニー
+    birth: 1891
+    death: 1976
+    tags: [thinker, scientist]
+    note: 科学哲学において「暗黙知」の概念を提唱し、実証主義批判と共同体の重要性を説いた。
+  - name: マルクス・ガブリエル
+    birth: 1980
+    death: 
+    tags: [thinker, public_philosopher]
+    note: 新実在論を提唱する現代ドイツの哲学者。倫理・科学・ポストモダンに対する批判的視点で注目。
+  - name: ロバート・B・ライシュ
+    birth: 1946
+    death: 
+    tags: [thinker, political_philosopher]
+    note: 『コモン・グッド』などで公共善と市民参加の重要性を説く。クリントン政権下で労働長官も務めた。
+  - name: 三島由紀夫
+    birth: 1925
+    death: 1970
+    tags: [writer, japanese_conservative]
+    note: 日本の伝統美と武士道精神を称揚。自衛隊市ヶ谷駐屯地での割腹自決事件で象徴的存在となる。
+  - name: 渡部昇一
+    birth: 1930
+    death: 2017
+    tags: [thinker, japanese_conservative]
+    note: 英文学者・評論家。戦後保守思想を代表し、歴史観や教育論に関する著作多数。
+  - name: 小林秀雄
+    birth: 1902
+    death: 1983
+    tags: [literary_critic, japanese_conservative]
+    note: 文芸評論の祖として知られ、実感と直観による日本的精神文化を擁護した。
+  - name: 西部邁
+    birth: 1939
+    death: 2018
+    tags: [thinker, japanese_conservative]
+    note: 保守思想家・評論家。戦後民主主義の限界を批判し、日本的共同体や文化の再評価を提唱。『思想の英雄たち』『保守の真髄』などを著す。
+  - name: 丸山眞男
+    birth: 1914
+    death: 1996
+    tags: [thinker, political_philosopher, liberal]
+    note: 戦後日本の政治思想家。『日本政治思想史研究』や「超国家主義の論理と心理」などで、近代主義と民主主義の理念を理論的に擁
+  - name: 美濃部達吉
+    birth: 1873
+    death: 1948
+    tags: [thinker, political_philosopher, liberal]
+    note: 天皇機関説を提唱し、立憲君主制の理論的基礎を築いた憲法学者。戦前の自由主義思想の中心的存在。
+  - name: 宮沢俊義
+    birth: 1899
+    death: 1976
+    tags: [thinker, political_philosopher, liberal]
+    note: 戦後日本の憲法学を代表する思想家。「八月革命説」により日本国憲法の正統性を支え、丸山眞男にも大きな影響を与えた。
+  - name: アウグスティヌス
+    birth: 354
+    death: 430
+    tags: [thinker]
+    note: キリスト教神学とプラトン哲学を融合し、中世スコラ哲学の土台を築いた。『告白』『神の国』など。
+  - name: トマス・アクィナス
+    birth: 1225
+    death: 1274
+    tags: [thinker]
+    note: アリストテレス哲学をキリスト教に統合し、スコラ哲学の頂点を築いた。『神学大全』で知られる。
+  - name: ルネ・デカルト
+    birth: 1596
+    death: 1650
+    tags: [thinker]
+    note: 「我思う、ゆえに我あり」。合理主義哲学の祖であり、近代的主体の概念を切り拓いた。
+  - name: バールーフ・スピノザ
+    birth: 1632
+    death: 1677
+    tags: [thinker]
+    note: 汎神論を展開し、理性と自然の同一性を説いた。自由と倫理を理性から導く試みで知られる。
+  - name: ゴットフリート・ライプニッツ
+    birth: 1646
+    death: 1716
+    tags: [thinker]
+    note: 単子論と予定調和を説く合理主義者。数学・論理学にも貢献。
+  - name: ルソー
+    birth: 1712
+    death: 1778
+    tags: [thinker, political_theorist]
+    note: 社会契約論を提唱し、人民主権や自然状態を重視。フランス革命に思想的影響を与えた。
+  - name: 空海
+    birth: 774
+    death: 835
+    tags: [thinker]
+    note: 真言宗を開いた密教思想家。言語・身体・宇宙の一致を説く。
+  - name: 道元
+    birth: 1200
+    death: 1253
+    tags: [thinker]
+    note: 曹洞宗の開祖。「只管打坐」を基本とする仏教実践哲学を説いた。
+  - name: 林羅山
+    birth: 1583
+    death: 1657
+    tags: [thinker]
+    note: 江戸初期の儒学者。朱子学を幕府の学問として確立し、官学化に寄与。
+  - name: 伊藤仁斎
+    birth: 1627
+    death: 1705
+    tags: [thinker]
+    note: 古義学派を提唱し、朱子学に対して『論語』の原典重視を主張した。
+  - name: 荻生徂徠
+    birth: 1666
+    death: 1728
+    tags: [thinker]
+    note: 古文辞学を唱え、実証的な儒学解釈を行う。幕政改革にも関与。
+  - name: 賀茂真淵
+    birth: 1697
+    death: 1769
+    tags: [thinker]
+    note: 国学の祖。日本固有の文化・精神を重視し、のちの本居宣長に影響。
+  - name: 本居宣長
+    birth: 1730
+    death: 1801
+    tags: [thinker, japanese_conservative]
+    note: 『古事記伝』などで日本固有の精神「もののあはれ」を称揚。国学を大成した。
+  - name: 山崎闇斎
+    birth: 1618
+    death: 1682
+    tags: [thinker, japanese_conservative]
+    note: 江戸時代前期の儒学者・神道思想家。朱子学を根幹に神道と融合させた垂加神道を創始し、幕末の尊皇思想にも影響を与えた。
+  - name: ホルヘ・ルイス・ボルヘス
+    birth: 1899
+    death: 1986
+    tags: [writer, literary_critic, thinker]
+    note: アルゼンチンの作家・詩人。無限・鏡・迷宮・時間などを主題とした哲学的短編で知られる。ポストモダン文学の先駆とされる。
+  - name: ガブリエル・ガルシア＝マルケス
+    birth: 1927
+    death: 2014
+    tags: [writer]
+    note: コロンビア出身。『百年の孤独』で知られる魔術的リアリズムの代表作家。ノーベル文学賞受賞。
+  - name: フリオ・コルタサル
+    birth: 1914
+    death: 1984
+    tags: [writer]
+    note: アルゼンチンの実験的作家。『石蹴り遊び』など構造に挑戦した作品で知られる。ボルヘスに続く世代の先鋭。
+  - name: マリオ・バルガス＝リョサ
+    birth: 1936
+    death: 
+    tags: [writer, political_philosopher]
+    note: ペルー出身の作家・評論家。政治参加も積極的で、自由主義的立場からラテンアメリカの現代社会を描く。ノーベル文学賞受賞。
+  - name: ホセ・ドノソ
+    birth: 1924
+    death: 1996
+    tags: [writer]
+    note: チリの小説家。『夜のみだらな鳥』など幻想的・怪奇的要素を含む作品で知られ、ラテンアメリカ文学ブームの主要作家の一人。
+  - name: ミゲル・アンヘル・アストゥリアス
+    birth: 1899
+    death: 1974
+    tags: [writer, political_philosopher]
+    note: グアテマラ出身の作家。マヤ神話や民間伝承を土台に、政治抑圧と民族的アイデンティティを描いた魔術的リアリズムの先駆者。ノーベル文学賞受賞。
+  - name: ウィリアム・オッカム
+    birth: 1287
+    death: 1347
+    tags: [thinker]
+    note: 唯名論の提唱者。「オッカムの剃刀」によって、必要以上の概念の排除を説いた中世末期の合理主義者。
+  - name: ヴァージニア・ウルフ
+    birth: 1882
+    death: 1941
+    tags: [writer, feminist, literary_critic]
+    note: 英国モダニズム文学を代表する作家・批評家。『灯台へ』『ダロウェイ夫人』などで意識の流れを描いた。『自分ひとりの部屋』はフェミニズム文学の古典。
+  - name: ジュディス・バトラー
+    birth: 1956
+    death: 
+    tags: [thinker, feminist, public_philosopher]
+    note: 『ジェンダー・トラブル』で知られる現代フェミニズム・クィア理論の中心人物。性別は生まれつきでなく、言語的パフォーマンスによって生成されると主張。難解な文体でも知られる。
+  - name: アレイスター・クロウリー
+    birth: 1875
+    death: 1947
+    tags: [thinker, occultist, writer]
+    note: イギリスの神秘主義者・儀式魔術師・詩人。『法の書』でセレマ思想を提唱し、「最も邪悪な男」と呼ばれた。現代オカルティズム・ニューエイジ運動に深い影響を与えた。
+  - name: エレナ・P・ブラヴァツキー
+    birth: 1831
+    death: 1891
+    tags: [thinker, occultist]
+    note: 神智学協会の創設者。『シークレット・ドクトリン』などで東洋思想・密教・進化論を融合した神秘体系を展開し、近代スピリチュアル思想に大きな影響を与えた。
+  - name: フョードル・ドストエフスキー
+    birth: 1821
+    death: 1881
+    tags: [writer, thinker]
+    note: 『罪と罰』『カラマーゾフの兄弟』などで知られるロシアの文豪。人間の内面、信仰、罪、自由を極限まで描き、哲学・文学の両面に深い影響を与えた。
+  - name: レフ・トルストイ
+    birth: 1828
+    death: 1910
+    tags: [writer, thinker]
+    note: 『戦争と平和』『アンナ・カレーニナ』などの作者。後期は宗教的・倫理的思想に傾倒し、非暴力主義を説いた。
+  - name: アントン・チェーホフ
+    birth: 1860
+    death: 1904
+    tags: [writer]
+    note: ロシアの劇作家・短編作家。『かもめ』『桜の園』など、日常の空虚と人間の不安を静かに描いた。
+  - name: アレクサンドル・プーシキン
+    birth: 1799
+    death: 1837
+    tags: [writer]
+    note: ロシア近代文学の父。詩と物語を革新し、後の文学者に大きな影響を与えた。『オネーギン』『スペードの女王』など。
+  - name: ニコライ・ゴーゴリ
+    birth: 1809
+    death: 1852
+    tags: [writer]
+    note: 『外套』『鼻』など幻想的かつ風刺的な短編で知られる。ロシア文学に怪奇と社会批判を融合させた先駆者。
+  - name: ミハイル・ブルガーコフ
+    birth: 1891
+    death: 1940
+    tags: [writer]
+    note: 『巨匠とマルガリータ』で知られるソ連時代の作家。体制批判と幻想・神秘が交錯する作品群が特徴。
+  - name: ウラジーミル・ナボコフ
+    birth: 1899
+    death: 1977
+    tags: [writer, literary_critic]
+    note: ロシアと英語の両言語で執筆。『ロリータ』『賜物』など、美学と倒錯を融合した文体で知られる。構造と意識の操作の達人。
+  - name: アレクサンドル・ソルジェニーツィン
+    birth: 1918
+    death: 2008
+    tags: [writer, thinker]
+    note: 『収容所群島』『イワン・デニーソヴィチの一日』などで、スターリン体制下の収容所の実態を告発。全体主義と戦った思想的作家として20世紀最大級の影響力を持つ。
+  - name: ミハイル・バフチン
+    birth: 1895
+    death: 1975
+    tags: [thinker, literary_critic, philosopher]
+    note: 対話性・ポリフォニー・カーニバル理論などで文学・言語思想に革新をもたらしたロシアの思想家。ドストエフスキー研究やフランス構造主義への影響も大きい。
+  - name: 中村真一郎
+    birth: 1918
+    death: 1997
+    tags: [writer, literary_critic, japanese_conservative]
+    note: 「第三の新人」として文壇に登場し、詩・小説・批評をまたにかけた多才な文人。伝統文化への深い理解をもとに、近代日本文学と精神史を交差的に読み解いた。
+  - name: ジェイムズ・ジョイス
+    birth: 1882
+    death: 1941
+    tags: [writer, literary_critic]
+    note: アイルランド出身の作家。『ユリシーズ』『フィネガンズ・ウェイク』などで意識の流れや言語実験を駆使し、モダニズム文学の頂点を築いた。
+  - name: ウィリアム・ワーズワス
+    birth: 1770
+    death: 1850
+    tags: [writer, poet]
+    note: イギリスのロマン派詩人。自然と感情の尊重をうたった『抒情歌謡集』で知られ、近代的な「個人の感性」の先駆者となった。
+  - name: ウィリアム・モリス
+    birth: 1834
+    death: 1896
+    tags: [writer, thinker, political_philosopher]
+    note: 詩人・デザイナー・社会思想家。アーツ・アンド・クラフツ運動を主導し、美術と社会改革を結びつけた。初期社会主義思想の文化的側面を体現。
+  - name: T.S.エリオット
+    birth: 1888
+    death: 1965
+    tags: [poet, literary_critic]
+    note: 『荒地』『四つの四重奏』などで知られる20世紀英語詩の巨人。キリスト教的伝統とモダニズムの緊張を体現し、詩と批評の両面で強い影響を与えた。
+  - name: ウィリアム・ブレイク
+    birth: 1757
+    death: 1827
+    tags: [poet, writer, occultist]
+    note: 詩人・画家・神秘思想家。『無垢と経験の歌』『天国と地獄の結婚』など象徴に満ちた作品を残し、ヴィジョンと予言の詩を描いた孤高のロマン主義者。
+  - name: デイヴィッド・ヒューム
+    birth: 1711
+    death: 1776
+    tags: [thinker, political_theorist]
+    note: イギリス経験論の極北。懐疑主義と因果性の否定を通じて、カントに決定的な影響を与えた。道徳感情の起源を論じた政治哲学者でもある。
+
+
