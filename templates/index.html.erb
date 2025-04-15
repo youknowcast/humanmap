@@ -72,6 +72,20 @@
       gap: 8px;
     }
 
+    .bar-controls {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      display: flex;
+      gap: 4px;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .human-bar:hover .bar-controls {
+      opacity: 1;
+    }
+
     .info-button {
       background-color: rgba(255, 255, 255, 0.2);
       border: none;
@@ -85,11 +99,32 @@
       align-items: center;
       justify-content: center;
       padding: 0;
-      margin-left: 0;
     }
 
+    .pin-button {
+      background: none;
+      border: none;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 14px;
+      cursor: pointer;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      opacity: 0.6;
+    }
+
+    .human-bar.pinned .pin-button {
+      opacity: 1;
+    }
+
+    .pin-button:hover,
     .info-button:hover {
+      opacity: 1;
       background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
     }
 
     .tooltip {
@@ -270,14 +305,91 @@
       padding-top: 8px;
       margin-top: 8px;
     }
+
+    .filter-controls {
+      position: sticky;
+      left: 0;
+      margin: 20px;
+      background: white;
+      padding: 10px;
+      z-index: 1;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .filter-button {
+      padding: 4px 12px;
+      border-radius: 16px;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.2s;
+      border: 1px solid #ccc;
+      background: white;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .filter-button:hover {
+      background-color: #f5f5f5;
+    }
+
+    .filter-button.active {
+      background-color: #4CAF50;
+      color: white;
+      border-color: #4CAF50;
+    }
+
+    .filter-button .pin-icon {
+      font-size: 14px;
+      opacity: 0.7;
+    }
+
+    .filter-button.active .pin-icon {
+      opacity: 1;
+    }
+
+    .pin-controls {
+      display: flex;
+      gap: 8px;
+    }
+
+    .clear-button {
+      color: #f44336;
+      border-color: #f44336;
+    }
+
+    .clear-button:hover {
+      background-color: #fee8e7;
+    }
+
+    .clear-button .pin-icon {
+      text-decoration: line-through;
+    }
   </style>
 </head>
 <body>
   <div id="app">
     <h1>偉人マップ</h1>
     
-    <div class="name-filter">
+    <div class="filter-controls">
       <input type="text" v-model="nameFilter" placeholder="名前でフィルター">
+      <div class="pin-controls">
+        <button class="filter-button"
+                :class="{ active: showPinnedOnly }"
+                @click="showPinnedOnly = !showPinnedOnly">
+          <span class="pin-icon">📌</span>
+          固定のみ表示
+        </button>
+        <button v-if="pinnedHumans.length > 0"
+                class="filter-button clear-button"
+                @click="clearAllPins"
+                title="固定を全て解除">
+          <span class="pin-icon">📌</span>
+          全解除
+        </button>
+      </div>
     </div>
 
     <div class="tag-filter">
@@ -331,20 +443,18 @@
                  @mouseenter="hoveredHuman = human"
                  @mouseleave="hoveredHuman = null">
               <span>{{ human.name }}</span>
-              <button v-if="human.note" 
-                      class="info-button" 
-                      title="詳細情報"
-                      @click.prevent.stop="activeTooltip = activeTooltip?.name === human.name ? null : human.name">
-                ⓘ
-              </button>
-              <div class="pin-checkbox">
-                <input type="checkbox" 
-                       :id="'pin-' + human.name"
-                       :checked="pinnedHumans.includes(human.name)"
-                       @change="togglePin(human.name)">
-                <label :for="'pin-' + human.name">
-                  固定
-                </label>
+              <div class="bar-controls">
+                <button class="pin-button"
+                        title="固定"
+                        @click.prevent.stop="togglePin(human.name)">
+                  📌
+                </button>
+                <button v-if="human.note" 
+                        class="info-button" 
+                        title="詳細情報"
+                        @click.prevent.stop="activeTooltip = activeTooltip?.name === human.name ? null : human.name">
+                  ⓘ
+                </button>
               </div>
               <div v-if="human.note" 
                    class="tooltip"
@@ -380,6 +490,7 @@
         const activeTooltip = ref(null);
         const pinnedHumans = ref([]);
         const selectedTags = ref([]);
+        const showPinnedOnly = ref(false);
 
         const filteredHumans = computed(() => {
           const filter = nameFilter.value.toLowerCase();
@@ -387,7 +498,8 @@
             const nameMatch = human.name.toLowerCase().includes(filter);
             const tagMatch = selectedTags.value.length === 0 || 
                             (human.tags && human.tags.some(tag => selectedTags.value.includes(tag)));
-            return (pinnedHumans.value.includes(human.name) || (nameMatch && tagMatch));
+            const pinnedMatch = !showPinnedOnly.value || pinnedHumans.value.includes(human.name);
+            return pinnedMatch && (pinnedHumans.value.includes(human.name) || (nameMatch && tagMatch));
           });
         });
 
@@ -403,14 +515,15 @@
 
         function yearToPosition(year) {
           if (!year) return 0;
-          const yearValue = String(year).replace('?', '');
+          const yearValue = String(year).replace(/\?/g, '');
           return ((parseInt(yearValue) - timelineData.config.startYear) * 
                  timelineData.config.pxPerCentury / timelineData.config.centuryStep);
         }
 
         function barStyle(human) {
           const left = yearToPosition(human.birth);
-          const width = yearToPosition(human.death) - left - 20;
+          const deathYear = human.death === '' ? timelineData.config.endYear : human.death;
+          const width = yearToPosition(deathYear) - left - 20;
           const color = human.tags && human.tags[0] ? 
                        timelineData.tags[human.tags[0]]?.color : 
                        '#4CAF50';
@@ -462,6 +575,10 @@
           }
         }
 
+        function clearAllPins() {
+          pinnedHumans.value = [];
+        }
+
         return {
           timelineData,
           nameFilter,
@@ -474,7 +591,9 @@
           yearToPosition,
           barStyle,
           togglePin,
-          toggleTag
+          toggleTag,
+          showPinnedOnly,
+          clearAllPins
         };
       }
     }).mount('#app');
