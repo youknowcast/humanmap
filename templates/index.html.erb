@@ -190,6 +190,26 @@
     .human-bar.pinned {
       outline: 2px solid #4CAF50;
     }
+
+    .year-label {
+      position: absolute;
+      top: 42px;
+      transform: translateX(-50%);
+      font-size: 12px;
+      color: #666;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 0 4px;
+      border-radius: 2px;
+      z-index: 1;
+    }
+
+    .year-labels {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
   </style>
 </head>
 <body>
@@ -220,6 +240,14 @@
           <div v-for="human in filteredHumans" 
                :key="human.name"
                class="human-line">
+            <div class="year-labels">
+              <span class="year-label" :style="{ left: yearToPosition(human.birth) + 'px' }">
+                {{ human.birth }}
+              </span>
+              <span class="year-label" :style="{ left: yearToPosition(human.death) + 'px' }">
+                {{ human.death }}
+              </span>
+            </div>
             <div class="human-bar"
                  :class="{ pinned: pinnedHumans.includes(human.name) }"
                  :style="barStyle(human)"
