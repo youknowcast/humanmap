@@ -36,28 +36,29 @@
     }
 
     .timeline-scroll {
-      overflow: auto;  /* 両方向にスクロール可能に */
+      overflow: scroll;  /* autoからscrollに変更して常に表示 */
       height: 100%;
       padding-bottom: 20px;
       margin-left: 20px;
       position: relative;
       width: calc(100vw - 40px);
+      scrollbar-gutter: stable;  /* スクロールバーのスペースを確保 */
     }
 
     .timeline-content {
       position: relative;
-      min-height: 100%;
+      min-height: 150vh;  /* 高さを増やしてスクロール可能に */
       padding-bottom: 50px;
-      padding-top: 20px;  /* 上部の余白を調整 */
+      padding-top: 20px;
     }
 
     .timeline-axis-container {
       position: sticky;
-      top: 0;  /* コンテンツ内での位置を指定 */
+      top: 40vh;  /* 位置を下げる */
       background: transparent;
       z-index: 90;
       pointer-events: none;
-      padding: 20px 0;  /* 上下の余白を追加 */
+      padding: 20px 0;
     }
 
     .timeline-axis {
@@ -407,21 +408,28 @@
 
     /* スクロールバーのスタイリング */
     .timeline-scroll::-webkit-scrollbar {
-      height: 8px;
-      width: 8px;  /* 縦スクロールバーの幅も設定 */
+      height: 12px;  /* 横スクロールバーを少し太く */
+      width: 12px;   /* 縦スクロールバーを少し太く */
     }
 
     .timeline-scroll::-webkit-scrollbar-track {
       background: #f1f1f1;
+      border-radius: 6px;
     }
 
     .timeline-scroll::-webkit-scrollbar-thumb {
       background: #888;
-      border-radius: 4px;
+      border-radius: 6px;
+      border: 2px solid #f1f1f1;  /* トラックとの境界を作る */
     }
 
     .timeline-scroll::-webkit-scrollbar-thumb:hover {
       background: #555;
+    }
+
+    /* スクロールバーの交差部分 */
+    .timeline-scroll::-webkit-scrollbar-corner {
+      background: #f1f1f1;
     }
   </style>
 </head>
