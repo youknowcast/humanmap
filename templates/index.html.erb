@@ -19,7 +19,20 @@
 
     /* h1のマージンを調整 */
     .header-container h1 {
-      margin: 0 0 10px 0;  /* マージンを減らす */
+      margin: 0 0 10px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .title-logo {
+      width: 32px;
+      height: 32px;
+    }
+
+    .title-text {
+      font-size: 24px;
+      font-weight: bold;
     }
 
     /* メインコンテンツのスタイルを修正 */
@@ -436,7 +449,10 @@
 <body>
   <div id="app">
     <div class="header-container">
-      <h1>偉人マップ</h1>
+      <h1>
+        <img :src="'data:image/png;base64,' + timelineData.titleImage" alt="偉人マップ" class="title-logo">
+        <span class="title-text">偉人マップ</span>
+      </h1>
       
       <div class="filter-controls">
         <input type="text" v-model="nameFilter" placeholder="名前でフィルター">

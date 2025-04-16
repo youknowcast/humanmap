@@ -3,13 +3,14 @@ require 'json'
 require 'erb'
 
 class HumanMap
-  def initialize
+  def initialize(title_image_base64)
     @data = load_data
     @start_year = -100  # BC100年から
     @end_year = 2024    # 現代まで
     @century_step = 100 # 100年ごとの区切り
     @px_per_century = 300 # 1世紀あたりのピクセル数
     @bar_padding = 20 # バーの左右のパディング合計（10px × 2）
+    @title_image_base64 = title_image_base64
   end
 
   def generate
@@ -44,7 +45,8 @@ class HumanMap
       config: timeline_config,
       years: timeline_years,
       tags: @data['tags'],
-      humans: @data['humans'] # YAMLのhumansキーの配列を直接使用
+      humans: @data['humans'],
+      titleImage: @title_image_base64
     }
   end
 
