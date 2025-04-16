@@ -1,5 +1,10 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/human_map'
+require 'base64'
 
-HumanMap.new.generate 
+# タイトル画像をbase64エンコード
+title_image_path = File.join(__dir__, '../assets/title.png')
+title_image_base64 = Base64.strict_encode64(File.read(title_image_path))
+
+HumanMap.new(title_image_base64).generate
