@@ -5,49 +5,98 @@
   <title>偉人マップ</title>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <style>
+    /* ヘッダーのスタイルを調整 */
+    .header-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: white;
+      padding: 10px 20px;  /* 上下のパディングを減らす */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 100;
+    }
+
+    /* h1のマージンを調整 */
+    .header-container h1 {
+      margin: 0 0 10px 0;  /* マージンを減らす */
+    }
+
+    /* メインコンテンツのスタイルを修正 */
+    .main-content {
+      margin-top: 160px;  /* ヘッダーの高さ分 */
+      height: calc(100vh - 160px);  /* 画面の高さからヘッダーの高さを引く */
+      overflow: hidden;  /* はみ出し部分を隠す */
+    }
+
     .timeline-container {
       position: relative;
-      margin: 50px 20px;
+      height: 100%;  /* 親要素いっぱいに */
       padding: 20px;
     }
 
     .timeline-scroll {
-      overflow-x: auto;
+      overflow: auto;  /* 両方向にスクロール可能に */
+      height: 100%;
       padding-bottom: 20px;
       margin-left: 20px;
+      position: relative;
+      width: calc(100vw - 40px);
     }
 
     .timeline-content {
       position: relative;
       min-height: 100%;
       padding-bottom: 50px;
+      padding-top: 20px;  /* 上部の余白を調整 */
+    }
+
+    .timeline-axis-container {
+      position: sticky;
+      top: 0;  /* コンテンツ内での位置を指定 */
+      background: transparent;
+      z-index: 90;
+      pointer-events: none;
+      padding: 20px 0;  /* 上下の余白を追加 */
     }
 
     .timeline-axis {
       position: relative;
       height: 50px;
-      border-bottom: 2px solid #333;
+      border-bottom: 2px solid rgba(51, 51, 51, 0.3);
       margin-bottom: 30px;
+      min-width: v-bind('contentStyle.width');  /* 変更: min-widthを使用 */
     }
 
     .century-mark {
       position: absolute;
-      bottom: 0;
+      bottom: -15px;
       transform: translateX(-50%);
       text-align: center;
       font-weight: bold;
       color: #333;
-      background-color: rgba(255, 255, 255, 0.8);
-      padding: 2px 6px;
-      border-radius: 3px;
+      background-color: white;
+      padding: 8px;
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.9);
+      z-index: 91;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      border: 2px solid rgba(51, 51, 51, 0.3);
+      pointer-events: auto;  /* 追加: 年代マーカーはクリック可能に */
     }
 
+    /* 縦線の位置調整 */
     .century-line {
       position: absolute;
       top: 0;
       bottom: 0;
       width: 1px;
-      background-color: rgba(0, 0, 0, 0.15);
+      background-color: rgba(0, 0, 0, 0.1);
       pointer-events: none;
       z-index: 1;
     }
@@ -246,76 +295,10 @@
       bottom: 0;
     }
 
-    .tag-filter {
-      position: sticky;
-      left: 0;
-      margin: 20px;
-      background: white;
-      padding: 10px;
-      z-index: 1;
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .tag-chip {
-      padding: 4px 12px;
-      border-radius: 16px;
-      cursor: pointer;
-      user-select: none;
-      transition: opacity 0.2s;
-    }
-
-    .tag-chip:hover {
-      opacity: 0.8;
-    }
-
-    .tag-chip.active {
-      outline: 2px solid currentColor;
-    }
-
-    .human-tags {
-      display: flex;
-      gap: 4px;
-      margin-left: 8px;
-    }
-
-    .tag-label {
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 12px;
-    }
-
-    .tooltip .human-tags {
-      margin-bottom: 8px;
-      display: flex;
-      gap: 4px;
-      flex-wrap: wrap;
-    }
-
-    .tooltip .tag-label {
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 12px;
-      color: white;
-    }
-
-    .tooltip .note-text {
-      border-top: 1px solid rgba(255, 255, 255, 0.2);
-      padding-top: 8px;
-      margin-top: 8px;
-    }
-
+    /* フィルターコントロールの余白を調整 */
     .filter-controls {
-      position: sticky;
-      left: 0;
-      margin: 20px;
-      background: white;
-      padding: 10px;
-      z-index: 1;
-      display: flex;
-      gap: 20px;
-      align-items: center;
+      margin: 10px 0;  /* マージンを減らす */
+      padding: 5px 10px;  /* パディングを減らす */
     }
 
     .filter-button {
@@ -367,108 +350,187 @@
     .clear-button .pin-icon {
       text-decoration: line-through;
     }
+
+    /* タグフィルターの余白を調整 */
+    .tag-filter {
+      margin: 5px 0;  /* マージンを減らす */
+      padding: 5px 10px;  /* パディングを減らす */
+    }
+
+    .tag-chip {
+      padding: 4px 12px;
+      border-radius: 16px;
+      cursor: pointer;
+      user-select: none;
+      transition: opacity 0.2s;
+    }
+
+    .tag-chip:hover {
+      opacity: 0.8;
+    }
+
+    .tag-chip.active {
+      outline: 2px solid currentColor;
+    }
+
+    .human-tags {
+      display: flex;
+      gap: 4px;
+      margin-left: 8px;
+    }
+
+    .tag-label {
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+
+    .tooltip .human-tags {
+      margin-bottom: 8px;
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+
+    .tooltip .tag-label {
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 12px;
+      color: white;
+    }
+
+    .tooltip .note-text {
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      padding-top: 8px;
+      margin-top: 8px;
+    }
+
+    /* スクロールバーのスタイリング */
+    .timeline-scroll::-webkit-scrollbar {
+      height: 8px;
+      width: 8px;  /* 縦スクロールバーの幅も設定 */
+    }
+
+    .timeline-scroll::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    .timeline-scroll::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 4px;
+    }
+
+    .timeline-scroll::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
   </style>
 </head>
 <body>
   <div id="app">
-    <h1>偉人マップ</h1>
-    
-    <div class="filter-controls">
-      <input type="text" v-model="nameFilter" placeholder="名前でフィルター">
-      <div class="pin-controls">
-        <button class="filter-button"
-                :class="{ active: showPinnedOnly }"
-                @click="showPinnedOnly = !showPinnedOnly">
-          <span class="pin-icon">📌</span>
-          固定のみ表示
-        </button>
-        <button v-if="pinnedHumans.length > 0"
-                class="filter-button clear-button"
-                @click="clearAllPins"
-                title="固定を全て解除">
-          <span class="pin-icon">📌</span>
-          全解除
-        </button>
+    <div class="header-container">
+      <h1>偉人マップ</h1>
+      
+      <div class="filter-controls">
+        <input type="text" v-model="nameFilter" placeholder="名前でフィルター">
+        <div class="pin-controls">
+          <button class="filter-button"
+                  :class="{ active: showPinnedOnly }"
+                  @click="showPinnedOnly = !showPinnedOnly">
+            <span class="pin-icon">📌</span>
+            固定のみ表示
+          </button>
+          <button v-if="pinnedHumans.length > 0"
+                  class="filter-button clear-button"
+                  @click="clearAllPins"
+                  title="固定を全て解除">
+            <span class="pin-icon">📌</span>
+            全解除
+          </button>
+        </div>
+      </div>
+
+      <div class="tag-filter">
+        <span v-for="(tag, id) in timelineData.tags" 
+              :key="id"
+              class="tag-chip"
+              :style="{ backgroundColor: tag.color + '20' }"
+              :class="{ active: selectedTags.includes(id) }"
+              @click="toggleTag(id)">
+          {{ tag.name }}
+        </span>
       </div>
     </div>
 
-    <div class="tag-filter">
-      <span v-for="(tag, id) in timelineData.tags" 
-            :key="id"
-            class="tag-chip"
-            :style="{ backgroundColor: tag.color + '20' }"
-            :class="{ active: selectedTags.includes(id) }"
-            @click="toggleTag(id)">
-        {{ tag.name }}
-      </span>
-    </div>
+    <div class="main-content">
+      <div class="timeline-container">
+        <div class="timeline-scroll">
+          <div class="timeline-content" :style="contentStyle">
+            <div class="timeline-axis-container">
+              <div class="timeline-axis" :style="{ minWidth: contentStyle.width }">
+                <div v-for="year in timelineData.years" 
+                     :key="year"
+                     class="century-mark"
+                     :style="{ left: yearToPosition(year) + 'px' }">
+                  {{ year }}
+                </div>
+                <div class="year-marker birth" v-show="hoveredHuman" :style="{ left: yearToPosition(hoveredHuman?.birth) + 'px' }"></div>
+                <div class="year-marker death" v-show="hoveredHuman" :style="{ left: yearToPosition(hoveredHuman?.death) + 'px' }"></div>
+              </div>
+            </div>
 
-    <div class="timeline-container">
-      <div class="timeline-scroll">
-        <div class="timeline-content" :style="contentStyle">
-          <div v-for="year in timelineData.years" 
-               :key="year"
-               class="century-line"
-               :style="{ left: yearToPosition(year) + 'px' }">
-          </div>
-
-          <div class="year-line birth" v-show="hoveredHuman" :style="{ left: yearToPosition(hoveredHuman?.birth) + 'px' }"></div>
-          <div class="year-line death" v-show="hoveredHuman" :style="{ left: yearToPosition(hoveredHuman?.death) + 'px' }"></div>
-
-          <div class="timeline-axis">
             <div v-for="year in timelineData.years" 
                  :key="year"
-                 class="century-mark"
+                 class="century-line"
                  :style="{ left: yearToPosition(year) + 'px' }">
-              {{ year }}
             </div>
-            <div class="year-marker birth" v-show="hoveredHuman" :style="{ left: yearToPosition(hoveredHuman?.birth) + 'px' }"></div>
-            <div class="year-marker death" v-show="hoveredHuman" :style="{ left: yearToPosition(hoveredHuman?.death) + 'px' }"></div>
-          </div>
 
-          <div v-for="human in filteredHumans" 
-               :key="human.name"
-               class="human-line">
-            <div class="year-labels">
-              <span class="year-label" :style="{ left: yearToPosition(human.birth) + 'px' }">
-                {{ human.birth }}
-              </span>
-              <span class="year-label" :style="{ left: yearToPosition(human.death) + 'px' }">
-                {{ human.death }}
-              </span>
-            </div>
-            <div class="human-bar"
-                 :class="{ pinned: pinnedHumans.includes(human.name) }"
-                 :style="barStyle(human)"
-                 @mouseenter="hoveredHuman = human"
-                 @mouseleave="hoveredHuman = null">
-              <span>{{ human.name }}</span>
-              <div class="bar-controls">
-                <button class="pin-button"
-                        title="固定"
-                        @click.prevent.stop="togglePin(human.name)">
-                  📌
-                </button>
-                <button v-if="human.note" 
-                        class="info-button" 
-                        title="詳細情報"
-                        @click.prevent.stop="activeTooltip = activeTooltip?.name === human.name ? null : human.name">
-                  ⓘ
-                </button>
+            <div class="year-line birth" v-show="hoveredHuman" :style="{ left: yearToPosition(hoveredHuman?.birth) + 'px' }"></div>
+            <div class="year-line death" v-show="hoveredHuman" :style="{ left: yearToPosition(hoveredHuman?.death) + 'px' }"></div>
+
+            <div v-for="human in filteredHumans" 
+                 :key="human.name"
+                 class="human-line">
+              <div class="year-labels">
+                <span class="year-label" :style="{ left: yearToPosition(human.birth) + 'px' }">
+                  {{ human.birth }}
+                </span>
+                <span class="year-label" :style="{ left: yearToPosition(human.death) + 'px' }">
+                  {{ human.death }}
+                </span>
               </div>
-              <div v-if="human.note" 
-                   class="tooltip"
-                   :style="{ display: activeTooltip === human.name ? 'block' : 'none' }">
-                <div class="human-tags">
-                  <span v-for="tagId in human.tags" 
-                        :key="tagId" 
-                        class="tag-label"
-                        :style="{ backgroundColor: timelineData.tags[tagId].color + '40' }">
-                    {{ timelineData.tags[tagId].name }}
-                  </span>
+              <div class="human-bar"
+                   :class="{ pinned: pinnedHumans.includes(human.name) }"
+                   :style="barStyle(human)"
+                   @mouseenter="hoveredHuman = human"
+                   @mouseleave="hoveredHuman = null">
+                <span>{{ human.name }}</span>
+                <div class="bar-controls">
+                  <button class="pin-button"
+                          title="固定"
+                          @click.prevent.stop="togglePin(human.name)">
+                    📌
+                  </button>
+                  <button v-if="human.note" 
+                          class="info-button" 
+                          title="詳細情報"
+                          @click.prevent.stop="activeTooltip = activeTooltip?.name === human.name ? null : human.name">
+                    ⓘ
+                  </button>
                 </div>
-                <div class="note-text">
-                  {{ human.note }}
+                <div v-if="human.note" 
+                     class="tooltip"
+                     :style="{ display: activeTooltip === human.name ? 'block' : 'none' }">
+                  <div class="human-tags">
+                    <span v-for="tagId in human.tags" 
+                          :key="tagId" 
+                          class="tag-label"
+                          :style="{ backgroundColor: timelineData.tags[tagId].color + '40' }">
+                      {{ timelineData.tags[tagId].name }}
+                    </span>
+                  </div>
+                  <div class="note-text">
+                    {{ human.note }}
+                  </div>
                 </div>
               </div>
             </div>
