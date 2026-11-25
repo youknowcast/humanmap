@@ -566,6 +566,14 @@
       background: #f5f5f5;
     }
 
+    .map-caption {
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #666;
+      background: #fafafa;
+      border-bottom: 1px solid #eee;
+    }
+
     .map-canvas {
       flex: 1;
       min-height: 0;
@@ -738,6 +746,7 @@
         </button>
         <span class="map-stats">表示 {{ visibleHumans.length }}人 / 座標なし {{ noCoordCount }}人</span>
       </div>
+      <div class="map-caption">その年に生きていた人の主な活動地（なければ出生地）。スライダーは生存年で絞り込みます（活動年ではありません）。</div>
       <div class="map-canvas" ref="mapEl"></div>
     </div>
   </div>
@@ -834,11 +843,11 @@
         }
 
         const visibleHumans = computed(() => timelineData.humans.filter(human =>
-          human.lat != null && human.lon != null && isAlive(human, currentYear.value)
+          human.location != null && isAlive(human, currentYear.value)
         ));
 
         const noCoordCount = timelineData.humans.filter(human =>
-          human.lat == null || human.lon == null
+          human.location == null
         ).length;
 
         const yearLabel = computed(() =>
@@ -854,10 +863,16 @@
           const wiki = human.wikipedia
             ? `<a href="https://ja.wikipedia.org/wiki/${encodeURIComponent(human.wikipedia)}" target="_blank" rel="noopener noreferrer">Wikipedia で読む</a>`
             : '';
+          const loc = human.location;
+          const locLine = loc
+            ? (loc.kind === 'activity'
+                ? `<div>主な活動地: ${loc.name}</div>`
+                : `<div>出生地（活動地なし）: ${loc.name}</div>`)
+            : '';
           return `<div class="map-popup">
             <strong>${human.name}</strong>
             <div class="map-popup-years">${human.birth} – ${death}</div>
-            ${human.birthplace ? `<div>出生地: ${human.birthplace}</div>` : ''}
+            ${locLine}
             ${human.note ? `<div class="map-popup-note">${human.note}</div>` : ''}
             ${wiki}
           </div>`;
@@ -867,7 +882,7 @@
           if (!markerLayer) return;
           markerLayer.clearLayers();
           visibleHumans.value.forEach(human => {
-            L.circleMarker([human.lat, human.lon], {
+            L.circleMarker([human.location.lat, human.location.lon], {
               radius: 6,
               weight: 1,
               color: '#ffffff',
