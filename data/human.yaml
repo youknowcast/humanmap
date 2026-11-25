@@ -73,6 +73,11 @@ humans:
     birthplace: ウルム
     lat: 48.3986
     lon: 9.9911
+    location:
+      name: ベルン
+      lat: 46.948
+      lon: 7.4474
+      kind: activity
   - name: ニュートン
     birth: 1643
     death: 1727
@@ -83,6 +88,11 @@ humans:
     birthplace: ウールズソープ・マナー
     lat: 52.8092
     lon: -0.6306
+    location:
+      name: ケンブリッジ
+      lat: 52.2081
+      lon: 0.1225
+      kind: activity
   - name: ガリレオ・ガリレイ
     birth: 1564
     death: 1642
@@ -93,6 +103,11 @@ humans:
     birthplace: ピサ
     lat: 43.7167
     lon: 10.4
+    location:
+      name: ピサ
+      lat: 43.7167
+      lon: 10.4
+      kind: activity
   - name: ソクラテス
     birth: -469
     death: -399
@@ -103,6 +118,11 @@ humans:
     birthplace: アロペケ区
     lat: 37.95
     lon: 23.75
+    location:
+      name: アテネ
+      lat: 37.9842
+      lon: 23.7281
+      kind: activity
   - name: 聖徳太子
     birth: 574?
     death: 622
@@ -113,6 +133,11 @@ humans:
     birthplace: 橘寺
     lat: 34.47
     lon: 135.8181
+    location:
+      name: 橘寺
+      lat: 34.47
+      lon: 135.8181
+      kind: birthplace
   - name: 紫式部
     birth: 973
     death: 1014
@@ -123,6 +148,11 @@ humans:
     birthplace: 平安京
     lat: 35
     lon: 135.7667
+    location:
+      name: 平安京
+      lat: 35
+      lon: 135.7667
+      kind: birthplace
   - name: カール・マルクス
     birth: 1818
     death: 1883
@@ -133,6 +163,11 @@ humans:
     birthplace: トリーア
     lat: 49.7557
     lon: 6.6394
+    location:
+      name: ケルン
+      lat: 50.9422
+      lon: 6.9578
+      kind: activity
   - name: マルティン・ハイデッガー
     birth: 1889
     death: 1976
@@ -143,6 +178,11 @@ humans:
     birthplace: メスキルヒ
     lat: 47.9928
     lon: 9.1125
+    location:
+      name: マールブルク
+      lat: 50.8167
+      lon: 8.7667
+      kind: activity
   - name: ハンナ・アーレント
     birth: 1906
     death: 1975
@@ -153,6 +193,11 @@ humans:
     birthplace: Lindener Marktplatz 2, Hannover
     lat: 52.3668
     lon: 9.7149
+    location:
+      name: Lindener Marktplatz 2, Hannover
+      lat: 52.3668
+      lon: 9.7149
+      kind: birthplace
   - name: フランシス・ベーコン
     birth: 1561
     death: 1626
@@ -163,6 +208,11 @@ humans:
     birthplace: ヨーク・ハウス
     lat: 51.5081
     lon: -0.1233
+    location:
+      name: ヨーク・ハウス
+      lat: 51.5081
+      lon: -0.1233
+      kind: birthplace
   - name: トマス・ホッブズ
     birth: 1588
     death: 1679
@@ -173,6 +223,11 @@ humans:
     birthplace: ウェストポート
     lat: 51.5854
     lon: -2.1014
+    location:
+      name: ウェストポート
+      lat: 51.5854
+      lon: -2.1014
+      kind: birthplace
   - name: ジョン・ロック
     birth: 1632
     death: 1704
@@ -183,6 +238,11 @@ humans:
     birthplace: リングトン
     lat: 51.3617
     lon: -2.7606
+    location:
+      name: リングトン
+      lat: 51.3617
+      lon: -2.7606
+      kind: birthplace
   - name: ジェレミ・ベンサム
     birth: 1748
     death: 1832
@@ -193,6 +253,11 @@ humans:
     birthplace: ハウンズディッチ
     lat: 51.5153
     lon: -0.0787
+    location:
+      name: ロンドン
+      lat: 51.5072
+      lon: -0.1275
+      kind: activity
   - name: ジョン・スチュアート・ミル
     birth: 1806
     death: 1873
@@ -203,6 +268,11 @@ humans:
     birthplace: ペントンヴィル
     lat: 51.535
     lon: -0.1031
+    location:
+      name: ロンドン
+      lat: 51.5072
+      lon: -0.1275
+      kind: activity
   - name: エドマンド・バーク
     birth: 1729
     death: 1797
@@ -213,6 +283,11 @@ humans:
     birthplace: ダブリン
     lat: 53.3497
     lon: -6.2603
+    location:
+      name: ダブリン
+      lat: 53.3497
+      lon: -6.2603
+      kind: birthplace
   - name: アレクシ・ド・トクヴィル
     birth: 1805
     death: 1859
@@ -223,6 +298,11 @@ humans:
     birthplace: パリ
     lat: 48.8567
     lon: 2.3522
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: birthplace
   - name: セーレン・キルケゴール
     birth: 1813
     death: 1855
@@ -233,6 +313,11 @@ humans:
     birthplace: コペンハーゲン
     lat: 55.6761
     lon: 12.5689
+    location:
+      name: コペンハーゲン
+      lat: 55.6761
+      lon: 12.5689
+      kind: birthplace
   - name: フリードリヒ・ニーチェ
     birth: 1844
     death: 1900
@@ -243,6 +328,11 @@ humans:
     birthplace: Röcken
     lat: 51.2408
     lon: 12.1161
+    location:
+      name: バーゼル
+      lat: 47.5581
+      lon: 7.5878
+      kind: activity
   - name: カール・ヤスパース
     birth: 1883
     death: 1969
@@ -253,6 +343,11 @@ humans:
     birthplace: オルデンブルク
     lat: 53.1439
     lon: 8.2139
+    location:
+      name: ハイデルベルク
+      lat: 49.4094
+      lon: 8.6947
+      kind: activity
   - name: ジャン＝ポール・サルトル
     birth: 1905
     death: 1980
@@ -263,6 +358,11 @@ humans:
     birthplace: パリ
     lat: 48.8567
     lon: 2.3522
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: birthplace
   - name: シモーヌ・ド・ボーヴォワール
     birth: 1908
     death: 1986
@@ -273,6 +373,11 @@ humans:
     birthplace: 6区
     lat: 48.8505
     lon: 2.3322
+    location:
+      name: 6区
+      lat: 48.8505
+      lon: 2.3322
+      kind: birthplace
   - name: ユルゲン・ハーバーマス
     birth: 1929
     death: ""  # 空文字列で現存を表現
@@ -283,6 +388,11 @@ humans:
     birthplace: デュッセルドルフ
     lat: 51.2256
     lon: 6.7767
+    location:
+      name: フランクフルト・アム・マイン
+      lat: 50.1106
+      lon: 8.6822
+      kind: activity
   - name: 福田恆存
     birth: 1912
     death: 1994
@@ -293,6 +403,11 @@ humans:
     birthplace: 東京
     lat: 35.6839
     lon: 139.7744
+    location:
+      name: 東京
+      lat: 35.6839
+      lon: 139.7744
+      kind: birthplace
   - name: 金田一京助
     birth: 1882
     death: 1971
@@ -303,6 +418,11 @@ humans:
     birthplace: 盛岡市
     lat: 39.7021
     lon: 141.1545
+    location:
+      name: 盛岡市
+      lat: 39.7021
+      lon: 141.1545
+      kind: birthplace
   - name: 丸谷才一
     birth: 1925
     death: 2012
@@ -313,6 +433,11 @@ humans:
     birthplace: 鶴岡市
     lat: 38.7272
     lon: 139.8267
+    location:
+      name: 鶴岡市
+      lat: 38.7272
+      lon: 139.8267
+      kind: birthplace
   - name: 平野啓一郎
     birth: 1975
     death: ""  # 空文字列で統一
@@ -323,6 +448,11 @@ humans:
     birthplace: 蒲郡市
     lat: 34.8264
     lon: 137.2196
+    location:
+      name: 蒲郡市
+      lat: 34.8264
+      lon: 137.2196
+      kind: birthplace
   - name: 中野剛志
     birth: 1971
     death: ""
@@ -333,6 +463,11 @@ humans:
     birthplace: 神奈川県
     lat: 35.4478
     lon: 139.6425
+    location:
+      name: 神奈川県
+      lat: 35.4478
+      lon: 139.6425
+      kind: birthplace
   - name: チャールズ・テイラー
     birth: 1931
     death: 
@@ -343,6 +478,11 @@ humans:
     birthplace: モントリオール
     lat: 45.5033
     lon: -73.5868
+    location:
+      name: モントリオール
+      lat: 45.5033
+      lon: -73.5868
+      kind: activity
   - name: ロジャー・スクルートン
     birth: 1944
     death: 2020
@@ -353,6 +493,11 @@ humans:
     birthplace: バスリングソープ
     lat: 53.35
     lon: -0.37
+    location:
+      name: イングランド
+      lat: 53.0
+      lon: -1.0
+      kind: activity
   - name: マイケル・ポランニー
     birth: 1891
     death: 1976
@@ -363,6 +508,11 @@ humans:
     birthplace: ブダペスト
     lat: 47.4983
     lon: 19.0408
+    location:
+      name: ブダペスト
+      lat: 47.4983
+      lon: 19.0408
+      kind: birthplace
   - name: マルクス・ガブリエル
     birth: 1980
     death: 
@@ -373,6 +523,11 @@ humans:
     birthplace: レマーゲン
     lat: 50.5786
     lon: 7.2306
+    location:
+      name: ボン
+      lat: 50.7353
+      lon: 7.1022
+      kind: activity
   - name: ロバート・B・ライシュ
     birth: 1946
     death: 
@@ -383,6 +538,11 @@ humans:
     birthplace: スクラントン
     lat: 41.409
     lon: -75.6624
+    location:
+      name: スクラントン
+      lat: 41.409
+      lon: -75.6624
+      kind: birthplace
   - name: 三島由紀夫
     birth: 1925
     death: 1970
@@ -393,6 +553,11 @@ humans:
     birthplace: 東京
     lat: 35.6839
     lon: 139.7744
+    location:
+      name: 東京
+      lat: 35.6895
+      lon: 139.6917
+      kind: activity
   - name: 渡部昇一
     birth: 1930
     death: 2017
@@ -403,6 +568,11 @@ humans:
     birthplace: 鶴岡市
     lat: 38.7272
     lon: 139.8267
+    location:
+      name: 鶴岡市
+      lat: 38.7272
+      lon: 139.8267
+      kind: birthplace
   - name: 小林秀雄
     birth: 1902
     death: 1983
@@ -413,6 +583,11 @@ humans:
     birthplace: 神田猿楽町
     lat: 35.6991
     lon: 139.7592
+    location:
+      name: 神田猿楽町
+      lat: 35.6991
+      lon: 139.7592
+      kind: birthplace
   - name: 西部邁
     birth: 1939
     death: 2018
@@ -423,6 +598,11 @@ humans:
     birthplace: 長万部町
     lat: 42.5136
     lon: 140.3804
+    location:
+      name: 長万部町
+      lat: 42.5136
+      lon: 140.3804
+      kind: birthplace
   - name: 丸山眞男
     birth: 1914
     death: 1996
@@ -433,6 +613,11 @@ humans:
     birthplace: 大阪市
     lat: 34.6938
     lon: 135.5021
+    location:
+      name: 大阪市
+      lat: 34.6938
+      lon: 135.5021
+      kind: birthplace
   - name: 美濃部達吉
     birth: 1873
     death: 1948
@@ -443,6 +628,11 @@ humans:
     birthplace: 兵庫県
     lat: 34.6913
     lon: 135.1831
+    location:
+      name: 兵庫県
+      lat: 34.6913
+      lon: 135.1831
+      kind: birthplace
   - name: 宮沢俊義
     birth: 1899
     death: 1976
@@ -453,6 +643,11 @@ humans:
     birthplace: 長野市
     lat: 36.6487
     lon: 138.1947
+    location:
+      name: 長野市
+      lat: 36.6487
+      lon: 138.1947
+      kind: birthplace
   - name: アウグスティヌス
     birth: 354
     death: 430
@@ -463,6 +658,11 @@ humans:
     birthplace: Thagaste
     lat: 36.2864
     lon: 7.9511
+    location:
+      name: Thagaste
+      lat: 36.2864
+      lon: 7.9511
+      kind: birthplace
   - name: トマス・アクィナス
     birth: 1225
     death: 1274
@@ -473,6 +673,11 @@ humans:
     birthplace: castle of the counts of Aquino
     lat: 41.5478
     lon: 13.6704
+    location:
+      name: castle of the counts of Aquino
+      lat: 41.5478
+      lon: 13.6704
+      kind: birthplace
   - name: ルネ・デカルト
     birth: 1596
     death: 1650
@@ -483,6 +688,11 @@ humans:
     birthplace: デカルト
     lat: 46.9736
     lon: 0.6978
+    location:
+      name: ラ・フレーシュ
+      lat: 47.6997
+      lon: -0.0761
+      kind: activity
   - name: バールーフ・スピノザ
     birth: 1632
     death: 1677
@@ -493,6 +703,11 @@ humans:
     birthplace: アムステルダム
     lat: 52.3667
     lon: 4.8833
+    location:
+      name: デン・ハーグ
+      lat: 52.08
+      lon: 4.31
+      kind: activity
   - name: ゴットフリート・ライプニッツ
     birth: 1646
     death: 1716
@@ -503,6 +718,11 @@ humans:
     birthplace: ライプツィヒ
     lat: 51.3406
     lon: 12.3747
+    location:
+      name: ライプツィヒ
+      lat: 51.3406
+      lon: 12.3747
+      kind: activity
   - name: ルソー
     birth: 1712
     death: 1778
@@ -513,6 +733,11 @@ humans:
     birthplace: ジュネーヴ
     lat: 46.2
     lon: 6.15
+    location:
+      name: ジュネーヴ
+      lat: 46.2
+      lon: 6.15
+      kind: birthplace
   - name: 空海
     birth: 774
     death: 835
@@ -523,6 +748,11 @@ humans:
     birthplace: 善通寺
     lat: 34.2251
     lon: 133.7741
+    location:
+      name: 善通寺
+      lat: 34.2251
+      lon: 133.7741
+      kind: birthplace
   - name: 道元
     birth: 1200
     death: 1253
@@ -533,6 +763,11 @@ humans:
     birthplace: 久我村
     lat: 34.9421
     lon: 135.7328
+    location:
+      name: 久我村
+      lat: 34.9421
+      lon: 135.7328
+      kind: birthplace
   - name: 林羅山
     birth: 1583
     death: 1657
@@ -543,6 +778,11 @@ humans:
     birthplace: 京都市
     lat: 35.0116
     lon: 135.7681
+    location:
+      name: 京都市
+      lat: 35.0116
+      lon: 135.7681
+      kind: birthplace
   - name: 伊藤仁斎
     birth: 1627
     death: 1705
@@ -553,6 +793,11 @@ humans:
     birthplace: 京都市
     lat: 35.0116
     lon: 135.7681
+    location:
+      name: 古義堂
+      lat: 35.0207
+      lon: 135.7524
+      kind: activity
   - name: 荻生徂徠
     birth: 1666
     death: 1728
@@ -563,6 +808,11 @@ humans:
     birthplace: 江戸
     lat: 35.6839
     lon: 139.7744
+    location:
+      name: 江戸
+      lat: 35.6839
+      lon: 139.7744
+      kind: birthplace
   - name: 賀茂真淵
     birth: 1697
     death: 1769
@@ -581,6 +831,11 @@ humans:
     birthplace: 松阪市
     lat: 34.5779
     lon: 136.5276
+    location:
+      name: 松阪市
+      lat: 34.5779
+      lon: 136.5276
+      kind: birthplace
   - name: 山崎闇斎
     birth: 1618
     death: 1682
@@ -591,6 +846,11 @@ humans:
     birthplace: 京都
     lat: 35.0111
     lon: 135.7669
+    location:
+      name: 京都
+      lat: 35.0111
+      lon: 135.7669
+      kind: birthplace
   - name: ホルヘ・ルイス・ボルヘス
     birth: 1899
     death: 1986
@@ -601,6 +861,11 @@ humans:
     birthplace: ブエノスアイレス
     lat: -34.5997
     lon: -58.3819
+    location:
+      name: ブエノスアイレス
+      lat: -34.5997
+      lon: -58.3819
+      kind: birthplace
   - name: ガブリエル・ガルシア＝マルケス
     birth: 1927
     death: 2014
@@ -611,6 +876,11 @@ humans:
     birthplace: アラカタカ
     lat: 10.5911
     lon: -74.185
+    location:
+      name: アラカタカ
+      lat: 10.5911
+      lon: -74.185
+      kind: birthplace
   - name: フリオ・コルタサル
     birth: 1914
     death: 1984
@@ -621,6 +891,11 @@ humans:
     birthplace: ブリュッセル市
     lat: 50.8467
     lon: 4.3517
+    location:
+      name: メンドーサ
+      lat: -32.8897
+      lon: -68.8444
+      kind: activity
   - name: マリオ・バルガス＝リョサ
     birth: 1936
     death: 
@@ -631,6 +906,11 @@ humans:
     birthplace: アレキパ
     lat: -16.3989
     lon: -71.5369
+    location:
+      name: マドリード
+      lat: 40.4169
+      lon: -3.7033
+      kind: activity
   - name: ホセ・ドノソ
     birth: 1924
     death: 1996
@@ -641,6 +921,11 @@ humans:
     birthplace: サンティアゴ
     lat: -33.4375
     lon: -70.65
+    location:
+      name: サンティアゴ
+      lat: -33.4375
+      lon: -70.65
+      kind: birthplace
   - name: ミゲル・アンヘル・アストゥリアス
     birth: 1899
     death: 1974
@@ -651,6 +936,11 @@ humans:
     birthplace: グアテマラシティ
     lat: 14.6417
     lon: -90.5133
+    location:
+      name: グアテマラシティ
+      lat: 14.6417
+      lon: -90.5133
+      kind: birthplace
   - name: ウィリアム・オッカム
     birth: 1287
     death: 1347
@@ -661,6 +951,11 @@ humans:
     birthplace: オッカム
     lat: 51.298
     lon: -0.461
+    location:
+      name: アヴィニョン
+      lat: 43.9486
+      lon: 4.8083
+      kind: activity
   - name: ヴァージニア・ウルフ
     birth: 1882
     death: 1941
@@ -671,6 +966,11 @@ humans:
     birthplace: ロンドン
     lat: 51.5072
     lon: -0.1275
+    location:
+      name: ロンドン
+      lat: 51.5072
+      lon: -0.1275
+      kind: birthplace
   - name: ジュディス・バトラー
     birth: 1956
     death: 
@@ -681,6 +981,11 @@ humans:
     birthplace: クリーブランド
     lat: 41.4992
     lon: -81.6947
+    location:
+      name: クリーブランド
+      lat: 41.4992
+      lon: -81.6947
+      kind: birthplace
   - name: アレイスター・クロウリー
     birth: 1875
     death: 1947
@@ -691,6 +996,11 @@ humans:
     birthplace: ロイヤル・レミントン・スパ
     lat: 52.2919
     lon: -1.5358
+    location:
+      name: ロイヤル・レミントン・スパ
+      lat: 52.2919
+      lon: -1.5358
+      kind: birthplace
   - name: エレナ・P・ブラヴァツキー
     birth: 1831
     death: 1891
@@ -701,6 +1011,11 @@ humans:
     birthplace: ドニプロ
     lat: 48.4675
     lon: 35.04
+    location:
+      name: ドニプロ
+      lat: 48.4675
+      lon: 35.04
+      kind: birthplace
   - name: フョードル・ドストエフスキー
     birth: 1821
     death: 1881
@@ -711,6 +1026,11 @@ humans:
     birthplace: Mariinsky Hospital for the Poor
     lat: 55.7836
     lon: 37.6119
+    location:
+      name: Mariinsky Hospital for the Poor
+      lat: 55.7836
+      lon: 37.6119
+      kind: birthplace
   - name: レフ・トルストイ
     birth: 1828
     death: 1910
@@ -721,6 +1041,11 @@ humans:
     birthplace: ヤースナヤ・ポリャーナ
     lat: 54.0751
     lon: 37.5264
+    location:
+      name: ヤースナヤ・ポリャーナ
+      lat: 54.0667
+      lon: 37.5333
+      kind: activity
   - name: アントン・チェーホフ
     birth: 1860
     death: 1904
@@ -731,6 +1056,11 @@ humans:
     birthplace: タガンログ
     lat: 47.2333
     lon: 38.9
+    location:
+      name: タガンログ
+      lat: 47.2333
+      lon: 38.9
+      kind: birthplace
   - name: アレクサンドル・プーシキン
     birth: 1799
     death: 1837
@@ -741,6 +1071,11 @@ humans:
     birthplace: モスクワ
     lat: 55.7506
     lon: 37.6175
+    location:
+      name: モスクワ
+      lat: 55.7506
+      lon: 37.6175
+      kind: birthplace
   - name: ニコライ・ゴーゴリ
     birth: 1809
     death: 1852
@@ -751,6 +1086,11 @@ humans:
     birthplace: ヴェルィーキ・ソローチンツィ
     lat: 50.0253
     lon: 33.9477
+    location:
+      name: ヴェルィーキ・ソローチンツィ
+      lat: 50.0253
+      lon: 33.9477
+      kind: birthplace
   - name: ミハイル・ブルガーコフ
     birth: 1891
     death: 1940
@@ -761,6 +1101,11 @@ humans:
     birthplace: キーウ
     lat: 50.45
     lon: 30.5236
+    location:
+      name: ソビエト連邦
+      lat: 65.0
+      lon: 90.0
+      kind: activity
   - name: ウラジーミル・ナボコフ
     birth: 1899
     death: 1977
@@ -771,6 +1116,11 @@ humans:
     birthplace: サンクトペテルブルク
     lat: 59.95
     lon: 30.3167
+    location:
+      name: ケンブリッジ
+      lat: 52.2081
+      lon: 0.1225
+      kind: activity
   - name: アレクサンドル・ソルジェニーツィン
     birth: 1918
     death: 2008
@@ -781,6 +1131,11 @@ humans:
     birthplace: キスロヴォツク
     lat: 43.91
     lon: 42.72
+    location:
+      name: キスロヴォツク
+      lat: 43.91
+      lon: 42.72
+      kind: birthplace
   - name: ミハイル・バフチン
     birth: 1895
     death: 1975
@@ -791,6 +1146,11 @@ humans:
     birthplace: オリョール
     lat: 52.9686
     lon: 36.0694
+    location:
+      name: オリョール
+      lat: 52.9686
+      lon: 36.0694
+      kind: birthplace
   - name: 中村真一郎
     birth: 1918
     death: 1997
@@ -801,6 +1161,11 @@ humans:
     birthplace: 東京
     lat: 35.6839
     lon: 139.7744
+    location:
+      name: 東京
+      lat: 35.6839
+      lon: 139.7744
+      kind: birthplace
   - name: ジェイムズ・ジョイス
     birth: 1882
     death: 1941
@@ -811,6 +1176,11 @@ humans:
     birthplace: ラスガー
     lat: 53.3117
     lon: -6.2743
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: activity
   - name: ウィリアム・ワーズワス
     birth: 1770
     death: 1850
@@ -821,6 +1191,11 @@ humans:
     birthplace: コッカーマス
     lat: 54.6613
     lon: -3.362
+    location:
+      name: ゴスラー
+      lat: 51.906
+      lon: 10.4292
+      kind: activity
   - name: ウィリアム・モリス
     birth: 1834
     death: 1896
@@ -831,6 +1206,11 @@ humans:
     birthplace: ワルサムストウ
     lat: 51.584
     lon: -0.0211
+    location:
+      name: オックスフォード
+      lat: 51.7519
+      lon: -1.2578
+      kind: activity
   - name: T.S.エリオット
     birth: 1888
     death: 1965
@@ -841,6 +1221,11 @@ humans:
     birthplace: セイント・ルイス
     lat: 38.6264
     lon: -90.1994
+    location:
+      name: セイント・ルイス
+      lat: 38.6264
+      lon: -90.1994
+      kind: birthplace
   - name: ウィリアム・ブレイク
     birth: 1757
     death: 1827
@@ -851,6 +1236,11 @@ humans:
     birthplace: ロンドン
     lat: 51.5072
     lon: -0.1275
+    location:
+      name: ロンドン
+      lat: 51.5072
+      lon: -0.1275
+      kind: activity
   - name: デイヴィッド・ヒューム
     birth: 1711
     death: 1776
@@ -861,6 +1251,11 @@ humans:
     birthplace: エディンバラ
     lat: 55.9533
     lon: -3.1892
+    location:
+      name: エディンバラ
+      lat: 55.9533
+      lon: -3.1883
+      kind: activity
   - name: プロティノス
     birth: 205
     death: 270
@@ -872,6 +1267,11 @@ humans:
     birthplace: リコポリス（Lycopolis)
     lat: 30.9087
     lon: 31.0555
+    location:
+      name: リコポリス（Lycopolis)
+      lat: 30.9087
+      lon: 31.0555
+      kind: birthplace
   - name: ボエティウス
     birth: 480
     death: 524
@@ -883,6 +1283,11 @@ humans:
     birthplace: ローマ
     lat: 41.8931
     lon: 12.4828
+    location:
+      name: ローマ
+      lat: 41.8931
+      lon: 12.4828
+      kind: birthplace
   - name: アンセルムス
     birth: 1033
     death: 1109
@@ -894,6 +1299,11 @@ humans:
     birthplace: アオスタ
     lat: 45.7372
     lon: 7.3206
+    location:
+      name: サン＝テティエンヌ修道院
+      lat: 49.1817
+      lon: -0.3728
+      kind: activity
   - name: アベラール
     birth: 1079
     death: 1142
@@ -905,6 +1315,11 @@ humans:
     birthplace: Le Pallet
     lat: 47.1383
     lon: -1.3358
+    location:
+      name: Le Pallet
+      lat: 47.1383
+      lon: -1.3358
+      kind: birthplace
   - name: ダンテ
     birth: 1265
     death: 1321
@@ -917,6 +1332,11 @@ humans:
     birthplace: フィレンツェ
     lat: 43.7714
     lon: 11.2542
+    location:
+      name: フィレンツェ
+      lat: 43.7714
+      lon: 11.2542
+      kind: activity
   - name: マルシリウス・オブ・パドヴァ
     birth: 1275
     death: 1342
@@ -929,6 +1349,11 @@ humans:
     birthplace: パドヴァ
     lat: 45.4078
     lon: 11.8733
+    location:
+      name: パドヴァ
+      lat: 45.4078
+      lon: 11.8733
+      kind: birthplace
   - name: トマス・ア・ケンピス
     birth: 1380
     death: 1471
@@ -940,6 +1365,11 @@ humans:
     birthplace: ケンペン (ドイツ)
     lat: 51.3658
     lon: 6.4194
+    location:
+      name: ケンペン (ドイツ)
+      lat: 51.3658
+      lon: 6.4194
+      kind: birthplace
   - name: クザーヌス
     birth: 1401
     death: 1464
@@ -951,6 +1381,11 @@ humans:
     birthplace: ベルンカステル＝クース
     lat: 49.9161
     lon: 7.0694
+    location:
+      name: ヒルデスハイム
+      lat: 52.15
+      lon: 9.95
+      kind: activity
   - name: ピコ・デラ・ミランドラ
     birth: 1463
     death: 1494
@@ -962,6 +1397,11 @@ humans:
     birthplace: ミランドラ
     lat: 44.8873
     lon: 11.066
+    location:
+      name: ミランドラ
+      lat: 44.8873
+      lon: 11.066
+      kind: birthplace
   - name: エラスムス
     birth: 1466
     death: 1536
@@ -974,6 +1414,11 @@ humans:
     birthplace: ロッテルダム
     lat: 51.92
     lon: 4.48
+    location:
+      name: ロッテルダム
+      lat: 51.92
+      lon: 4.48
+      kind: activity
   - name: マルティン・ルター
     birth: 1483
     death: 1546
@@ -985,6 +1430,11 @@ humans:
     birthplace: ルターシュタット・アイスレーベン
     lat: 51.5167
     lon: 11.55
+    location:
+      name: アウグスティーナー修道院
+      lat: 50.9748
+      lon: 11.0302
+      kind: activity
   - name: ジャン・カルヴァン
     birth: 1509
     death: 1564
@@ -996,6 +1446,11 @@ humans:
     birthplace: ノワイヨン
     lat: 49.5811
     lon: 2.9989
+    location:
+      name: ジュネーヴ
+      lat: 46.2
+      lon: 6.15
+      kind: activity
   - name: ミシェル・ド・モンテーニュ
     birth: 1533
     death: 1592
@@ -1008,6 +1463,11 @@ humans:
     birthplace: モンテーニュ城
     lat: 44.8783
     lon: 0.03
+    location:
+      name: フランス
+      lat: 47.0
+      lon: 2.0
+      kind: activity
   - name: フランシスコ・スアレス
     birth: 1548
     death: 1617
@@ -1019,6 +1479,11 @@ humans:
     birthplace: グラナダ
     lat: 37.175
     lon: -3.6
+    location:
+      name: グラナダ
+      lat: 37.175
+      lon: -3.6
+      kind: birthplace
   - name: ヒューゴー・グロティウス
     birth: 1583
     death: 1645
@@ -1031,6 +1496,11 @@ humans:
     birthplace: デルフト
     lat: 52.0117
     lon: 4.3592
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: activity
   - name: ジョージ・バークリー
     birth: 1685
     death: 1753
@@ -1042,6 +1512,11 @@ humans:
     birthplace: Dysart Castle
     lat: 52.502
     lon: -7.1215
+    location:
+      name: Dysart Castle
+      lat: 52.502
+      lon: -7.1215
+      kind: birthplace
   - name: ドゥニ・ディドロ
     birth: 1713
     death: 1784
@@ -1054,6 +1529,11 @@ humans:
     birthplace: ラングル
     lat: 47.8625
     lon: 5.3331
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: activity
   - name: ポール・アンリ・ティリ・ドルバック
     birth: 1723
     death: 1789
@@ -1065,6 +1545,11 @@ humans:
     birthplace: イデスハイム
     lat: 49.2642
     lon: 8.1344
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: activity
   - name: コンスタンタン・カヴァフィス
     birth: 1863
     death: 1933
@@ -1077,6 +1562,11 @@ humans:
     birthplace: アレクサンドリア
     lat: 31.1975
     lon: 29.8925
+    location:
+      name: リヴァプール
+      lat: 53.4072
+      lon: -2.9917
+      kind: activity
   - name: エドワード・ギボン
     birth: 1737
     death: 1794
@@ -1089,6 +1579,11 @@ humans:
     birthplace: パットニー
     lat: 51.4649
     lon: -0.2211
+    location:
+      name: ローザンヌ
+      lat: 46.5333
+      lon: 6.6333
+      kind: activity
   - name: アウグスト・コント
     birth: 1798
     death: 1857
@@ -1100,6 +1595,11 @@ humans:
     birthplace: モンペリエ
     lat: 43.6109
     lon: 3.8772
+    location:
+      name: モンペリエ
+      lat: 43.6109
+      lon: 3.8772
+      kind: birthplace
   - name: ヘルダー
     birth: 1744
     death: 1803
@@ -1111,6 +1611,11 @@ humans:
     birthplace: モロンク
     lat: 53.9153
     lon: 19.9272
+    location:
+      name: ビュッケブルク
+      lat: 52.2608
+      lon: 9.0492
+      kind: activity
   - name: アレクサンドル・ヘルツェン
     birth: 1812
     death: 1870
@@ -1123,6 +1628,11 @@ humans:
     birthplace: モスクワ
     lat: 55.7506
     lon: 37.6175
+    location:
+      name: モスクワ
+      lat: 55.7506
+      lon: 37.6175
+      kind: birthplace
   - name: ヴァルター・ベンヤミン
     birth: 1892
     death: 1940
@@ -1135,6 +1645,11 @@ humans:
     birthplace: ベルリン
     lat: 52.5167
     lon: 13.3833
+    location:
+      name: ベルリン
+      lat: 52.5167
+      lon: 13.3833
+      kind: activity
   - name: ノーム・チョムスキー
     birth: 1928
     death: ''
@@ -1147,6 +1662,11 @@ humans:
     birthplace: イースト・オーク・レーン
     lat: 40.0525
     lon: -75.1283
+    location:
+      name: ケンブリッジ（マサチューセッツ州）
+      lat: 42.3736
+      lon: -71.1097
+      kind: activity
   - name: ジャン・ボードリヤール
     birth: 1929
     death: 2007
@@ -1159,6 +1679,11 @@ humans:
     birthplace: ランス
     lat: 49.2653
     lon: 4.0286
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: activity
   - name: ジャン＝リュック・ナンシー
     birth: 1940
     death: 2021
@@ -1171,6 +1696,11 @@ humans:
     birthplace: コーデラン
     lat: 44.8512
     lon: -0.6169
+    location:
+      name: コーデラン
+      lat: 44.8512
+      lon: -0.6169
+      kind: birthplace
   - name: ジョン・ロールズ
     birth: 1921
     death: 2002
@@ -1184,6 +1714,11 @@ humans:
     birthplace: ボルティモア
     lat: 39.2864
     lon: -76.615
+    location:
+      name: ボルティモア
+      lat: 39.2864
+      lon: -76.615
+      kind: birthplace
   - name: マルタ・ヌスバウム
     birth: 1947
     death: ''
@@ -1197,6 +1732,11 @@ humans:
     birthplace: ニューヨーク
     lat: 40.7128
     lon: -74.0061
+    location:
+      name: ニューヨーク
+      lat: 40.7128
+      lon: -74.0061
+      kind: birthplace
   - name: モーリス・メルロー＝ポンティ
     birth: 1908
     death: 1961
@@ -1209,6 +1749,11 @@ humans:
     birthplace: ロシュフォール
     lat: 45.9419
     lon: -0.9669
+    location:
+      name: ロシュフォール
+      lat: 45.9419
+      lon: -0.9669
+      kind: birthplace
   - name: ジャック・デリダ
     birth: 1930
     death: 2004
@@ -1221,6 +1766,11 @@ humans:
     birthplace: エル・ビアル
     lat: 36.7683
     lon: 3.0306
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: activity
   - name: ポール・リクール
     birth: 1913
     death: 2005
@@ -1233,6 +1783,11 @@ humans:
     birthplace: ヴァランス
     lat: 44.9325
     lon: 4.8908
+    location:
+      name: ヴァランス
+      lat: 44.9325
+      lon: 4.8908
+      kind: birthplace
   - name: ハンス・ゲオルク・ガダマー
     birth: 1900
     death: 2002
@@ -1245,6 +1800,11 @@ humans:
     birthplace: マールブルク
     lat: 50.8167
     lon: 8.7667
+    location:
+      name: ハイデルベルク
+      lat: 49.4094
+      lon: 8.6947
+      kind: activity
   - name: ルートヴィヒ・ウィトゲンシュタイン
     birth: 1889
     death: 1951
@@ -1258,6 +1818,11 @@ humans:
     birthplace: ノイヴァルデック
     lat: 48.2378
     lon: 16.2861
+    location:
+      name: ノイヴァルデック
+      lat: 48.2378
+      lon: 16.2861
+      kind: birthplace
   - name: ミシェル・フーコー
     birth: 1926
     death: 1984
@@ -1270,6 +1835,11 @@ humans:
     birthplace: ポワチエ
     lat: 46.5811
     lon: 0.3353
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: activity
   - name: シルヴィア・フェデリーチ
     birth: 1942
     death: ''
@@ -1291,6 +1861,11 @@ humans:
     birthplace: コルカタ
     lat: 22.5675
     lon: 88.37
+    location:
+      name: コルカタ
+      lat: 22.5675
+      lon: 88.37
+      kind: birthplace
   - name: ゲイ・アトキンソン
     birth: 1937
     death: 2008
@@ -1311,6 +1886,11 @@ humans:
     birthplace: ボルティモア
     lat: 39.2864
     lon: -76.615
+    location:
+      name: ボルティモア
+      lat: 39.2864
+      lon: -76.615
+      kind: birthplace
   - name: ジル・ドゥルーズ
     birth: 1925
     death: 1995
@@ -1323,6 +1903,11 @@ humans:
     birthplace: 17区
     lat: 48.8822
     lon: 2.3078
+    location:
+      name: 17区
+      lat: 48.8822
+      lon: 2.3078
+      kind: birthplace
   - name: フェリックス・ガタリ
     birth: 1930
     death: 1992
@@ -1335,6 +1920,11 @@ humans:
     birthplace: Villeneuve-les-Sablons
     lat: 49.2372
     lon: 2.0767
+    location:
+      name: Villeneuve-les-Sablons
+      lat: 49.2372
+      lon: 2.0767
+      kind: birthplace
   - name: アラン・バディウ
     birth: 1937
     death: ''
@@ -1347,6 +1937,11 @@ humans:
     birthplace: ラバト
     lat: 34.0211
     lon: -6.8414
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: activity
   - name: エマニュエル・レヴィナス
     birth: 1906
     death: 1995
@@ -1359,6 +1954,11 @@ humans:
     birthplace: カウナス
     lat: 54.9
     lon: 23.9333
+    location:
+      name: カウナス
+      lat: 54.9
+      lon: 23.9333
+      kind: birthplace
   - name: シモーヌ・ヴェイユ
     birth: 1909
     death: 1943
@@ -1371,6 +1971,11 @@ humans:
     birthplace: パリ
     lat: 48.8567
     lon: 2.3522
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: birthplace
   - name: スタンレー・ミルグラム
     birth: 1933
     death: 1984
@@ -1383,6 +1988,11 @@ humans:
     birthplace: ブロンクス区
     lat: 40.8467
     lon: -73.8733
+    location:
+      name: ブロンクス区
+      lat: 40.8467
+      lon: -73.8733
+      kind: birthplace
   - name: スーザン・ソンタグ
     birth: 1933
     death: 2004
@@ -1396,6 +2006,11 @@ humans:
     birthplace: ニューヨーク
     lat: 40.7128
     lon: -74.0061
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: activity
   - name: リュス・イリガライ
     birth: 1930
     death: ''
@@ -1408,6 +2023,11 @@ humans:
     birthplace: Blaton
     lat: 50.5
     lon: 3.65
+    location:
+      name: ルーヴェン
+      lat: 50.8775
+      lon: 4.7044
+      kind: activity
   - name: エレーヌ・シクスー
     birth: 1937
     death: ''
@@ -1421,6 +2041,11 @@ humans:
     birthplace: オラン
     lat: 35.6969
     lon: -0.6331
+    location:
+      name: パリ
+      lat: 48.8567
+      lon: 2.3522
+      kind: activity
   - name: ウルリケ・マインホフ
     birth: 1934
     death: 1976
@@ -1433,6 +2058,11 @@ humans:
     birthplace: オルデンブルク
     lat: 53.1439
     lon: 8.2139
+    location:
+      name: ハンブルク
+      lat: 53.55
+      lon: 10.0
+      kind: activity
   - name: ロジャー・ベーコン
     birth: 1219
     death: 1292
@@ -1445,6 +2075,11 @@ humans:
     birthplace: イルチェスター
     lat: 51.0011
     lon: -2.6825
+    location:
+      name: オックスフォード
+      lat: 51.7519
+      lon: -1.2578
+      kind: activity
   - name: ヘンリー・ブラクトン
     birth: 1210
     death: 1268
@@ -1457,6 +2092,11 @@ humans:
     birthplace: デヴォン
     lat: 50.7
     lon: -3.8
+    location:
+      name: デヴォン
+      lat: 50.7
+      lon: -3.8
+      kind: birthplace
   - name: マイモニデス
     birth: 1138
     death: 1204
@@ -1468,6 +2108,11 @@ humans:
     birthplace: コルドバ
     lat: 37.89
     lon: -4.78
+    location:
+      name: コルドバ
+      lat: 37.89
+      lon: -4.78
+      kind: birthplace
   - name: イブン・ハルドゥーン
     birth: 1332
     death: 1406
@@ -1480,6 +2125,11 @@ humans:
     birthplace: チュニス
     lat: 36.8008
     lon: 10.18
+    location:
+      name: チュニス
+      lat: 36.8008
+      lon: 10.18
+      kind: birthplace
   - name: マイスター・エックハルト
     birth: 1260
     death: 1328
@@ -1491,6 +2141,11 @@ humans:
     birthplace: Nessetal
     lat: 51.0077
     lon: 10.667
+    location:
+      name: エアフルト
+      lat: 50.9781
+      lon: 11.0289
+      kind: activity
   - name: ヨハネス・ドゥンス・スコトゥス
     birth: 1266
     death: 1308
@@ -1502,6 +2157,11 @@ humans:
     birthplace: ダンス
     lat: 55.7784
     lon: -2.3426
+    location:
+      name: ケルン
+      lat: 50.9422
+      lon: 6.9578
+      kind: activity
   - name: ラモン・リュイ
     birth: 1232
     death: 1315
@@ -1513,6 +2173,11 @@ humans:
     birthplace: パルマ・デ・マヨルカ
     lat: 39.5667
     lon: 2.6497
+    location:
+      name: モンペリエ
+      lat: 43.6109
+      lon: 3.8772
+      kind: activity
   - name: 張載
     birth: 1020
     death: 1077
@@ -1524,6 +2189,11 @@ humans:
     birthplace: 開封市
     lat: 34.795
     lon: 114.345
+    location:
+      name: 開封市
+      lat: 34.795
+      lon: 114.345
+      kind: birthplace
   - name: 朱熹
     birth: 1130
     death: 1200
@@ -1535,6 +2205,11 @@ humans:
     birthplace: 尤渓県
     lat: 26.1725
     lon: 118.1849
+    location:
+      name: 尤渓県
+      lat: 26.1725
+      lon: 118.1849
+      kind: birthplace
   - name: モーゼス・ナフマニデス
     birth: 1194
     death: 1270
@@ -1553,6 +2228,11 @@ humans:
     birthplace: トゥース
     lat: 36.4861
     lon: 59.5176
+    location:
+      name: トゥース
+      lat: 36.4861
+      lon: 59.5176
+      kind: birthplace
   - name: イブン・アラビー
     birth: 1165
     death: 1240
@@ -1564,6 +2244,11 @@ humans:
     birthplace: ムルシア
     lat: 37.9833
     lon: -1.1303
+    location:
+      name: ムルシア
+      lat: 37.9833
+      lon: -1.1303
+      kind: birthplace
   - name: ジェラルド・オブ・ウェールズ
     birth: 1146
     death: 1223
@@ -1595,6 +2280,11 @@ humans:
     birthplace: ガズヴィーン
     lat: 36.2854
     lon: 50.0041
+    location:
+      name: バグダード
+      lat: 33.3153
+      lon: 44.3661
+      kind: activity
   - name: 張栻
     birth: 1133
     death: 1180
@@ -1606,6 +2296,11 @@ humans:
     birthplace: 綿竹市
     lat: 31.3446
     lon: 104.1994
+    location:
+      name: 綿竹市
+      lat: 31.3446
+      lon: 104.1994
+      kind: birthplace
   - name: ジョン・ウィクリフ
     birth: 1320
     death: 1384
@@ -1616,6 +2311,11 @@ humans:
     birthplace: ヒップスウェル
     lat: 54.38
     lon: -1.719
+    location:
+      name: オックスフォード
+      lat: 51.7519
+      lon: -1.2578
+      kind: activity
   - name: シャムス・タブリーズィー
     birth: 1185
     death: 1248
@@ -1641,6 +2341,11 @@ humans:
     birthplace: メディナ・デル・カンポ
     lat: 41.3085
     lon: -4.9151
+    location:
+      name: メディナ・デル・カンポ
+      lat: 41.3085
+      lon: -4.9151
+      kind: birthplace
   - name: ウルスラ・ド・メーツ
     birth: 1350
     death: 1400
@@ -1656,6 +2361,11 @@ humans:
     birthplace: ベテューヌ
     lat: 50.531
     lon: 2.6393
+    location:
+      name: ベテューヌ
+      lat: 50.531
+      lon: 2.6393
+      kind: birthplace
   - name: ギヨーム・ド・オーヴェルニュ
     birth: 1180
     death: 1249
@@ -1681,6 +2391,11 @@ humans:
     birthplace: ギーラーン州
     lat: 37.2774
     lon: 49.589
+    location:
+      name: バグダード
+      lat: 33.3153
+      lon: 44.3661
+      kind: activity
   - name: ジャン・ド・メウング
     birth: 1240
     death: 1305
@@ -1696,6 +2411,11 @@ humans:
     birthplace: アフショナ
     lat: 39.9944
     lon: 64.3792
+    location:
+      name: アフショナ
+      lat: 39.9944
+      lon: 64.3792
+      kind: birthplace
   - name: フワーリズミー
     birth: 780
     death: 850
@@ -1706,6 +2426,11 @@ humans:
     birthplace: ホラズム
     lat: 42.3
     lon: 59.15
+    location:
+      name: ホラズム
+      lat: 42.3
+      lon: 59.15
+      kind: birthplace
   - name: ビールーニー
     birth: 973
     death: 1048
@@ -1716,6 +2441,11 @@ humans:
     birthplace: キャト
     lat: 41.6558
     lon: 60.3025
+    location:
+      name: キャト
+      lat: 41.6558
+      lon: 60.3025
+      kind: birthplace
   - name: イブン・ルシュド
     birth: 1126
     death: 1198
@@ -1726,6 +2456,11 @@ humans:
     birthplace: コルドバ
     lat: 37.89
     lon: -4.78
+    location:
+      name: コルドバ
+      lat: 37.89
+      lon: -4.78
+      kind: birthplace
   - name: キンディー
     birth: 801
     death: 873
@@ -1736,6 +2471,11 @@ humans:
     birthplace: クーファ
     lat: 32.03
     lon: 44.4
+    location:
+      name: バスラ
+      lat: 30.515
+      lon: 47.81
+      kind: activity
   - name: ウマル・ハイヤーム
     birth: 1048
     death: 1131
@@ -1746,6 +2486,11 @@ humans:
     birthplace: ニーシャープール
     lat: 36.2133
     lon: 58.7958
+    location:
+      name: ニーシャープール
+      lat: 36.2133
+      lon: 58.7958
+      kind: birthplace
   - name: ルーミー
     birth: 1207
     death: 1273
@@ -1756,6 +2501,11 @@ humans:
     birthplace: バルフ
     lat: 36.7581
     lon: 66.8989
+    location:
+      name: バルフ
+      lat: 36.7581
+      lon: 66.8989
+      kind: birthplace
   - name: ハーフェズ
     birth: 1325
     death: 1389
@@ -1766,6 +2516,11 @@ humans:
     birthplace: シーラーズ
     lat: 29.6103
     lon: 52.5311
+    location:
+      name: ペルシア
+      lat: 30.0
+      lon: 52.0
+      kind: activity
   - name: サラーフッディーン
     birth: 1138
     death: 1193
@@ -1776,6 +2531,11 @@ humans:
     birthplace: ティクリート
     lat: 34.6017
     lon: 43.6939
+    location:
+      name: ティクリート
+      lat: 34.6017
+      lon: 43.6939
+      kind: birthplace
   - name: スレイマン1世
     birth: 1494
     death: 1566
@@ -1786,6 +2546,11 @@ humans:
     birthplace: トラブゾン
     lat: 41.005
     lon: 39.7225
+    location:
+      name: トラブゾン
+      lat: 41.005
+      lon: 39.7225
+      kind: birthplace
   - name: 孔子
     birth: -551
     death: -479
@@ -1796,6 +2561,11 @@ humans:
     birthplace: 曲阜
     lat: 35.6
     lon: 116.9833
+    location:
+      name: 曲阜
+      lat: 35.6
+      lon: 116.9833
+      kind: birthplace
   - name: 司馬遷
     birth: -145
     death: -86
@@ -1806,6 +2576,11 @@ humans:
     birthplace: 河津
     lat: 35.5914
     lon: 110.706
+    location:
+      name: 河津
+      lat: 35.5914
+      lon: 110.706
+      kind: birthplace
   - name: 諸葛亮
     birth: 181
     death: 234
@@ -1816,6 +2591,11 @@ humans:
     birthplace: 沂南
     lat: 35.5493
     lon: 118.467
+    location:
+      name: 沂南
+      lat: 35.5493
+      lon: 118.467
+      kind: birthplace
   - name: 始皇帝
     birth: -259
     death: -210
@@ -1826,6 +2606,11 @@ humans:
     birthplace: 邯鄲
     lat: 36.6116
     lon: 114.4894
+    location:
+      name: 邯鄲
+      lat: 36.6116
+      lon: 114.4894
+      kind: birthplace
   - name: 武則天
     birth: 624
     death: 705
@@ -1836,6 +2621,11 @@ humans:
     birthplace: 広元
     lat: 32.4353
     lon: 105.8398
+    location:
+      name: 広元
+      lat: 32.4353
+      lon: 105.8398
+      kind: birthplace
   - name: 李白
     birth: 701
     death: 762
@@ -1846,6 +2636,11 @@ humans:
     birthplace: 江油
     lat: 31.7761
     lon: 104.7406
+    location:
+      name: 長安
+      lat: 34.3416
+      lon: 108.9398
+      kind: activity
   - name: 杜甫
     birth: 712
     death: 770
@@ -1856,6 +2651,11 @@ humans:
     birthplace: 鞏義
     lat: 34.7513
     lon: 112.9854
+    location:
+      name: 鞏義
+      lat: 34.7513
+      lon: 112.9854
+      kind: birthplace
   - name: 李清照
     birth: 1084
     death: 1155
@@ -1866,6 +2666,11 @@ humans:
     birthplace: 章丘
     lat: 36.7583
     lon: 117.4914
+    location:
+      name: 章丘
+      lat: 36.7583
+      lon: 117.4914
+      kind: birthplace
   - name: 蔡倫
     birth: 63
     death: 121
@@ -1876,6 +2681,11 @@ humans:
     birthplace: 耒陽
     lat: 26.4179
     lon: 112.8457
+    location:
+      name: 耒陽
+      lat: 26.4179
+      lon: 112.8457
+      kind: birthplace
   - name: 祖沖之
     birth: 429
     death: 500
@@ -1886,6 +2696,11 @@ humans:
     birthplace: 建康
     lat: 32.0584
     lon: 118.7965
+    location:
+      name: 建康
+      lat: 32.0584
+      lon: 118.7965
+      kind: birthplace
   - name: 沈括
     birth: 1031
     death: 1095
@@ -1896,6 +2711,11 @@ humans:
     birthplace: 銭塘
     lat: 30.2375
     lon: 120.1408
+    location:
+      name: 銭塘
+      lat: 30.2375
+      lon: 120.1408
+      kind: birthplace
   - name: 秋瑾
     birth: 1875
     death: 1907
@@ -1906,6 +2726,11 @@ humans:
     birthplace: 廈門
     lat: 24.4797
     lon: 118.0819
+    location:
+      name: 廈門
+      lat: 24.4797
+      lon: 118.0819
+      kind: birthplace
   - name: アショーカ王
     birth: -304
     death: -232
@@ -1916,6 +2741,11 @@ humans:
     birthplace: パトナ
     lat: 25.61
     lon: 85.1414
+    location:
+      name: パトナ
+      lat: 25.61
+      lon: 85.1414
+      kind: birthplace
   - name: アリヤバータ
     birth: 476
     death: 550
@@ -1926,6 +2756,11 @@ humans:
     birthplace: パータリプトラ
     lat: 25.611
     lon: 85.144
+    location:
+      name: パータリプトラ
+      lat: 25.611
+      lon: 85.144
+      kind: birthplace
   - name: ブラフマグプタ
     birth: 598
     death: 670
@@ -1936,6 +2771,11 @@ humans:
     birthplace: ビンマル
     lat: 25.0
     lon: 72.25
+    location:
+      name: ビンマル
+      lat: 25.0
+      lon: 72.25
+      kind: birthplace
   - name: バースカラ2世
     birth: 1114
     death: 1185
@@ -1946,6 +2786,11 @@ humans:
     birthplace: ビーダル
     lat: 17.9
     lon: 77.55
+    location:
+      name: ビーダル
+      lat: 17.9
+      lon: 77.55
+      kind: birthplace
   - name: ガンディー
     birth: 1869
     death: 1948
@@ -1956,6 +2801,11 @@ humans:
     birthplace: ポールバンダル
     lat: 21.6425
     lon: 69.6047
+    location:
+      name: ポールバンダル
+      lat: 21.6425
+      lon: 69.6047
+      kind: birthplace
   - name: ネルー
     birth: 1889
     death: 1964
@@ -1966,6 +2816,11 @@ humans:
     birthplace: イラーハーバード
     lat: 25.45
     lon: 81.85
+    location:
+      name: イラーハーバード
+      lat: 25.45
+      lon: 81.85
+      kind: birthplace
   - name: アンベードカル
     birth: 1891
     death: 1956
@@ -1976,6 +2831,11 @@ humans:
     birthplace: モー
     lat: 22.55
     lon: 75.76
+    location:
+      name: ムンバイ
+      lat: 19.0758
+      lon: 72.8775
+      kind: activity
   - name: タゴール
     birth: 1861
     death: 1941
@@ -1986,6 +2846,11 @@ humans:
     birthplace: コルカタ
     lat: 22.5675
     lon: 88.37
+    location:
+      name: コルカタ
+      lat: 22.5675
+      lon: 88.37
+      kind: birthplace
   - name: マンサ・ムーサ
     birth: 1280
     death: 1337
@@ -2003,6 +2868,11 @@ humans:
     birthplace: エジェルサ・ゴロ
     lat: 9.4833
     lon: 42.2333
+    location:
+      name: エジェルサ・ゴロ
+      lat: 9.4833
+      lon: 42.2333
+      kind: birthplace
   - name: ルムンバ
     birth: 1925
     death: 1961
@@ -2013,6 +2883,11 @@ humans:
     birthplace: カタコ・コンベ
     lat: -3.4
     lon: 24.42
+    location:
+      name: カタコ・コンベ
+      lat: -3.4
+      lon: 24.42
+      kind: birthplace
   - name: マンデラ
     birth: 1918
     death: 2013
@@ -2023,6 +2898,11 @@ humans:
     birthplace: ムヴェゾ
     lat: -31.95
     lon: 28.516
+    location:
+      name: ヨハネスブルグ
+      lat: -26.2041
+      lon: 28.0473
+      kind: activity
   - name: ンクルマ
     birth: 1909
     death: 1972
@@ -2033,6 +2913,11 @@ humans:
     birthplace: ンクロフル
     lat: 4.9639
     lon: -2.3222
+    location:
+      name: エルミナ
+      lat: 5.0833
+      lon: -1.35
+      kind: activity
   - name: ワンガリ・マータイ
     birth: 1940
     death: 2011
@@ -2043,6 +2928,11 @@ humans:
     birthplace: ニエリ
     lat: -0.4167
     lon: 36.95
+    location:
+      name: ナイロビ
+      lat: -1.2864
+      lon: 36.8172
+      kind: activity
   - name: シモン・ボリバル
     birth: 1783
     death: 1830
@@ -2053,6 +2943,11 @@ humans:
     birthplace: カラカス
     lat: 10.5061
     lon: -66.9144
+    location:
+      name: カラカス
+      lat: 10.5061
+      lon: -66.9144
+      kind: birthplace
   - name: サン・マルティン
     birth: 1778
     death: 1850
@@ -2063,6 +2958,11 @@ humans:
     birthplace: ジャペユー
     lat: -29.4696
     lon: -56.8174
+    location:
+      name: ジャペユー
+      lat: -29.4696
+      lon: -56.8174
+      kind: birthplace
   - name: ベニート・フアレス
     birth: 1806
     death: 1872
@@ -2073,6 +2973,11 @@ humans:
     birthplace: サン・パブロ・ゲラタオ
     lat: 25.4475
     lon: -103.2422
+    location:
+      name: サン・パブロ・ゲラタオ
+      lat: 25.4475
+      lon: -103.2422
+      kind: birthplace
   - name: パブロ・ネルーダ
     birth: 1904
     death: 1973
@@ -2083,6 +2988,11 @@ humans:
     birthplace: パラル
     lat: -36.15
     lon: -71.8333
+    location:
+      name: パラル
+      lat: -36.15
+      lon: -71.8333
+      kind: birthplace
   - name: エバ・ペロン
     birth: 1919
     death: 1952
@@ -2093,6 +3003,11 @@ humans:
     birthplace: ロス・トルドス
     lat: -34.9956
     lon: -61.0
+    location:
+      name: ロス・トルドス
+      lat: -34.9956
+      lon: -61.0
+      kind: birthplace
   - name: フリーダ・カーロ
     birth: 1907
     death: 1954
@@ -2103,6 +3018,11 @@ humans:
     birthplace: コヨアカン
     lat: 19.3538
     lon: -99.1359
+    location:
+      name: メキシコシティ
+      lat: 19.3538
+      lon: -99.1359
+      kind: activity
   - name: マリー・キュリー
     birth: 1867
     death: 1934
@@ -2113,6 +3033,11 @@ humans:
     birthplace: ワルシャワ
     lat: 52.23
     lon: 21.0111
+    location:
+      name: ワルシャワ
+      lat: 52.23
+      lon: 21.0111
+      kind: birthplace
   - name: ヒュパティア
     birth: 360
     death: 415
@@ -2123,6 +3048,11 @@ humans:
     birthplace: アレクサンドリア
     lat: 31.1975
     lon: 29.8925
+    location:
+      name: アレクサンドリア
+      lat: 31.1975
+      lon: 29.8925
+      kind: birthplace
   - name: エミー・ネーター
     birth: 1882
     death: 1935
@@ -2133,6 +3063,11 @@ humans:
     birthplace: エアランゲン
     lat: 49.5925
     lon: 11.005
+    location:
+      name: ゲッティンゲン
+      lat: 51.5339
+      lon: 9.9356
+      kind: activity
   - name: アダ・ラヴレス
     birth: 1815
     death: 1852
@@ -2143,6 +3078,11 @@ humans:
     birthplace: ロンドン
     lat: 51.5072
     lon: -0.1275
+    location:
+      name: ロンドン
+      lat: 51.5072
+      lon: -0.1275
+      kind: birthplace
   - name: メアリ・ウルストンクラフト
     birth: 1759
     death: 1797
@@ -2153,6 +3093,11 @@ humans:
     birthplace: スピタルフィールズ
     lat: 51.5166
     lon: -0.075
+    location:
+      name: ロンドン
+      lat: 51.5072
+      lon: -0.1275
+      kind: activity
   - name: ハリエット・タブマン
     birth: 1822
     death: 1913
@@ -2163,6 +3108,11 @@ humans:
     birthplace: ドーチェスター郡
     lat: 38.42
     lon: -76.08
+    location:
+      name: ドーチェスター郡
+      lat: 38.42
+      lon: -76.08
+      kind: birthplace
   - name: ローザ・パークス
     birth: 1913
     death: 2005
@@ -2173,6 +3123,11 @@ humans:
     birthplace: タスキーギ
     lat: 32.4315
     lon: -85.7068
+    location:
+      name: タスキーギ
+      lat: 32.4315
+      lon: -85.7068
+      kind: birthplace
   - name: ローザ・ルクセンブルク
     birth: 1871
     death: 1919
@@ -2183,3 +3138,8 @@ humans:
     birthplace: ザモシチ
     lat: 50.7206
     lon: 23.2586
+    location:
+      name: ワルシャワ
+      lat: 52.23
+      lon: 21.0111
+      kind: activity
