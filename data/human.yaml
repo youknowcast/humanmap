@@ -54,6 +54,12 @@ tags:
   poet:
     name: 詩人
     color: "#E91E63"
+  activist:
+    name: 社会運動家
+    color: "#FF5722"
+  artist:
+    name: 芸術家
+    color: "#8D6E63"
 
 # 人物データ
 humans:
@@ -1680,3 +1686,500 @@ humans:
     death: 1305
     tags: [writer, thinker]
     note: 『薔薇物語』後半部の作者。アレゴリーと中世知識の融合を図った。
+  - name: イブン・スィーナー
+    birth: 980
+    death: 1037
+    tags: [scientist, philosopher]
+    note: 『医学典範』は17世紀までヨーロッパの医学教育で使われた。アリストテレス哲学をイスラーム神学に統合した。
+    wikidata: Q8011
+    wikipedia: イブン・スィーナー
+    birthplace: アフショナ
+    lat: 39.9944
+    lon: 64.3792
+  - name: フワーリズミー
+    birth: 780
+    death: 850
+    tags: [scientist]
+    note: 「アルゴリズム」の語源となった名で、インド数字を用いた計算法を紹介し、代数学の基礎を築いた。
+    wikidata: Q9038
+    wikipedia: フワーリズミー
+    birthplace: ホラズム
+    lat: 42.3
+    lon: 59.15
+  - name: ビールーニー
+    birth: 973
+    death: 1048
+    tags: [scientist]
+    note: 11世紀にインドへ赴き『インドの書』を著した。現地の言語と宗教を内側から記述した比較研究の先駆。
+    wikidata: Q11826
+    wikipedia: ビールーニー
+    birthplace: キャト
+    lat: 41.6558
+    lon: 60.3025
+  - name: イブン・ルシュド
+    birth: 1126
+    death: 1198
+    tags: [philosopher]
+    note: アリストテレスの注釈で知られ、その註解は中世ヨーロッパの大学で「アヴェロエス」として権威となった。
+    wikidata: Q39837
+    wikipedia: イブン・ルシュド
+    birthplace: コルドバ
+    lat: 37.89
+    lon: -4.78
+  - name: キンディー
+    birth: 801
+    death: 873
+    tags: [philosopher]
+    note: アラビア語圏で最初期の哲学者。ギリシャ哲学の受容を主導し「アラブの哲学者の父」と呼ばれる。
+    wikidata: Q179759
+    wikipedia: キンディー
+    birthplace: クーファ
+    lat: 32.03
+    lon: 44.4
+  - name: ウマル・ハイヤーム
+    birth: 1048
+    death: 1131
+    tags: [scientist, poet]
+    note: 『ルバイヤート』の詩人であると同時に、三次方程式の解法を体系化した数学者。ジャラーリー暦の改訂にも携わった。
+    wikidata: Q35900
+    wikipedia: ウマル・ハイヤーム
+    birthplace: ニーシャープール
+    lat: 36.2133
+    lon: 58.7958
+  - name: ルーミー
+    birth: 1207
+    death: 1273
+    tags: [poet, thinker]
+    note: 『マスナヴィー』を著したペルシア神秘主義詩人。現代もトルコ・イランで広く読まれる。
+    wikidata: Q43347
+    wikipedia: ジャラール・ウッディーン・ルーミー
+    birthplace: バルフ
+    lat: 36.7581
+    lon: 66.8989
+  - name: ハーフェズ
+    birth: 1325
+    death: 1389
+    tags: [poet]
+    note: ペルシア語抒情詩ガザルの最高峰とされる。ゲーテは『西東詩集』でハーフェズを讃えた。
+    wikidata: Q6240
+    wikipedia: ハーフェズ
+    birthplace: シーラーズ
+    lat: 29.6103
+    lon: 52.5311
+  - name: サラーフッディーン
+    birth: 1138
+    death: 1193
+    tags: [politician]
+    note: 十字軍と対峙してエルサレムを奪還し、アイユーブ朝を開いた。ヨーロッパ側からも騎士道の模範とされた。
+    wikidata: Q8581
+    wikipedia: サラーフッディーン
+    birthplace: ティクリート
+    lat: 34.6017
+    lon: 43.6939
+  - name: スレイマン1世
+    birth: 1494
+    death: 1566
+    tags: [politician]
+    note: オスマン帝国を最盛期に導いた君主。法制を整備したことから「立法者」と呼ばれる。
+    wikidata: Q8474
+    wikipedia: スレイマン1世
+    birthplace: トラブゾン
+    lat: 41.005
+    lon: 39.7225
+  - name: 孔子
+    birth: -551
+    death: -479
+    tags: [philosopher]
+    note: 儒家の祖。『論語』の言行は前近代東アジアの政治と教育の規範となった。
+    wikidata: Q4604
+    wikipedia: 孔子
+    birthplace: 曲阜
+    lat: 35.6
+    lon: 116.9833
+  - name: 司馬遷
+    birth: -145
+    death: -86
+    tags: [writer]
+    note: 『史記』を著し、紀伝体という歴史叙述の形式を確立した。
+    wikidata: Q9372
+    wikipedia: 司馬遷
+    birthplace: 河津
+    lat: 35.5914
+    lon: 110.706
+  - name: 諸葛亮
+    birth: 181
+    death: 234
+    tags: [politician]
+    note: 三国時代の蜀漢を支えた丞相。『出師表』は後世の名文として読み継がれる。
+    wikidata: Q198211
+    wikipedia: 諸葛亮
+    birthplace: 沂南
+    lat: 35.5493
+    lon: 118.467
+  - name: 始皇帝
+    birth: -259
+    death: -210
+    tags: [politician]
+    note: 中国を初めて統一し、皇帝号・郡県制・文字と度量衡の統一を実施した。
+    wikidata: Q7192
+    wikipedia: 始皇帝
+    birthplace: 邯鄲
+    lat: 36.6116
+    lon: 114.4894
+  - name: 武則天
+    birth: 624
+    death: 705
+    tags: [politician]
+    note: 中国史上唯一の女帝。科挙の拡大などを通じて女性が政治の表舞台に立つ前例を作った。
+    wikidata: Q9738
+    wikipedia: 武則天
+    birthplace: 広元
+    lat: 32.4353
+    lon: 105.8398
+  - name: 李白
+    birth: 701
+    death: 762
+    tags: [poet]
+    note: 盛唐の詩人。奔放な作風から「詩仙」と呼ばれ、杜甫と並び称される。
+    wikidata: Q7071
+    wikipedia: 李白
+    birthplace: 江油
+    lat: 31.7761
+    lon: 104.7406
+  - name: 杜甫
+    birth: 712
+    death: 770
+    tags: [poet]
+    note: 安史の乱の混乱を詩に記録し「詩聖」と称された。社会の現実を詠んだ。
+    wikidata: Q33772
+    wikipedia: 杜甫
+    birthplace: 鞏義
+    lat: 34.7513
+    lon: 112.9854
+  - name: 李清照
+    birth: 1084
+    death: 1155
+    tags: [poet]
+    note: 宋詞を代表する女流詞人。夫との別離や亡国の悲しみを詠んだ作品が高く評価される。
+    wikidata: Q464470
+    wikipedia: 李清照
+    birthplace: 章丘
+    lat: 36.7583
+    lon: 117.4914
+  - name: 蔡倫
+    birth: 63
+    death: 121
+    tags: [scientist]
+    note: 後漢の宦官。樹皮や麻くずを用いる製紙法を改良し、紙の普及を促した。
+    wikidata: Q229235
+    wikipedia: 蔡倫
+    birthplace: 耒陽
+    lat: 26.4179
+    lon: 112.8457
+  - name: 祖沖之
+    birth: 429
+    death: 500
+    tags: [scientist]
+    note: 円周率を小数第7位まで算出した5世紀の数学者。暦の改良も行った。
+    wikidata: Q227444
+    wikipedia: 祖沖之
+    birthplace: 建康
+    lat: 32.0584
+    lon: 118.7965
+  - name: 沈括
+    birth: 1031
+    death: 1095
+    tags: [scientist]
+    note: 『夢渓筆談』に磁針の偏角や活字印刷など、当時の技術と自然観察を記録した。
+    wikidata: Q270085
+    wikipedia: 沈括
+    birthplace: 銭塘
+    lat: 30.2375
+    lon: 120.1408
+  - name: 秋瑾
+    birth: 1875
+    death: 1907
+    tags: [feminist, activist]
+    note: 清朝打倒を掲げた女性革命家。女子教育と纏足廃止を訴え、処刑された。
+    wikidata: Q465324
+    wikipedia: 秋瑾
+    birthplace: 廈門
+    lat: 24.4797
+    lon: 118.0819
+  - name: アショーカ王
+    birth: -304
+    death: -232
+    tags: [politician]
+    note: マウリヤ朝の王。カリンガ戦争後の悔悟から仏教を保護し、石柱法勅を各地に建てた。
+    wikidata: Q8589
+    wikipedia: アショーカ
+    birthplace: パトナ
+    lat: 25.61
+    lon: 85.1414
+  - name: アリヤバータ
+    birth: 476
+    death: 550
+    tags: [scientist]
+    note: 『アーリヤバティーヤ』で零の扱いと円周率の近似値を示した5世紀の数学者・天文学者。
+    wikidata: Q11359
+    wikipedia: アーリヤバタ
+    birthplace: パータリプトラ
+    lat: 25.611
+    lon: 85.144
+  - name: ブラフマグプタ
+    birth: 598
+    death: 670
+    tags: [scientist]
+    note: 零を数として扱う規則を初めて体系化し、負の数の計算法も記した。
+    wikidata: Q202943
+    wikipedia: ブラフマグプタ
+    birthplace: ビンマル
+    lat: 25.0
+    lon: 72.25
+  - name: バースカラ2世
+    birth: 1114
+    death: 1185
+    tags: [scientist]
+    note: 『リーラーヴァティー』などでインド数学を集大成した12世紀の数学者。
+    wikidata: Q213385
+    wikipedia: バースカラ2世
+    birthplace: ビーダル
+    lat: 17.9
+    lon: 77.55
+  - name: ガンディー
+    birth: 1869
+    death: 1948
+    tags: [politician, activist]
+    note: 非暴力・不服従でインド独立を導いた。インド国民会議派の指導者。
+    wikidata: Q1001
+    wikipedia: マハトマ・ガンディー
+    birthplace: ポールバンダル
+    lat: 21.6425
+    lon: 69.6047
+  - name: ネルー
+    birth: 1889
+    death: 1964
+    tags: [politician]
+    note: インド初代首相。非同盟運動を主導し、独立後の議会制民主主義を定着させた。
+    wikidata: Q1047
+    wikipedia: ジャワハルラール・ネルー
+    birthplace: イラーハーバード
+    lat: 25.45
+    lon: 81.85
+  - name: アンベードカル
+    birth: 1891
+    death: 1956
+    tags: [politician, activist]
+    note: 不可触民（ダリット）出身で、インド憲法の起草を主導した。カースト制度の廃止を訴えた。
+    wikidata: Q231690
+    wikipedia: ビームラーオ・アンベードカル
+    birthplace: モー
+    lat: 22.55
+    lon: 75.76
+  - name: タゴール
+    birth: 1861
+    death: 1941
+    tags: [poet, writer]
+    note: 1913年にアジア人として初めてノーベル文学賞を受けた詩人。『ギーターンジャリ』の作者。
+    wikidata: Q7241
+    wikipedia: ラビンドラナート・タゴール
+    birthplace: コルカタ
+    lat: 22.5675
+    lon: 88.37
+  - name: マンサ・ムーサ
+    birth: 1280
+    death: 1337
+    tags: [politician]
+    note: 14世紀のマリ帝国の王。1324年のメッカ巡礼で金を配り、西アフリカの富を世界に知らしめた。
+    wikidata: Q309333
+    wikipedia: マンサ・ムーサ
+  - name: ハイレ・セラシエ1世
+    birth: 1892
+    death: 1975
+    tags: [politician]
+    note: エチオピア最後の皇帝。イタリアの侵攻に抗し、アフリカ統一機構の初代議長を務めた。
+    wikidata: Q41178
+    wikipedia: ハイレ・セラシエ1世
+    birthplace: エジェルサ・ゴロ
+    lat: 9.4833
+    lon: 42.2333
+  - name: ルムンバ
+    birth: 1925
+    death: 1961
+    tags: [politician]
+    note: コンゴ独立の指導者で初代首相。独立から約7か月後に暗殺された。
+    wikidata: Q161672
+    wikipedia: パトリス・ルムンバ
+    birthplace: カタコ・コンベ
+    lat: -3.4
+    lon: 24.42
+  - name: マンデラ
+    birth: 1918
+    death: 2013
+    tags: [politician, activist]
+    note: アパルトヘイト廃止を導き、南アフリカ初の黒人大統領となった。27年間投獄された。
+    wikidata: Q8023
+    wikipedia: ネルソン・マンデラ
+    birthplace: ムヴェゾ
+    lat: -31.95
+    lon: 28.516
+  - name: ンクルマ
+    birth: 1909
+    death: 1972
+    tags: [politician]
+    note: ガーナを独立に導いた初代大統領。アフリカ統一を訴えた。
+    wikidata: Q8620
+    wikipedia: クワメ・エンクルマ
+    birthplace: ンクロフル
+    lat: 4.9639
+    lon: -2.3222
+  - name: ワンガリ・マータイ
+    birth: 1940
+    death: 2011
+    tags: [activist, politician]
+    note: ケニアで植林運動「グリーン・ベルト運動」を始めた。アフリカ人女性として初のノーベル平和賞受賞者。
+    wikidata: Q46795
+    wikipedia: ワンガリ・マータイ
+    birthplace: ニエリ
+    lat: -0.4167
+    lon: 36.95
+  - name: シモン・ボリバル
+    birth: 1783
+    death: 1830
+    tags: [politician]
+    note: 南米北部の独立を導いた「解放者」。ボリビアの国名の由来となった。
+    wikidata: Q8605
+    wikipedia: シモン・ボリバル
+    birthplace: カラカス
+    lat: 10.5061
+    lon: -66.9144
+  - name: サン・マルティン
+    birth: 1778
+    death: 1850
+    tags: [politician]
+    note: アルゼンチン・チリ・ペルーの独立を導いた軍人。ボリバルと並ぶ南米の解放者。
+    wikidata: Q134160
+    wikipedia: ホセ・デ・サン＝マルティン
+    birthplace: ジャペユー
+    lat: -29.4696
+    lon: -56.8174
+  - name: ベニート・フアレス
+    birth: 1806
+    death: 1872
+    tags: [politician]
+    note: 先住民族出身で初めてメキシコ大統領となった。フランス干渉軍を退けた。
+    wikidata: Q182276
+    wikipedia: ベニート・フアレス
+    birthplace: サン・パブロ・ゲラタオ
+    lat: 25.4475
+    lon: -103.2422
+  - name: パブロ・ネルーダ
+    birth: 1904
+    death: 1973
+    tags: [poet]
+    note: ノーベル文学賞を受けたチリの詩人。『二十の愛の詩』などでラテンアメリカ文学を世界に広めた。
+    wikidata: Q34189
+    wikipedia: パブロ・ネルーダ
+    birthplace: パラル
+    lat: -36.15
+    lon: -71.8333
+  - name: エバ・ペロン
+    birth: 1919
+    death: 1952
+    tags: [politician, feminist]
+    note: アルゼンチンのファーストレディ。女性参政権の実現を後押しし、労働者層の支持を集めた。
+    wikidata: Q40933
+    wikipedia: エバ・ペロン
+    birthplace: ロス・トルドス
+    lat: -34.9956
+    lon: -61.0
+  - name: フリーダ・カーロ
+    birth: 1907
+    death: 1954
+    tags: [artist]
+    note: メキシコの画家。交通事故による身体の痛みを自画像の主題にした。
+    wikidata: Q5588
+    wikipedia: フリーダ・カーロ
+    birthplace: コヨアカン
+    lat: 19.3538
+    lon: -99.1359
+  - name: マリー・キュリー
+    birth: 1867
+    death: 1934
+    tags: [scientist]
+    note: 女性として初めてノーベル賞を受け、物理学と化学の二部門で受賞した唯一の人物。
+    wikidata: Q7186
+    wikipedia: マリ・キュリー
+    birthplace: ワルシャワ
+    lat: 52.23
+    lon: 21.0111
+  - name: ヒュパティア
+    birth: 360
+    death: 415
+    tags: [scientist, philosopher]
+    note: アレクサンドリアで数学・天文学を教えた女性哲学者。415年に暴徒に殺された。
+    wikidata: Q11903
+    wikipedia: ヒュパティア
+    birthplace: アレクサンドリア
+    lat: 31.1975
+    lon: 29.8925
+  - name: エミー・ネーター
+    birth: 1882
+    death: 1935
+    tags: [scientist]
+    note: 抽象代数学（環・体・多元環の理論）を築いた数学者。ネーターの定理は対称性と保存則を結びつける。
+    wikidata: Q7099
+    wikipedia: エミー・ネーター
+    birthplace: エアランゲン
+    lat: 49.5925
+    lon: 11.005
+  - name: アダ・ラヴレス
+    birth: 1815
+    death: 1852
+    tags: [scientist]
+    note: バベッジの解析機関に初めて汎用的な計算手順を記した。世界最初のプログラマーとされる。
+    wikidata: Q7259
+    wikipedia: エイダ・ラブレス
+    birthplace: ロンドン
+    lat: 51.5072
+    lon: -0.1275
+  - name: メアリ・ウルストンクラフト
+    birth: 1759
+    death: 1797
+    tags: [feminist, writer]
+    note: 『女性の権利の擁護』で女性の教育と理性を主張したフェミニズムの先駆者。
+    wikidata: Q101638
+    wikipedia: メアリ・ウルストンクラフト
+    birthplace: スピタルフィールズ
+    lat: 51.5166
+    lon: -0.075
+  - name: ハリエット・タブマン
+    birth: 1822
+    death: 1913
+    tags: [activist, feminist]
+    note: 奴隷制下の南部から逃亡奴隷を導いた「地下鉄道」の指導者。「モーセ」と称された。
+    wikidata: Q102870
+    wikipedia: ハリエット・タブマン
+    birthplace: ドーチェスター郡
+    lat: 38.42
+    lon: -76.08
+  - name: ローザ・パークス
+    birth: 1913
+    death: 2005
+    tags: [activist]
+    note: バスで白人に席を譲るのを拒んで逮捕され、モンゴメリー・バス・ボイコット運動の引き金となった。
+    wikidata: Q41921
+    wikipedia: ローザ・パークス
+    birthplace: タスキーギ
+    lat: 32.4315
+    lon: -85.7068
+  - name: ローザ・ルクセンブルク
+    birth: 1871
+    death: 1919
+    tags: [politician, feminist]
+    note: ドイツ社会民主党左派として帝国主義と戦争を批判した理論家。1919年に殺害された。
+    wikidata: Q7231
+    wikipedia: ローザ・ルクセンブルク
+    birthplace: ザモシチ
+    lat: 50.7206
+    lon: 23.2586
