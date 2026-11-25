@@ -62,425 +62,593 @@ humans:
     death: 1955
     tags: [scientist, philosopher]
     note: 相対性理論を発表。質量とエネルギーの等価性（E=mc²）を示した。
+    wikidata: Q937
+    wikipedia: アルベルト・アインシュタイン
   - name: ニュートン
     birth: 1643
     death: 1727
     tags: [scientist]
     note: 万有引力の法則を発見。古典力学の基礎を確立。
+    wikidata: Q935
+    wikipedia: アイザック・ニュートン
   - name: ガリレオ・ガリレイ
     birth: 1564
     death: 1642
     tags: [scientist]
     note: 地動説を支持し、宗教裁判で迫害される。望遠鏡による天体観測の先駆者。
+    wikidata: Q307
+    wikipedia: ガリレオ・ガリレイ
   - name: ソクラテス
     birth: -469
     death: -399
     tags: [philosopher]
     note: 古代ギリシャの哲学者。「無知の知」で知られる。
+    wikidata: Q913
+    wikipedia: ソクラテス
   - name: 聖徳太子
     birth: 574?
     death: 622
     tags: [politician]
     note: 十七条憲法を制定。遣隋使の派遣を行う。
+    wikidata: Q263972
+    wikipedia: 聖徳太子
   - name: 紫式部
     birth: 973
     death: 1014
     tags: [writer]
     note: 『源氏物語』の作者。平安時代を代表する女流文学者。
+    wikidata: Q81731
+    wikipedia: 紫式部
   - name: カール・マルクス
     birth: 1818
     death: 1883
     tags: [thinker, philosopher]
     note: 『資本論』の著者。歴史唯物論を唱え、共産主義の理論的基礎を築いた。
+    wikidata: Q9061
+    wikipedia: カール・マルクス
   - name: マルティン・ハイデッガー
     birth: 1889
     death: 1976
     tags: [thinker, philosopher]
     note: 『存在と時間』の著者。現存在の分析を通じて存在論を再定義した。
+    wikidata: Q48301
+    wikipedia: マルティン・ハイデッガー
   - name: ハンナ・アーレント
     birth: 1906
     death: 1975
     tags: [thinker, philosopher]
     note: 『全体主義の起源』『人間の条件』などを著し、政治的思考を再構築した。
+    wikidata: Q60025
+    wikipedia: ハンナ・アーレント
   - name: フランシス・ベーコン
     birth: 1561
     death: 1626
     tags: [thinker, scientist]
     note: 経験論の祖として知られ、帰納法と観察に基づく科学的方法を提唱した。
+    wikidata: Q37388
+    wikipedia: フランシス・ベーコン (哲学者)
   - name: トマス・ホッブズ
     birth: 1588
     death: 1679
     tags: [thinker, political_theorist]
     note: 社会契約論を説いた『リヴァイアサン』で知られる。人間の自然状態は「万人の万人に対する闘争」と述べた。
+    wikidata: Q37621
+    wikipedia: トマス・ホッブズ
   - name: ジョン・ロック
     birth: 1632
     death: 1704
     tags: [thinker, political_theorist]
     note: 自由主義の源流とされる思想家で、政府の正統性は国民の同意に基づくとした。
+    wikidata: Q9353
+    wikipedia: ジョン・ロック
   - name: ジェレミ・ベンサム
     birth: 1748
     death: 1832
     tags: [thinker, utilitarian]
     note: 功利主義の創始者。「最大多数の最大幸福」を倫理と政治の原理に据えた。
+    wikidata: Q60887
+    wikipedia: ジェレミ・ベンサム
   - name: ジョン・スチュアート・ミル
     birth: 1806
     death: 1873
     tags: [thinker, utilitarian, liberal]
     note: ベンサムの功利主義を継承し発展。『自由論』『女性の隷従』などを著した。
+    wikidata: Q50020
+    wikipedia: ジョン・スチュアート・ミル
   - name: エドマンド・バーク
     birth: 1729
     death: 1797
     tags: [thinker, conservative]
     note: フランス革命を批判し、漸進的な改革を重視する保守思想を確立した。
+    wikidata: Q165792
+    wikipedia: エドマンド・バーク
   - name: アレクシ・ド・トクヴィル
     birth: 1805
     death: 1859
     tags: [thinker, political_theorist, conservative]
     note: 『アメリカの民主主義』で民主制の発展とその課題を分析した。
+    wikidata: Q140694
+    wikipedia: アレクシ・ド・トクヴィル
   - name: セーレン・キルケゴール
     birth: 1813
     death: 1855
     tags: [thinker, existentialist]
     note: 宗教的実存主義の先駆。主体的真理と「絶望」の概念で知られる。
+    wikidata: Q6512
+    wikipedia: セーレン・キェルケゴール
   - name: フリードリヒ・ニーチェ
     birth: 1844
     death: 1900
     tags: [thinker, existentialist]
     note: 「神は死んだ」などの語で知られる。近代西洋思想への根源的批判を展開。
+    wikidata: Q9358
+    wikipedia: フリードリヒ・ニーチェ
   - name: カール・ヤスパース
     birth: 1883
     death: 1969
     tags: [thinker, existentialist]
     note: 実存と「限界状況」による哲学を展開し、戦後のドイツ倫理にも影響を与えた。
+    wikidata: Q76509
+    wikipedia: カール・ヤスパース
   - name: ジャン＝ポール・サルトル
     birth: 1905
     death: 1980
     tags: [thinker, existentialist]
     note: 無神論的実存主義を展開し、自由と責任の哲学を説いた。
+    wikidata: Q9364
+    wikipedia: ジャン＝ポール・サルトル
   - name: シモーヌ・ド・ボーヴォワール
     birth: 1908
     death: 1986
     tags: [thinker, existentialist, feminist]
     note: 『第二の性』で女性の歴史的抑圧を論じ、フェミニズム思想に大きな影響を与えた。
+    wikidata: Q7197
+    wikipedia: シモーヌ・ド・ボーヴォワール
   - name: ユルゲン・ハーバーマス
     birth: 1929
     death: ""  # 空文字列で現存を表現
     tags: [thinker, philosopher]
     note: フランクフルト学派の代表的思想家。コミュニケーション的行為の理論を展開。
+    wikidata: Q76357
+    wikipedia: ユルゲン・ハーバーマス
   - name: 福田恆存
     birth: 1912
     death: 1994
     tags: [thinker, japanese_conservative, literary_critic]
     note: 戦後日本の代表的保守論客。翻訳家・劇作家としても知られる。漢字論争では旧字体擁護の立場。
+    wikidata: Q1473365
+    wikipedia: 福田恆存
   - name: 金田一京助
     birth: 1882
     death: 1971
     tags: [thinker, linguist]
     note: 国語学者。漢字制限論争において福田恆存と論争。アイヌ語研究者でもある。
+    wikidata: Q1036885
+    wikipedia: 金田一京助
   - name: 丸谷才一
     birth: 1925
     death: 2012
     tags: [writer, literary_critic]
     note: 保守的な文化論を展開し、文芸評論や小説で活躍。ユーモアと教養の融合を重視した文体が特徴。
+    wikidata: Q970421
+    wikipedia: 丸谷才一
   - name: 平野啓一郎
     birth: 1975
     death: ""  # 空文字列で統一
     tags: [writer, literary_critic, public_philosopher]
     note: 『分人主義』を提唱。リベラルな視点から現代社会の倫理と個人を問う作家・思想家。
+    wikidata: Q910874
+    wikipedia: 平野啓一郎
   - name: 中野剛志
     birth: 1971
     death: ""
     tags: [thinker, political_philosopher]
     note: 経済評論家・思想家。現代の保守思想と反グローバリズムを語る。『富国と強兵』などで知られる。
+    wikidata: Q11367483
+    wikipedia: 中野剛志
   - name: チャールズ・テイラー
     birth: 1931
     death: 
     tags: [thinker, public_philosopher, political_philosopher]
     note: 『マレーズ・オブ・モダニティ』『倫理のゆくえ』などで知られ、現代の共同体主義を代表する哲学者。
+    wikidata: Q311757
+    wikipedia: チャールズ・マーグレイヴ・テイラー
   - name: ロジャー・スクルートン
     birth: 1944
     death: 2020
     tags: [thinker, conservative, public_philosopher]
     note: 英国の保守思想家。美学や伝統を重視し、欧州懐疑論にも一貫していた。
+    wikidata: Q445939
+    wikipedia: ロジャー・スクルートン
   - name: マイケル・ポランニー
     birth: 1891
     death: 1976
     tags: [thinker, scientist]
     note: 科学哲学において「暗黙知」の概念を提唱し、実証主義批判と共同体の重要性を説いた。
+    wikidata: Q163087
+    wikipedia: マイケル・ポランニー
   - name: マルクス・ガブリエル
     birth: 1980
     death: 
     tags: [thinker, public_philosopher]
     note: 新実在論を提唱する現代ドイツの哲学者。倫理・科学・ポストモダンに対する批判的視点で注目。
+    wikidata: Q1901497
+    wikipedia: マルクス・ガブリエル
   - name: ロバート・B・ライシュ
     birth: 1946
     death: 
     tags: [thinker, political_philosopher]
     note: 『コモン・グッド』などで公共善と市民参加の重要性を説く。クリントン政権下で労働長官も務めた。
+    wikidata: Q718828
+    wikipedia: ロバート・B・ライシュ
   - name: 三島由紀夫
     birth: 1925
     death: 1970
     tags: [writer, japanese_conservative]
     note: 日本の伝統美と武士道精神を称揚。自衛隊市ヶ谷駐屯地での割腹自決事件で象徴的存在となる。
+    wikidata: Q134456
+    wikipedia: 三島由紀夫
   - name: 渡部昇一
     birth: 1930
     death: 2017
     tags: [thinker, japanese_conservative]
     note: 英文学者・評論家。戦後保守思想を代表し、歴史観や教育論に関する著作多数。
+    wikidata: Q7506128
+    wikipedia: 渡部昇一
   - name: 小林秀雄
     birth: 1902
     death: 1983
     tags: [literary_critic, japanese_conservative]
     note: 文芸評論の祖として知られ、実感と直観による日本的精神文化を擁護した。
+    wikidata: Q957799
+    wikipedia: 小林秀雄 (批評家)
   - name: 西部邁
     birth: 1939
     death: 2018
     tags: [thinker, japanese_conservative]
     note: 保守思想家・評論家。戦後民主主義の限界を批判し、日本的共同体や文化の再評価を提唱。『思想の英雄たち』『保守の真髄』などを著す。
+    wikidata: Q11629638
+    wikipedia: 西部邁
   - name: 丸山眞男
     birth: 1914
     death: 1996
     tags: [thinker, political_philosopher, liberal]
     note: 戦後日本の政治思想家。『日本政治思想史研究』や「超国家主義の論理と心理」などで、近代主義と民主主義の理念を理論的に擁
+    wikidata: Q1143571
+    wikipedia: 丸山眞男
   - name: 美濃部達吉
     birth: 1873
     death: 1948
     tags: [thinker, political_philosopher, liberal]
     note: 天皇機関説を提唱し、立憲君主制の理論的基礎を築いた憲法学者。戦前の自由主義思想の中心的存在。
+    wikidata: Q709643
+    wikipedia: 美濃部達吉
   - name: 宮沢俊義
     birth: 1899
     death: 1976
     tags: [thinker, political_philosopher, liberal]
     note: 戦後日本の憲法学を代表する思想家。「八月革命説」により日本国憲法の正統性を支え、丸山眞男にも大きな影響を与えた。
+    wikidata: Q8013390
+    wikipedia: 宮澤俊義
   - name: アウグスティヌス
     birth: 354
     death: 430
     tags: [thinker]
     note: キリスト教神学とプラトン哲学を融合し、中世スコラ哲学の土台を築いた。『告白』『神の国』など。
+    wikidata: Q8018
+    wikipedia: アウグスティヌス
   - name: トマス・アクィナス
     birth: 1225
     death: 1274
     tags: [thinker]
     note: アリストテレス哲学をキリスト教に統合し、スコラ哲学の頂点を築いた。『神学大全』で知られる。
+    wikidata: Q9438
+    wikipedia: トマス・アクィナス
   - name: ルネ・デカルト
     birth: 1596
     death: 1650
     tags: [thinker]
     note: 「我思う、ゆえに我あり」。合理主義哲学の祖であり、近代的主体の概念を切り拓いた。
+    wikidata: Q9191
+    wikipedia: ルネ・デカルト
   - name: バールーフ・スピノザ
     birth: 1632
     death: 1677
     tags: [thinker]
     note: 汎神論を展開し、理性と自然の同一性を説いた。自由と倫理を理性から導く試みで知られる。ベネディクトス(意味は祝福されたでバールーフと同じ)とも．
+    wikidata: Q35802
+    wikipedia: バールーフ・デ・スピノザ
   - name: ゴットフリート・ライプニッツ
     birth: 1646
     death: 1716
     tags: [thinker]
     note: 単子論と予定調和を説く合理主義者。数学・論理学にも貢献。
+    wikidata: Q9047
+    wikipedia: ゴットフリート・ライプニッツ
   - name: ルソー
     birth: 1712
     death: 1778
     tags: [thinker, political_theorist]
     note: 社会契約論を提唱し、人民主権や自然状態を重視。フランス革命に思想的影響を与えた。
+    wikidata: Q6527
+    wikipedia: ジャン＝ジャック・ルソー
   - name: 空海
     birth: 774
     death: 835
     tags: [thinker]
     note: 真言宗を開いた密教思想家。言語・身体・宇宙の一致を説く。
+    wikidata: Q222227
+    wikipedia: 空海
   - name: 道元
     birth: 1200
     death: 1253
     tags: [thinker]
     note: 曹洞宗の開祖。「只管打坐」を基本とする仏教実践哲学を説いた。
+    wikidata: Q318064
+    wikipedia: 道元
   - name: 林羅山
     birth: 1583
     death: 1657
     tags: [thinker]
     note: 江戸初期の儒学者。朱子学を幕府の学問として確立し、官学化に寄与。
+    wikidata: Q558279
+    wikipedia: 林羅山
   - name: 伊藤仁斎
     birth: 1627
     death: 1705
     tags: [thinker]
     note: 古義学派を提唱し、朱子学に対して『論語』の原典重視を主張した。
+    wikidata: Q640808
+    wikipedia: 伊藤仁斎
   - name: 荻生徂徠
     birth: 1666
     death: 1728
     tags: [thinker]
     note: 古文辞学を唱え、実証的な儒学解釈を行う。幕政改革にも関与。
+    wikidata: Q369158
+    wikipedia: 荻生徂徠
   - name: 賀茂真淵
     birth: 1697
     death: 1769
     tags: [thinker]
     note: 国学の祖。日本固有の文化・精神を重視し、のちの本居宣長に影響。
+    wikidata: Q1343397
+    wikipedia: 賀茂真淵
   - name: 本居宣長
     birth: 1730
     death: 1801
     tags: [thinker, japanese_conservative]
     note: 『古事記伝』などで日本固有の精神「もののあはれ」を称揚。国学を大成した。
+    wikidata: Q384647
+    wikipedia: 本居宣長
   - name: 山崎闇斎
     birth: 1618
     death: 1682
     tags: [thinker, japanese_conservative]
     note: 江戸時代前期の儒学者・神道思想家。朱子学を根幹に神道と融合させた垂加神道を創始し、幕末の尊皇思想にも影響を与えた。
+    wikidata: Q6565636
+    wikipedia: 山崎闇斎
   - name: ホルヘ・ルイス・ボルヘス
     birth: 1899
     death: 1986
     tags: [writer, literary_critic, thinker]
     note: アルゼンチンの作家・詩人。無限・鏡・迷宮・時間などを主題とした哲学的短編で知られる。ポストモダン文学の先駆とされる。
+    wikidata: Q909
+    wikipedia: ホルヘ・ルイス・ボルヘス
   - name: ガブリエル・ガルシア＝マルケス
     birth: 1927
     death: 2014
     tags: [writer]
     note: コロンビア出身。『百年の孤独』で知られる魔術的リアリズムの代表作家。ノーベル文学賞受賞。
+    wikidata: Q5878
+    wikipedia: ガブリエル・ガルシア＝マルケス
   - name: フリオ・コルタサル
     birth: 1914
     death: 1984
     tags: [writer]
     note: アルゼンチンの実験的作家。『石蹴り遊び』など構造に挑戦した作品で知られる。ボルヘスに続く世代の先鋭。
+    wikidata: Q174210
+    wikipedia: フリオ・コルタサル
   - name: マリオ・バルガス＝リョサ
     birth: 1936
     death: 
     tags: [writer, political_philosopher]
     note: ペルー出身の作家・評論家。政治参加も積極的で、自由主義的立場からラテンアメリカの現代社会を描く。ノーベル文学賞受賞。
+    wikidata: Q39803
+    wikipedia: マリオ・バルガス・リョサ
   - name: ホセ・ドノソ
     birth: 1924
     death: 1996
     tags: [writer]
     note: チリの小説家。『夜のみだらな鳥』など幻想的・怪奇的要素を含む作品で知られ、ラテンアメリカ文学ブームの主要作家の一人。
+    wikidata: Q439761
+    wikipedia: ホセ・ドノソ
   - name: ミゲル・アンヘル・アストゥリアス
     birth: 1899
     death: 1974
     tags: [writer, political_philosopher]
     note: グアテマラ出身の作家。マヤ神話や民間伝承を土台に、政治抑圧と民族的アイデンティティを描いた魔術的リアリズムの先駆者。ノーベル文学賞受賞。
+    wikidata: Q75603
+    wikipedia: ミゲル・アンヘル・アストゥリアス
   - name: ウィリアム・オッカム
     birth: 1287
     death: 1347
     tags: [thinker]
     note: 唯名論の提唱者。「オッカムの剃刀」によって、必要以上の概念の排除を説いた中世末期の合理主義者。
+    wikidata: Q43936
+    wikipedia: オッカムのウィリアム
   - name: ヴァージニア・ウルフ
     birth: 1882
     death: 1941
     tags: [writer, feminist, literary_critic]
     note: 英国モダニズム文学を代表する作家・批評家。『灯台へ』『ダロウェイ夫人』などで意識の流れを描いた。『自分ひとりの部屋』はフェミニズム文学の古典。
+    wikidata: Q40909
+    wikipedia: ヴァージニア・ウルフ
   - name: ジュディス・バトラー
     birth: 1956
     death: 
     tags: [thinker, feminist, public_philosopher]
     note: 『ジェンダー・トラブル』で知られる現代フェミニズム・クィア理論の中心人物。性別は生まれつきでなく、言語的パフォーマンスによって生成されると主張。難解な文体でも知られる。
+    wikidata: Q219368
+    wikipedia: ジュディス・バトラー
   - name: アレイスター・クロウリー
     birth: 1875
     death: 1947
     tags: [thinker, occultist, writer]
     note: イギリスの神秘主義者・儀式魔術師・詩人。『法の書』でセレマ思想を提唱し、「最も邪悪な男」と呼ばれた。現代オカルティズム・ニューエイジ運動に深い影響を与えた。
+    wikidata: Q172684
+    wikipedia: アレイスター・クロウリー
   - name: エレナ・P・ブラヴァツキー
     birth: 1831
     death: 1891
     tags: [thinker, occultist]
     note: 神智学協会の創設者。『シークレット・ドクトリン』などで東洋思想・密教・進化論を融合した神秘体系を展開し、近代スピリチュアル思想に大きな影響を与えた。
+    wikidata: Q189454
+    wikipedia: ヘレナ・P・ブラヴァツキー
   - name: フョードル・ドストエフスキー
     birth: 1821
     death: 1881
     tags: [writer, thinker]
     note: 『罪と罰』『カラマーゾフの兄弟』などで知られるロシアの文豪。人間の内面、信仰、罪、自由を極限まで描き、哲学・文学の両面に深い影響を与えた。
+    wikidata: Q991
+    wikipedia: フョードル・ドストエフスキー
   - name: レフ・トルストイ
     birth: 1828
     death: 1910
     tags: [writer, thinker]
     note: 『戦争と平和』『アンナ・カレーニナ』などの作者。後期は宗教的・倫理的思想に傾倒し、非暴力主義を説いた。
+    wikidata: Q7243
+    wikipedia: レフ・トルストイ
   - name: アントン・チェーホフ
     birth: 1860
     death: 1904
     tags: [writer]
     note: ロシアの劇作家・短編作家。『かもめ』『桜の園』など、日常の空虚と人間の不安を静かに描いた。
+    wikidata: Q5685
+    wikipedia: アントン・チェーホフ
   - name: アレクサンドル・プーシキン
     birth: 1799
     death: 1837
     tags: [writer]
     note: ロシア近代文学の父。詩と物語を革新し、後の文学者に大きな影響を与えた。『オネーギン』『スペードの女王』など。
+    wikidata: Q7200
+    wikipedia: アレクサンドル・プーシキン
   - name: ニコライ・ゴーゴリ
     birth: 1809
     death: 1852
     tags: [writer]
     note: 『外套』『鼻』など幻想的かつ風刺的な短編で知られる。ロシア文学に怪奇と社会批判を融合させた先駆者。
+    wikidata: Q43718
+    wikipedia: ニコライ・ゴーゴリ
   - name: ミハイル・ブルガーコフ
     birth: 1891
     death: 1940
     tags: [writer]
     note: 『巨匠とマルガリータ』で知られるソ連時代の作家。体制批判と幻想・神秘が交錯する作品群が特徴。
+    wikidata: Q835
+    wikipedia: ミハイル・ブルガーコフ
   - name: ウラジーミル・ナボコフ
     birth: 1899
     death: 1977
     tags: [writer, literary_critic]
     note: ロシアと英語の両言語で執筆。『ロリータ』『賜物』など、美学と倒錯を融合した文体で知られる。構造と意識の操作の達人。
+    wikidata: Q36591
+    wikipedia: ウラジーミル・ナボコフ
   - name: アレクサンドル・ソルジェニーツィン
     birth: 1918
     death: 2008
     tags: [writer, thinker]
     note: 『収容所群島』『イワン・デニーソヴィチの一日』などで、スターリン体制下の収容所の実態を告発。全体主義と戦った思想的作家として20世紀最大級の影響力を持つ。
+    wikidata: Q34474
+    wikipedia: アレクサンドル・ソルジェニーツィン
   - name: ミハイル・バフチン
     birth: 1895
     death: 1975
     tags: [thinker, literary_critic, philosopher]
     note: 対話性・ポリフォニー・カーニバル理論などで文学・言語思想に革新をもたらしたロシアの思想家。ドストエフスキー研究やフランス構造主義への影響も大きい。
+    wikidata: Q185375
+    wikipedia: ミハイル・バフチン
   - name: 中村真一郎
     birth: 1918
     death: 1997
     tags: [writer, literary_critic, japanese_conservative]
     note: 「第三の新人」として文壇に登場し、詩・小説・批評をまたにかけた多才な文人。伝統文化への深い理解をもとに、近代日本文学と精神史を交差的に読み解いた。
+    wikidata: Q1344451
+    wikipedia: 中村真一郎
   - name: ジェイムズ・ジョイス
     birth: 1882
     death: 1941
     tags: [writer, literary_critic]
     note: アイルランド出身の作家。『ユリシーズ』『フィネガンズ・ウェイク』などで意識の流れや言語実験を駆使し、モダニズム文学の頂点を築いた。
+    wikidata: Q6882
+    wikipedia: ジェイムズ・ジョイス
   - name: ウィリアム・ワーズワス
     birth: 1770
     death: 1850
     tags: [writer, poet]
     note: イギリスのロマン派詩人。自然と感情の尊重をうたった『抒情歌謡集』で知られ、近代的な「個人の感性」の先駆者となった。
+    wikidata: Q45546
+    wikipedia: ウィリアム・ワーズワース
   - name: ウィリアム・モリス
     birth: 1834
     death: 1896
     tags: [writer, thinker, political_philosopher]
     note: 詩人・デザイナー・社会思想家。アーツ・アンド・クラフツ運動を主導し、美術と社会改革を結びつけた。初期社会主義思想の文化的側面を体現。
+    wikidata: Q182589
+    wikipedia: ウィリアム・モリス
   - name: T.S.エリオット
     birth: 1888
     death: 1965
     tags: [poet, literary_critic]
     note: 『荒地』『四つの四重奏』などで知られる20世紀英語詩の巨人。キリスト教的伝統とモダニズムの緊張を体現し、詩と批評の両面で強い影響を与えた。
+    wikidata: Q37767
+    wikipedia: T・S・エリオット
   - name: ウィリアム・ブレイク
     birth: 1757
     death: 1827
     tags: [poet, writer, occultist]
     note: 詩人・画家・神秘思想家。『無垢と経験の歌』『天国と地獄の結婚』など象徴に満ちた作品を残し、ヴィジョンと予言の詩を描いた孤高のロマン主義者。
+    wikidata: Q41513
+    wikipedia: ウィリアム・ブレイク
   - name: デイヴィッド・ヒューム
     birth: 1711
     death: 1776
     tags: [thinker, political_theorist]
     note: イギリス経験論の極北。懐疑主義と因果性の否定を通じて、カントに決定的な影響を与えた。道徳感情の起源を論じた政治哲学者でもある。
+    wikidata: Q37160
+    wikipedia: デイヴィッド・ヒューム
   - name: プロティノス
     birth: 205
     death: 270
     tags:
     - thinker
     note: 新プラトン主義の創始者。『エンネアデス』で一者からの流出の思想を展開。
+    wikidata: Q134189
+    wikipedia: プロティノス
   - name: ボエティウス
     birth: 480
     death: 524
     tags:
     - thinker
     note: 『哲学の慰め』を著し、古代哲学とキリスト教思想の橋渡しを行った。
+    wikidata: Q102851
+    wikipedia: ボエティウス
   - name: アンセルムス
     birth: 1033
     death: 1109
     tags:
     - thinker
     note: カンタベリー大司教。神の存在証明（ontological argument）で知られる。
+    wikidata: Q43939
+    wikipedia: アンセルムス
   - name: アベラール
     birth: 1079
     death: 1142
     tags:
     - thinker
     note: 唯名論者。ヘロワーズとの関係と神学的著作で知られる。
+    wikidata: Q4295
+    wikipedia: ピエール・アベラール
   - name: ダンテ
     birth: 1265
     death: 1321
@@ -488,6 +656,8 @@ humans:
     - writer
     - thinker
     note: 『神曲』の著者。中世世界観と個人の救済の統合を試みた。
+    wikidata: Q1067
+    wikipedia: ダンテ・アリギエーリ
   - name: マルシリウス・オブ・パドヴァ
     birth: 1275
     death: 1342
@@ -495,24 +665,32 @@ humans:
     - thinker
     - political_theorist
     note: 『平和の擁護者』で教会権力を批判し、国家と宗教の分離を先駆的に論じた。
+    wikidata: Q315357
+    wikipedia: パドヴァのマルシリウス
   - name: トマス・ア・ケンピス
     birth: 1380
     death: 1471
     tags:
     - thinker
     note: 『キリストにならいて』の著者。内面の信仰と謙遜を重視した黙想書。
+    wikidata: Q220976
+    wikipedia: トマス・ア・ケンピス
   - name: クザーヌス
     birth: 1401
     death: 1464
     tags:
     - thinker
     note: 無限や相対の概念を扱ったドイツの哲学者・神学者。知の限界を自覚することを説いた。
+    wikidata: Q154751
+    wikipedia: ニコラウス・クザーヌス
   - name: ピコ・デラ・ミランドラ
     birth: 1463
     death: 1494
     tags:
     - thinker
     note: 『人間の尊厳について』で知られ、ルネサンス期の人間中心主義を象徴する哲学者。
+    wikidata: Q182128
+    wikipedia: ピコ・デラ・ミランドラ
   - name: エラスムス
     birth: 1466
     death: 1536
@@ -520,18 +698,24 @@ humans:
     - thinker
     - writer
     note: キリスト教人文主義者。『痴愚神礼賛』で教会を風刺し、宗教改革に影響。
+    wikidata: Q43499
+    wikipedia: デジデリウス・エラスムス
   - name: マルティン・ルター
     birth: 1483
     death: 1546
     tags:
     - thinker
     note: 宗教改革の中心人物。信仰義認と聖書至上主義を主張。
+    wikidata: Q9554
+    wikipedia: マルティン・ルター
   - name: ジャン・カルヴァン
     birth: 1509
     death: 1564
     tags:
     - thinker
     note: 予定説を中心とした神学体系を築き、プロテスタント思想を発展させた。
+    wikidata: Q37577
+    wikipedia: ジャン・カルヴァン
   - name: ミシェル・ド・モンテーニュ
     birth: 1533
     death: 1592
@@ -539,12 +723,16 @@ humans:
     - thinker
     - writer
     note: 『エセー』の著者。懐疑主義と自己省察の近代的形式を創出。
+    wikidata: Q41568
+    wikipedia: ミシェル・ド・モンテーニュ
   - name: フランシスコ・スアレス
     birth: 1548
     death: 1617
     tags:
     - thinker
     note: スコラ哲学の最後の大成者。自然法と国際法の理論を展開。
+    wikidata: Q316339
+    wikipedia: フランシスコ・スアレス
   - name: ヒューゴー・グロティウス
     birth: 1583
     death: 1645
@@ -552,12 +740,16 @@ humans:
     - thinker
     - political_theorist
     note: 国際法の父。自然法を戦争と平和に適用し、国際秩序を理論化。
+    wikidata: Q154959
+    wikipedia: フーゴー・グローティウス
   - name: ジョージ・バークリー
     birth: 1685
     death: 1753
     tags:
     - thinker
     note: 観念論哲学の提唱者。「存在するとは知覚されることである」と主張。
+    wikidata: Q82049
+    wikipedia: ジョージ・バークリー
   - name: ドゥニ・ディドロ
     birth: 1713
     death: 1784
@@ -565,12 +757,16 @@ humans:
     - thinker
     - writer
     note: 『百科全書』の編者として啓蒙思想を広め、実証主義と自由思想を支持。
+    wikidata: Q448
+    wikipedia: ドゥニ・ディドロ
   - name: ポール・アンリ・ティリ・ドルバック
     birth: 1723
     death: 1789
     tags:
     - thinker
     note: 唯物論的無神論を展開した啓蒙期の急進的思想家。
+    wikidata: Q7104
+    wikipedia: ポール＝アンリ・ティリ・ドルバック
   - name: コンスタンタン・カヴァフィス
     birth: 1863
     death: 1933
@@ -578,6 +774,8 @@ humans:
     - poet
     - writer
     note: ギリシャ系詩人。歴史的主題と個人の孤独を交錯させた叙情詩で知られる。
+    wikidata: Q216980
+    wikipedia: コンスタンディノス・カヴァフィス
   - name: エドワード・ギボン
     birth: 1737
     death: 1794
@@ -585,18 +783,24 @@ humans:
     - writer
     - thinker
     note: 『ローマ帝国衰亡史』の著者。歴史と宗教の交錯を扱う啓蒙主義的歴史家。
+    wikidata: Q161841
+    wikipedia: エドワード・ギボン
   - name: アウグスト・コント
     birth: 1798
     death: 1857
     tags:
     - thinker
     note: 社会学の創始者。実証主義を提唱し、知識の三段階法則を提示。
+    wikidata: Q12718
+    wikipedia: オーギュスト・コント
   - name: ヘルダー
     birth: 1744
     death: 1803
     tags:
     - thinker
     note: 言語と文化の相対性を説いたドイツ観念論前夜の思想家。民族精神の概念を提唱。
+    wikidata: Q155547
+    wikipedia: ヨハン・ゴットフリート・ヘルダー
   - name: アレクサンドル・ヘルツェン
     birth: 1812
     death: 1870
@@ -604,6 +808,8 @@ humans:
     - thinker
     - writer
     note: ロシア自由主義思想の父。亡命知識人として政治と倫理を論じた。
+    wikidata: Q201221
+    wikipedia: アレクサンドル・ゲルツェン
   - name: ヴァルター・ベンヤミン
     birth: 1892
     death: 1940
@@ -611,6 +817,8 @@ humans:
     - thinker
     - literary_critic
     note: 『複製技術時代の芸術』などで文化・歴史・美学を横断的に論じたユダヤ系思想家。
+    wikidata: Q61078
+    wikipedia: ヴァルター・ベンヤミン
   - name: ノーム・チョムスキー
     birth: 1928
     death: ''
@@ -618,6 +826,8 @@ humans:
     - thinker
     - linguist
     note: 生成文法理論を打ち立てた言語学者であり、政治的知識人としても知られる。
+    wikidata: Q9049
+    wikipedia: ノーム・チョムスキー
   - name: ジャン・ボードリヤール
     birth: 1929
     death: 2007
@@ -625,6 +835,8 @@ humans:
     - thinker
     - public_philosopher
     note: シミュラークルとシミュレーションの概念で知られ、ポストモダンの文化批評に影響。
+    wikidata: Q182847
+    wikipedia: ジャン・ボードリヤール
   - name: ジャン＝リュック・ナンシー
     birth: 1940
     death: 2021
@@ -632,6 +844,8 @@ humans:
     - thinker
     - public_philosopher
     note: 共同体・存在・触れあいなどをキーワードに、他者との共在性を探究した現代哲学者。
+    wikidata: Q503017
+    wikipedia: ジャン＝リュック・ナンシー
   - name: ジョン・ロールズ
     birth: 1921
     death: 2002
@@ -640,6 +854,8 @@ humans:
     - political_philosopher
     - liberal
     note: 『正義論』の著者。リベラルな正義と公正さの理論で政治哲学を再構築した。
+    wikidata: Q172544
+    wikipedia: ジョン・ロールズ
   - name: マルタ・ヌスバウム
     birth: 1947
     death: ''
@@ -648,6 +864,8 @@ humans:
     - feminist
     - political_philosopher
     note: ケイパビリティ・アプローチを提唱し、自由・福祉・ジェンダーにわたる倫理を論じた。
+    wikidata: Q235470
+    wikipedia: マーサ・ヌスバウム
   - name: モーリス・メルロー＝ポンティ
     birth: 1908
     death: 1961
@@ -655,6 +873,8 @@ humans:
     - thinker
     - philosopher
     note: 現象学と身体性の哲学を展開。『知覚の現象学』で主観と世界の関係を再定義。
+    wikidata: Q212639
+    wikipedia: モーリス・メルロー＝ポンティ
   - name: ジャック・デリダ
     birth: 1930
     death: 2004
@@ -662,6 +882,8 @@ humans:
     - thinker
     - public_philosopher
     note: 脱構築の提唱者。テクストと意味の不安定性を論じ、ポスト構造主義の代表的人物となる。
+    wikidata: Q130631
+    wikipedia: ジャック・デリダ
   - name: ポール・リクール
     birth: 1913
     death: 2005
@@ -669,6 +891,8 @@ humans:
     - thinker
     - public_philosopher
     note: 解釈学・記憶・アイデンティティを主題に、倫理と物語の交差点を探究した現代哲学者。
+    wikidata: Q192066
+    wikipedia: ポール・リクール
   - name: ハンス・ゲオルク・ガダマー
     birth: 1900
     death: 2002
@@ -676,6 +900,8 @@ humans:
     - thinker
     - philosopher
     note: 『真理と方法』で知られる解釈学の大成者。理解と伝統の関係を哲学的に探究した。
+    wikidata: Q76356
+    wikipedia: ハンス・ゲオルク・ガダマー
   - name: ルートヴィヒ・ウィトゲンシュタイン
     birth: 1889
     death: 1951
@@ -684,6 +910,8 @@ humans:
     - philosopher
     - linguist
     note: 『論理哲学論考』『哲学探究』を著し、言語と意味の哲学的考察に革命をもたらした。
+    wikidata: Q9391
+    wikipedia: ルートヴィヒ・ウィトゲンシュタイン
   - name: ミシェル・フーコー
     birth: 1926
     death: 1984
@@ -691,6 +919,8 @@ humans:
     - thinker
     - public_philosopher
     note: 権力・知・主体を主題に『監獄の誕生』『言葉と物』などで現代思想に大きな影響を与えた。
+    wikidata: Q44272
+    wikipedia: ミシェル・フーコー
   - name: シルヴィア・フェデリーチ
     birth: 1942
     death: ''
@@ -699,7 +929,7 @@ humans:
     - feminist
     - public_philosopher
     note: 『キャリバンと魔女』で資本主義と女性抑圧の歴史的関係を論じたフェミニスト思想家。
-  - name: ジュディス・シャクラバルティ・スピヴァク
+  - name: ガヤトリ・チャクラヴォルティ・スピヴァク
     birth: 1942
     death: ''
     tags:
@@ -707,6 +937,8 @@ humans:
     - feminist
     - public_philosopher
     note: ポストコロニアル理論家。『サバルタンは語ることができるか』で知られる。
+    wikidata: Q240851
+    wikipedia: ガヤトリ・C・スピヴァク
   - name: ゲイ・アトキンソン
     birth: 1937
     death: 2008
@@ -722,6 +954,8 @@ humans:
     - feminist
     - political_philosopher
     note: 社会的再分配と文化的承認を統合する正義理論で知られる現代フェミニズムの代表的思想家。
+    wikidata: Q267536
+    wikipedia: ナンシー・フレイザー
   - name: ジル・ドゥルーズ
     birth: 1925
     death: 1995
@@ -729,6 +963,8 @@ humans:
     - thinker
     - public_philosopher
     note: フランス現代哲学者。『差異と反復』『アンチ・オイディプス』で構造主義後の哲学的思考を展開。
+    wikidata: Q184226
+    wikipedia: ジル・ドゥルーズ
   - name: フェリックス・ガタリ
     birth: 1930
     death: 1992
@@ -736,6 +972,8 @@ humans:
     - thinker
     - public_philosopher
     note: 精神分析・政治理論を横断し、ドゥルーズとの共著『アンチ・オイディプス』で知られる。
+    wikidata: Q352465
+    wikipedia: フェリックス・ガタリ
   - name: アラン・バディウ
     birth: 1937
     death: ''
@@ -743,6 +981,8 @@ humans:
     - thinker
     - public_philosopher
     note: 真理・出来事・愛などを主題に、現代における哲学の役割を再定義した。
+    wikidata: Q311005
+    wikipedia: アラン・バディウ
   - name: エマニュエル・レヴィナス
     birth: 1906
     death: 1995
@@ -750,6 +990,8 @@ humans:
     - thinker
     - public_philosopher
     note: 倫理を哲学の第一原理とし、他者の顔の現前から出発する倫理学を展開。
+    wikidata: Q153034
+    wikipedia: エマニュエル・レヴィナス
   - name: シモーヌ・ヴェイユ
     birth: 1909
     death: 1943
@@ -757,13 +999,17 @@ humans:
     - thinker
     - feminist
     note: 苦悩・労働・重力と恩寵などを主題に、霊的倫理を探究した独自の思想家。
-  - name: アーレント・ミルグラム
+    wikidata: Q157309
+    wikipedia: シモーヌ・ヴェイユ (哲学者)
+  - name: スタンレー・ミルグラム
     birth: 1933
-    death: ''
+    death: 1984
     tags:
+    - scientist
     - thinker
-    - political_philosopher
-    note: 正義、自由意志、道徳責任をテーマに現代倫理学に貢献。
+    note: アイヒマン実験として知られる権威への服従実験を行った社会心理学者。
+    wikidata: Q208236
+    wikipedia: スタンレー・ミルグラム
   - name: スーザン・ソンタグ
     birth: 1933
     death: 2004
@@ -772,13 +1018,17 @@ humans:
     - literary_critic
     - public_philosopher
     note: 『反解釈』『写真について』などでアートと政治の関係を鋭く批評した知識人。
-  - name: エヴァ・イリグライ
+    wikidata: Q152824
+    wikipedia: スーザン・ソンタグ
+  - name: リュス・イリガライ
     birth: 1930
-    death: 2017
+    death: ''
     tags:
     - thinker
     - feminist
     note: 言語と女性性の再定義を通して、フェミニズム思想に詩的かつ哲学的視座を持ち込んだ。
+    wikidata: Q28918
+    wikipedia: リュス・イリガライ
   - name: エレーヌ・シクスー
     birth: 1937
     death: ''
@@ -787,13 +1037,17 @@ humans:
     - feminist
     - writer
     note: 「女性の書き方（エクリチュール・フェミニン）」を提唱し、文学とジェンダー批評を融合。
-  - name: ウルリケ・メア・ホーフ
-    birth: 1951
-    death: ''
+    wikidata: Q234964
+    wikipedia: エレーヌ・シクスー
+  - name: ウルリケ・マインホフ
+    birth: 1934
+    death: 1976
     tags:
     - thinker
-    - feminist
-    note: テクノフェミニズムやサイボーグ思想を牽引したドイツの思想家。
+    - writer
+    note: ドイツのジャーナリストで、赤軍派（RAF）の創設メンバーの一人。
+    wikidata: Q76543
+    wikipedia: ウルリケ・マインホフ
   - name: ロジャー・ベーコン
     birth: 1219
     death: 1292
@@ -801,19 +1055,25 @@ humans:
     - thinker
     - scientist
     note: 経験的観察を重視し、近代科学の先駆とされるフランシスコ会士。
-  - name: トマス・ブラバトン
+    wikidata: Q171677
+    wikipedia: ロジャー・ベーコン
+  - name: ヘンリー・ブラクトン
     birth: 1210
-    death: 1281
+    death: 1268
     tags:
     - thinker
     - political_theorist
     note: イングランドの法学者で、自然法と王権の限界について論じた。
+    wikidata: Q1197107
+    wikipedia: ヘンリー・ブラクトン
   - name: マイモニデス
     birth: 1138
     death: 1204
     tags:
     - thinker
     note: ユダヤ教の哲学者。『迷える者の導き』でアリストテレス哲学と聖書を融合。
+    wikidata: Q127398
+    wikipedia: モーシェ・ベン＝マイモーン
   - name: イブン・ハルドゥーン
     birth: 1332
     death: 1406
@@ -821,36 +1081,48 @@ humans:
     - thinker
     - political_philosopher
     note: 『歴史序説』で知られるイスラム世界の歴史哲学者・社会理論家。
+    wikidata: Q9294
+    wikipedia: イブン・ハルドゥーン
   - name: マイスター・エックハルト
     birth: 1260
     death: 1328
     tags:
     - thinker
     note: ドイツ神秘主義の神学者。神との合一や「無の教義」を説いた。
+    wikidata: Q76548
+    wikipedia: マイスター・エックハルト
   - name: ヨハネス・ドゥンス・スコトゥス
     birth: 1266
     death: 1308
     tags:
     - thinker
     note: スコラ哲学者。実体と個物の区別を重視し、普遍論争に新たな視点を与えた。
+    wikidata: Q190089
+    wikipedia: ヨハネス・ドゥンス・スコトゥス
   - name: ラモン・リュイ
     birth: 1232
     death: 1315
     tags:
     - thinker
     note: カタルーニャ出身の哲学者・神秘家。論理的布教と普遍的真理の統一を試みた。
+    wikidata: Q193660
+    wikipedia: ラモン・リュイ
   - name: 張載
     birth: 1020
     death: 1077
     tags:
     - thinker
     note: 宋代の儒学者。『正蒙』で理気思想を展開し、朱熹に先行した理学の礎を築いた。
+    wikidata: Q197338
+    wikipedia: 張載
   - name: 朱熹
     birth: 1130
     death: 1200
     tags:
     - thinker
     note: 儒学者。性即理や格物致知を通じて理学を体系化し、東アジア思想に巨大な影響を与えた。
+    wikidata: Q9397
+    wikipedia: 朱熹
   - name: モーゼス・ナフマニデス
     birth: 1194
     death: 1270
@@ -864,12 +1136,16 @@ humans:
     - thinker
     - scientist
     note: ペルシアの哲学者・天文学者。シーア派哲学の整合性と観測天文学に貢献。
+    wikidata: Q302835
+    wikipedia: ナスィールッディーン・トゥースィー
   - name: イブン・アラビー
     birth: 1165
     death: 1240
     tags:
     - thinker
     note: イスラム神秘主義（スーフィズム）の代表的思想家。存在一性論を展開。
+    wikidata: Q46420
+    wikipedia: イブン・アラビー
   - name: ジェラルド・オブ・ウェールズ
     birth: 1146
     death: 1223
@@ -896,43 +1172,28 @@ humans:
     - thinker
     - scientist
     note: 自然史・地理学・イスラム自然哲学で知られるペルシアの博学者。
-  - name: カジ・サイード・ギーラー二ー
-    birth: 1212
-    death: 1279
-    tags:
-    - thinker
-    note: シーア派神学者。存在と神の本質に関する深遠な思想で知られる。
+    wikidata: Q144639
+    wikipedia: ザカリーヤー・カズウィーニー
   - name: 張栻
     birth: 1133
     death: 1180
     tags:
     - thinker
     note: 宋代の理学者。朱熹と論争を交えつつ、実践と修養を重視する哲学を展開。
+    wikidata: Q708644
+    wikipedia: 張栻
   - name: ジョン・ウィクリフ
     birth: 1320
     death: 1384
     tags: [thinker, political_theorist]
     note: 聖書の英訳を進め、教会批判を展開。宗教改革の先駆者とされる。
-  - name: ジャン・ブルダン
-    birth: 1290
-    death: 1361
-    tags: [thinker]
-    note: 普遍論争に関わった中世スコラ哲学者。オックスフォードで活躍。
-  - name: ジョン・ドゥン・スコトゥス
-    birth: 1266
-    death: 1308
-    tags: [thinker]
-    note: 実体と個物の哲学で知られる中世スコラ学者。
+    wikidata: Q173893
+    wikipedia: ジョン・ウィクリフ
   - name: シャムス・タブリーズィー
     birth: 1185
     death: 1248
     tags: [thinker]
     note: ルーミーの師。スーフィズムの精神的指導者。
-  - name: ムハンマド・アル＝ファーフィディー
-    birth: 1213
-    death: 1286
-    tags: [thinker]
-    note: アラブの哲学者。イスラム神学と論理学の融合に寄与。
   - name: ダニエル・オブ・モリムス
     birth: 1300
     death: 1350
@@ -943,31 +1204,25 @@ humans:
     death: 1320
     tags: [thinker]
     note: 中世アイルランド神学の代表的人物。
-  - name: ムハンマド・アル＝クルディー
-    birth: 1275
-    death: 1349
+  - name: ドミンゴ・バニェス
+    birth: 1528
+    death: 1604
     tags: [thinker]
-    note: クルド系イスラム哲学者。存在論と倫理の融合を探究。
-  - name: ドミニクス・バネス
-    birth: 1315
-    death: 1380
-    tags: [thinker]
-    note: 教会法と神学を統合したスペインの神学者。
+    note: スペインのドミニコ会士・スコラ神学者。恩寵と自由意志をめぐる議論で知られる。
+    wikidata: Q934185
+    wikipedia: ドミンゴ・バニェス
   - name: ウルスラ・ド・メーツ
     birth: 1350
     death: 1400
     tags: [thinker, feminist]
     note: ドイツの神秘家。女性の霊性と自己実現を主題とした。
-  - name: ジャン・ブリダン
-    birth: 1300
+  - name: ジャン・ビュリダン
+    birth: 1295
     death: 1358
     tags: [thinker]
     note: フランスの論理学者・自然哲学者。「インペトゥス理論」でガリレオ以前の力学に影響を与えた。
-  - name: ウィリアム・トリスム
-    birth: 1290
-    death: 1361
-    tags: [thinker]
-    note: スコラ哲学者。言語の意味論と神の全能性をめぐる議論で知られる。
+    wikidata: Q275500
+    wikipedia: ジャン・ビュリダン
   - name: ギヨーム・ド・オーヴェルニュ
     birth: 1180
     death: 1249
@@ -983,23 +1238,15 @@ humans:
     death: 1280
     tags: [thinker]
     note: パリ大学のスコラ哲学者。トマス・アクィナスと論争を交えた。
-  - name: アル＝シャーラザール
-    birth: 1205
-    death: 1265
-    tags: [thinker]
-    note: イスラム法学者・倫理学者。マムルーク朝下で政治倫理を体系化。
   - name: シディ・ブ・アブデルカデル・ジラーニー
     birth: 1077
     death: 1166
     tags: [thinker]
     note: スーフィー教団カディリー派の創設者。イスラム神秘主義の普及に貢献。
+    wikidata: Q307365
+    wikipedia: アブドゥルカーディル・ジーラーニー
   - name: ジャン・ド・メウング
     birth: 1240
     death: 1305
     tags: [writer, thinker]
     note: 『薔薇物語』後半部の作者。アレゴリーと中世知識の融合を図った。
-  - name: ウィリアム・オブ・アルンデル
-    birth: 1290
-    death: 1370
-    tags: [thinker, political_theorist]
-    note: 神学と教皇権を擁護し、教会批判への反論を行ったオックスフォードの保守派。
