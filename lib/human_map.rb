@@ -5,7 +5,7 @@ require 'erb'
 class HumanMap
   def initialize(title_image_base64)
     @data = load_data
-    @start_year = -100  # BC100年から
+    @start_year = -500  # BC500年から
     @end_year = 2024    # 現代まで
     @century_step = 100 # 100年ごとの区切り
     @px_per_century = 300 # 1世紀あたりのピクセル数

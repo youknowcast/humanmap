@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>偉人マップ</title>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <style>
     /* ヘッダーのスタイルを調整 */
     .header-container {
@@ -485,6 +487,111 @@
     .timeline-scroll::-webkit-scrollbar-corner {
       background: #f1f1f1;
     }
+
+    /* 地図トグル */
+    .map-toggle {
+      margin-left: auto;
+      padding: 6px 14px;
+      border-radius: 16px;
+      border: 1px solid #4CAF50;
+      background: white;
+      color: #2e7d32;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .map-toggle:hover {
+      background: #f1f8e9;
+    }
+
+    .map-toggle.active {
+      background: #4CAF50;
+      color: white;
+    }
+
+    /* 地図パネル */
+    .map-panel {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 40vh;
+      min-height: 260px;
+      background: white;
+      box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.2);
+      z-index: 150;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .map-panel-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      padding: 6px 12px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .map-panel-header input[type="range"] {
+      flex: 1;
+      min-width: 180px;
+    }
+
+    .map-year {
+      font-weight: bold;
+      min-width: 7em;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .map-stats {
+      font-size: 13px;
+      color: #555;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .map-play,
+    .map-close {
+      padding: 4px 12px;
+      border-radius: 16px;
+      border: 1px solid #ccc;
+      background: white;
+      cursor: pointer;
+      font-size: 13px;
+    }
+
+    .map-play:hover,
+    .map-close:hover {
+      background: #f5f5f5;
+    }
+
+    .map-canvas {
+      flex: 1;
+      min-height: 0;
+      background: #e8eef2;
+    }
+
+    .map-popup {
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .map-popup-years {
+      color: #666;
+      margin-bottom: 4px;
+    }
+
+    .map-popup-note {
+      border-top: 1px solid #eee;
+      padding-top: 6px;
+      margin-top: 6px;
+    }
+
+    .map-popup a {
+      display: inline-block;
+      margin-top: 6px;
+    }
   </style>
 </head>
 <body>
@@ -493,6 +600,11 @@
       <h1>
         <img :src="'data:image/png;base64,' + timelineData.titleImage" alt="偉人マップ" class="title-logo">
         <span class="title-text">偉人マップ</span>
+        <button class="map-toggle"
+                :class="{ active: mapOpen }"
+                @click="toggleMap">
+          🗺 地図
+        </button>
       </h1>
       
       <div class="filter-controls">
@@ -528,7 +640,7 @@
 
     <div class="main-content">
       <div class="timeline-container">
-        <div class="timeline-scroll">
+        <div class="timeline-scroll" ref="timelineScroll">
           <div class="timeline-content" :style="contentStyle">
             <div class="timeline-axis-container">
               <div class="timeline-axis" :style="{ minWidth: contentStyle.width }">
@@ -611,12 +723,29 @@
         </div>
       </div>
     </div>
+
+    <div v-show="mapOpen" class="map-panel">
+      <div class="map-panel-header">
+        <button class="map-close" @click="toggleMap">✕ 閉じる</button>
+        <span class="map-year">{{ yearLabel }}</span>
+        <input type="range"
+               :min="timelineData.config.startYear"
+               :max="timelineData.config.endYear"
+               step="1"
+               v-model.number="currentYear">
+        <button class="map-play" @click="togglePlay">
+          {{ isPlaying ? '⏸ 停止' : '▶ 再生' }}
+        </button>
+        <span class="map-stats">表示 {{ visibleHumans.length }}人 / 座標なし {{ noCoordCount }}人</span>
+      </div>
+      <div class="map-canvas" ref="mapEl"></div>
+    </div>
   </div>
 
   <script>
     const timelineData = <%= timeline_data.to_json %>;
 
-    const { createApp, ref, computed, onMounted, onUnmounted } = Vue;
+    const { createApp, ref, computed, watch, nextTick, onMounted, onUnmounted } = Vue;
 
     createApp({
       setup() {
@@ -626,6 +755,20 @@
         const pinnedHumans = ref([]);
         const selectedTags = ref([]);
         const showPinnedOnly = ref(false);
+
+        const currentYear = ref(1800);
+        const mapOpen = ref(false);
+        const isPlaying = ref(false);
+        const mapEl = ref(null);
+        const timelineScroll = ref(null);
+        const pxPerYear = timelineData.config.pxPerCentury / timelineData.config.centuryStep;
+
+        let map = null;
+        let markerLayer = null;
+        let isSyncing = false;
+        let suppressScrollSync = true;
+        let rafId = null;
+        let playTimer = null;
 
         const filteredHumans = computed(() => {
           const filter = nameFilter.value.toLowerCase();
@@ -679,6 +822,136 @@
           };
         }
 
+        function yearNumber(value) {
+          return parseInt(String(value).replace(/\?/g, ''), 10);
+        }
+
+        function isAlive(human, year) {
+          const birth = yearNumber(human.birth);
+          const death = (!human.death || human.death === '') ?
+                        timelineData.config.endYear : yearNumber(human.death);
+          return birth <= year && year <= death;
+        }
+
+        const visibleHumans = computed(() => timelineData.humans.filter(human =>
+          human.lat != null && human.lon != null && isAlive(human, currentYear.value)
+        ));
+
+        const noCoordCount = timelineData.humans.filter(human =>
+          human.lat == null || human.lon == null
+        ).length;
+
+        const yearLabel = computed(() =>
+          currentYear.value < 0 ? `紀元前${-currentYear.value}年` : `${currentYear.value}年`
+        );
+
+        function markerColor(human) {
+          return (human.tags && human.tags[0] && timelineData.tags[human.tags[0]]?.color) || '#4CAF50';
+        }
+
+        function popupHtml(human) {
+          const death = (!human.death || human.death === '') ? '現存' : human.death;
+          const wiki = human.wikipedia
+            ? `<a href="https://ja.wikipedia.org/wiki/${encodeURIComponent(human.wikipedia)}" target="_blank" rel="noopener noreferrer">Wikipedia で読む</a>`
+            : '';
+          return `<div class="map-popup">
+            <strong>${human.name}</strong>
+            <div class="map-popup-years">${human.birth} – ${death}</div>
+            ${human.birthplace ? `<div>出生地: ${human.birthplace}</div>` : ''}
+            ${human.note ? `<div class="map-popup-note">${human.note}</div>` : ''}
+            ${wiki}
+          </div>`;
+        }
+
+        function updateMarkers() {
+          if (!markerLayer) return;
+          markerLayer.clearLayers();
+          visibleHumans.value.forEach(human => {
+            L.circleMarker([human.lat, human.lon], {
+              radius: 6,
+              weight: 1,
+              color: '#ffffff',
+              fillColor: markerColor(human),
+              fillOpacity: 0.85
+            }).bindPopup(popupHtml(human), { maxWidth: 300 }).addTo(markerLayer);
+          });
+        }
+
+        function initMap() {
+          if (map || !mapEl.value) return;
+          map = L.map(mapEl.value).setView([48, 10], 3);
+          L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(map);
+          markerLayer = L.layerGroup().addTo(map);
+          updateMarkers();
+        }
+
+        function toggleMap() {
+          mapOpen.value = !mapOpen.value;
+          if (!mapOpen.value) return;
+          nextTick(() => {
+            initMap();
+            setTimeout(() => { if (map) map.invalidateSize(); }, 50);
+          });
+        }
+
+        function stopPlay() {
+          isPlaying.value = false;
+          if (playTimer) {
+            clearInterval(playTimer);
+            playTimer = null;
+          }
+        }
+
+        function togglePlay() {
+          if (isPlaying.value) {
+            stopPlay();
+            return;
+          }
+          if (currentYear.value >= timelineData.config.endYear) {
+            currentYear.value = timelineData.config.startYear;
+          }
+          isPlaying.value = true;
+          playTimer = setInterval(() => {
+            if (currentYear.value >= timelineData.config.endYear) {
+              stopPlay();
+              return;
+            }
+            currentYear.value += 1;
+          }, 100);
+        }
+
+        function syncScrollToYear(year) {
+          const el = timelineScroll.value;
+          if (!el) return;
+          el.scrollLeft = yearToPosition(year) - el.clientWidth / 2;
+        }
+
+        function onTimelineScroll() {
+          if (suppressScrollSync || rafId !== null) return;
+          rafId = requestAnimationFrame(() => {
+            rafId = null;
+            const el = timelineScroll.value;
+            if (!el || isPlaying.value) return;
+            const year = Math.round(timelineData.config.startYear +
+                         (el.scrollLeft + el.clientWidth / 2) / pxPerYear);
+            const clamped = Math.min(timelineData.config.endYear,
+                            Math.max(timelineData.config.startYear, year));
+            if (clamped === currentYear.value) return;
+            isSyncing = true;
+            currentYear.value = clamped;
+            requestAnimationFrame(() => { isSyncing = false; });
+          });
+        }
+
+        watch(currentYear, () => {
+          updateMarkers();
+          if (isSyncing) return;
+          syncScrollToYear(currentYear.value);
+        });
+
         // クリックイベントハンドラを単純化
         const handleClickOutside = (e) => {
           if (!e.target.closest('.info-button') && !e.target.closest('.tooltip')) {
@@ -688,10 +961,18 @@
 
         onMounted(() => {
           document.addEventListener('click', handleClickOutside);
+          if (timelineScroll.value) {
+            timelineScroll.value.addEventListener('scroll', onTimelineScroll, { passive: true });
+          }
         });
 
         onUnmounted(() => {
           document.removeEventListener('click', handleClickOutside);
+          if (timelineScroll.value) {
+            timelineScroll.value.removeEventListener('scroll', onTimelineScroll);
+          }
+          stopPlay();
+          if (rafId !== null) cancelAnimationFrame(rafId);
         });
 
         // 初期スクロール位置を設定
@@ -700,6 +981,8 @@
           const scrollTo = yearToPosition(1800) - 500;
           scroll.scrollLeft = scrollTo;
         }, 0);
+
+        setTimeout(() => { suppressScrollSync = false; }, 500);
 
         // 固定のトグル関数
         function togglePin(name) {
@@ -738,7 +1021,17 @@
           togglePin,
           toggleTag,
           showPinnedOnly,
-          clearAllPins
+          clearAllPins,
+          currentYear,
+          mapOpen,
+          isPlaying,
+          mapEl,
+          timelineScroll,
+          visibleHumans,
+          noCoordCount,
+          yearLabel,
+          toggleMap,
+          togglePlay
         };
       }
     }).mount('#app');
