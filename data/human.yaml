@@ -64,6 +64,9 @@ humans:
     note: 相対性理論を発表。質量とエネルギーの等価性（E=mc²）を示した。
     wikidata: Q937
     wikipedia: アルベルト・アインシュタイン
+    birthplace: ウルム
+    lat: 48.3986
+    lon: 9.9911
   - name: ニュートン
     birth: 1643
     death: 1727
@@ -71,6 +74,9 @@ humans:
     note: 万有引力の法則を発見。古典力学の基礎を確立。
     wikidata: Q935
     wikipedia: アイザック・ニュートン
+    birthplace: ウールズソープ・マナー
+    lat: 52.8092
+    lon: -0.6306
   - name: ガリレオ・ガリレイ
     birth: 1564
     death: 1642
@@ -78,6 +84,9 @@ humans:
     note: 地動説を支持し、宗教裁判で迫害される。望遠鏡による天体観測の先駆者。
     wikidata: Q307
     wikipedia: ガリレオ・ガリレイ
+    birthplace: ピサ
+    lat: 43.7167
+    lon: 10.4
   - name: ソクラテス
     birth: -469
     death: -399
@@ -85,6 +94,9 @@ humans:
     note: 古代ギリシャの哲学者。「無知の知」で知られる。
     wikidata: Q913
     wikipedia: ソクラテス
+    birthplace: アロペケ区
+    lat: 37.95
+    lon: 23.75
   - name: 聖徳太子
     birth: 574?
     death: 622
@@ -92,6 +104,9 @@ humans:
     note: 十七条憲法を制定。遣隋使の派遣を行う。
     wikidata: Q263972
     wikipedia: 聖徳太子
+    birthplace: 橘寺
+    lat: 34.47
+    lon: 135.8181
   - name: 紫式部
     birth: 973
     death: 1014
@@ -99,6 +114,9 @@ humans:
     note: 『源氏物語』の作者。平安時代を代表する女流文学者。
     wikidata: Q81731
     wikipedia: 紫式部
+    birthplace: 平安京
+    lat: 35
+    lon: 135.7667
   - name: カール・マルクス
     birth: 1818
     death: 1883
@@ -106,6 +124,9 @@ humans:
     note: 『資本論』の著者。歴史唯物論を唱え、共産主義の理論的基礎を築いた。
     wikidata: Q9061
     wikipedia: カール・マルクス
+    birthplace: トリーア
+    lat: 49.7557
+    lon: 6.6394
   - name: マルティン・ハイデッガー
     birth: 1889
     death: 1976
@@ -113,6 +134,9 @@ humans:
     note: 『存在と時間』の著者。現存在の分析を通じて存在論を再定義した。
     wikidata: Q48301
     wikipedia: マルティン・ハイデッガー
+    birthplace: メスキルヒ
+    lat: 47.9928
+    lon: 9.1125
   - name: ハンナ・アーレント
     birth: 1906
     death: 1975
@@ -120,6 +144,9 @@ humans:
     note: 『全体主義の起源』『人間の条件』などを著し、政治的思考を再構築した。
     wikidata: Q60025
     wikipedia: ハンナ・アーレント
+    birthplace: Lindener Marktplatz 2, Hannover
+    lat: 52.3668
+    lon: 9.7149
   - name: フランシス・ベーコン
     birth: 1561
     death: 1626
@@ -127,6 +154,9 @@ humans:
     note: 経験論の祖として知られ、帰納法と観察に基づく科学的方法を提唱した。
     wikidata: Q37388
     wikipedia: フランシス・ベーコン (哲学者)
+    birthplace: ヨーク・ハウス
+    lat: 51.5081
+    lon: -0.1233
   - name: トマス・ホッブズ
     birth: 1588
     death: 1679
@@ -134,6 +164,9 @@ humans:
     note: 社会契約論を説いた『リヴァイアサン』で知られる。人間の自然状態は「万人の万人に対する闘争」と述べた。
     wikidata: Q37621
     wikipedia: トマス・ホッブズ
+    birthplace: ウェストポート
+    lat: 51.5854
+    lon: -2.1014
   - name: ジョン・ロック
     birth: 1632
     death: 1704
@@ -141,6 +174,9 @@ humans:
     note: 自由主義の源流とされる思想家で、政府の正統性は国民の同意に基づくとした。
     wikidata: Q9353
     wikipedia: ジョン・ロック
+    birthplace: リングトン
+    lat: 51.3617
+    lon: -2.7606
   - name: ジェレミ・ベンサム
     birth: 1748
     death: 1832
@@ -148,6 +184,9 @@ humans:
     note: 功利主義の創始者。「最大多数の最大幸福」を倫理と政治の原理に据えた。
     wikidata: Q60887
     wikipedia: ジェレミ・ベンサム
+    birthplace: ハウンズディッチ
+    lat: 51.5153
+    lon: -0.0787
   - name: ジョン・スチュアート・ミル
     birth: 1806
     death: 1873
@@ -155,6 +194,9 @@ humans:
     note: ベンサムの功利主義を継承し発展。『自由論』『女性の隷従』などを著した。
     wikidata: Q50020
     wikipedia: ジョン・スチュアート・ミル
+    birthplace: ペントンヴィル
+    lat: 51.535
+    lon: -0.1031
   - name: エドマンド・バーク
     birth: 1729
     death: 1797
@@ -162,6 +204,9 @@ humans:
     note: フランス革命を批判し、漸進的な改革を重視する保守思想を確立した。
     wikidata: Q165792
     wikipedia: エドマンド・バーク
+    birthplace: ダブリン
+    lat: 53.3497
+    lon: -6.2603
   - name: アレクシ・ド・トクヴィル
     birth: 1805
     death: 1859
@@ -169,6 +214,9 @@ humans:
     note: 『アメリカの民主主義』で民主制の発展とその課題を分析した。
     wikidata: Q140694
     wikipedia: アレクシ・ド・トクヴィル
+    birthplace: パリ
+    lat: 48.8567
+    lon: 2.3522
   - name: セーレン・キルケゴール
     birth: 1813
     death: 1855
@@ -176,6 +224,9 @@ humans:
     note: 宗教的実存主義の先駆。主体的真理と「絶望」の概念で知られる。
     wikidata: Q6512
     wikipedia: セーレン・キェルケゴール
+    birthplace: コペンハーゲン
+    lat: 55.6761
+    lon: 12.5689
   - name: フリードリヒ・ニーチェ
     birth: 1844
     death: 1900
@@ -183,6 +234,9 @@ humans:
     note: 「神は死んだ」などの語で知られる。近代西洋思想への根源的批判を展開。
     wikidata: Q9358
     wikipedia: フリードリヒ・ニーチェ
+    birthplace: Röcken
+    lat: 51.2408
+    lon: 12.1161
   - name: カール・ヤスパース
     birth: 1883
     death: 1969
@@ -190,6 +244,9 @@ humans:
     note: 実存と「限界状況」による哲学を展開し、戦後のドイツ倫理にも影響を与えた。
     wikidata: Q76509
     wikipedia: カール・ヤスパース
+    birthplace: オルデンブルク
+    lat: 53.1439
+    lon: 8.2139
   - name: ジャン＝ポール・サルトル
     birth: 1905
     death: 1980
@@ -197,6 +254,9 @@ humans:
     note: 無神論的実存主義を展開し、自由と責任の哲学を説いた。
     wikidata: Q9364
     wikipedia: ジャン＝ポール・サルトル
+    birthplace: パリ
+    lat: 48.8567
+    lon: 2.3522
   - name: シモーヌ・ド・ボーヴォワール
     birth: 1908
     death: 1986
@@ -204,6 +264,9 @@ humans:
     note: 『第二の性』で女性の歴史的抑圧を論じ、フェミニズム思想に大きな影響を与えた。
     wikidata: Q7197
     wikipedia: シモーヌ・ド・ボーヴォワール
+    birthplace: 6区
+    lat: 48.8505
+    lon: 2.3322
   - name: ユルゲン・ハーバーマス
     birth: 1929
     death: ""  # 空文字列で現存を表現
@@ -211,6 +274,9 @@ humans:
     note: フランクフルト学派の代表的思想家。コミュニケーション的行為の理論を展開。
     wikidata: Q76357
     wikipedia: ユルゲン・ハーバーマス
+    birthplace: デュッセルドルフ
+    lat: 51.2256
+    lon: 6.7767
   - name: 福田恆存
     birth: 1912
     death: 1994
@@ -218,6 +284,9 @@ humans:
     note: 戦後日本の代表的保守論客。翻訳家・劇作家としても知られる。漢字論争では旧字体擁護の立場。
     wikidata: Q1473365
     wikipedia: 福田恆存
+    birthplace: 東京
+    lat: 35.6839
+    lon: 139.7744
   - name: 金田一京助
     birth: 1882
     death: 1971
@@ -225,6 +294,9 @@ humans:
     note: 国語学者。漢字制限論争において福田恆存と論争。アイヌ語研究者でもある。
     wikidata: Q1036885
     wikipedia: 金田一京助
+    birthplace: 盛岡市
+    lat: 39.7021
+    lon: 141.1545
   - name: 丸谷才一
     birth: 1925
     death: 2012
@@ -232,6 +304,9 @@ humans:
     note: 保守的な文化論を展開し、文芸評論や小説で活躍。ユーモアと教養の融合を重視した文体が特徴。
     wikidata: Q970421
     wikipedia: 丸谷才一
+    birthplace: 鶴岡市
+    lat: 38.7272
+    lon: 139.8267
   - name: 平野啓一郎
     birth: 1975
     death: ""  # 空文字列で統一
@@ -239,6 +314,9 @@ humans:
     note: 『分人主義』を提唱。リベラルな視点から現代社会の倫理と個人を問う作家・思想家。
     wikidata: Q910874
     wikipedia: 平野啓一郎
+    birthplace: 蒲郡市
+    lat: 34.8264
+    lon: 137.2196
   - name: 中野剛志
     birth: 1971
     death: ""
@@ -246,6 +324,9 @@ humans:
     note: 経済評論家・思想家。現代の保守思想と反グローバリズムを語る。『富国と強兵』などで知られる。
     wikidata: Q11367483
     wikipedia: 中野剛志
+    birthplace: 神奈川県
+    lat: 35.4478
+    lon: 139.6425
   - name: チャールズ・テイラー
     birth: 1931
     death: 
@@ -253,6 +334,9 @@ humans:
     note: 『マレーズ・オブ・モダニティ』『倫理のゆくえ』などで知られ、現代の共同体主義を代表する哲学者。
     wikidata: Q311757
     wikipedia: チャールズ・マーグレイヴ・テイラー
+    birthplace: モントリオール
+    lat: 45.5033
+    lon: -73.5868
   - name: ロジャー・スクルートン
     birth: 1944
     death: 2020
@@ -260,6 +344,9 @@ humans:
     note: 英国の保守思想家。美学や伝統を重視し、欧州懐疑論にも一貫していた。
     wikidata: Q445939
     wikipedia: ロジャー・スクルートン
+    birthplace: バスリングソープ
+    lat: 53.35
+    lon: -0.37
   - name: マイケル・ポランニー
     birth: 1891
     death: 1976
@@ -267,6 +354,9 @@ humans:
     note: 科学哲学において「暗黙知」の概念を提唱し、実証主義批判と共同体の重要性を説いた。
     wikidata: Q163087
     wikipedia: マイケル・ポランニー
+    birthplace: ブダペスト
+    lat: 47.4983
+    lon: 19.0408
   - name: マルクス・ガブリエル
     birth: 1980
     death: 
@@ -274,6 +364,9 @@ humans:
     note: 新実在論を提唱する現代ドイツの哲学者。倫理・科学・ポストモダンに対する批判的視点で注目。
     wikidata: Q1901497
     wikipedia: マルクス・ガブリエル
+    birthplace: レマーゲン
+    lat: 50.5786
+    lon: 7.2306
   - name: ロバート・B・ライシュ
     birth: 1946
     death: 
@@ -281,6 +374,9 @@ humans:
     note: 『コモン・グッド』などで公共善と市民参加の重要性を説く。クリントン政権下で労働長官も務めた。
     wikidata: Q718828
     wikipedia: ロバート・B・ライシュ
+    birthplace: スクラントン
+    lat: 41.409
+    lon: -75.6624
   - name: 三島由紀夫
     birth: 1925
     death: 1970
@@ -288,6 +384,9 @@ humans:
     note: 日本の伝統美と武士道精神を称揚。自衛隊市ヶ谷駐屯地での割腹自決事件で象徴的存在となる。
     wikidata: Q134456
     wikipedia: 三島由紀夫
+    birthplace: 東京
+    lat: 35.6839
+    lon: 139.7744
   - name: 渡部昇一
     birth: 1930
     death: 2017
@@ -295,6 +394,9 @@ humans:
     note: 英文学者・評論家。戦後保守思想を代表し、歴史観や教育論に関する著作多数。
     wikidata: Q7506128
     wikipedia: 渡部昇一
+    birthplace: 鶴岡市
+    lat: 38.7272
+    lon: 139.8267
   - name: 小林秀雄
     birth: 1902
     death: 1983
@@ -302,6 +404,9 @@ humans:
     note: 文芸評論の祖として知られ、実感と直観による日本的精神文化を擁護した。
     wikidata: Q957799
     wikipedia: 小林秀雄 (批評家)
+    birthplace: 神田猿楽町
+    lat: 35.6991
+    lon: 139.7592
   - name: 西部邁
     birth: 1939
     death: 2018
@@ -309,6 +414,9 @@ humans:
     note: 保守思想家・評論家。戦後民主主義の限界を批判し、日本的共同体や文化の再評価を提唱。『思想の英雄たち』『保守の真髄』などを著す。
     wikidata: Q11629638
     wikipedia: 西部邁
+    birthplace: 長万部町
+    lat: 42.5136
+    lon: 140.3804
   - name: 丸山眞男
     birth: 1914
     death: 1996
@@ -316,6 +424,9 @@ humans:
     note: 戦後日本の政治思想家。『日本政治思想史研究』や「超国家主義の論理と心理」などで、近代主義と民主主義の理念を理論的に擁
     wikidata: Q1143571
     wikipedia: 丸山眞男
+    birthplace: 大阪市
+    lat: 34.6938
+    lon: 135.5021
   - name: 美濃部達吉
     birth: 1873
     death: 1948
@@ -323,6 +434,9 @@ humans:
     note: 天皇機関説を提唱し、立憲君主制の理論的基礎を築いた憲法学者。戦前の自由主義思想の中心的存在。
     wikidata: Q709643
     wikipedia: 美濃部達吉
+    birthplace: 兵庫県
+    lat: 34.6913
+    lon: 135.1831
   - name: 宮沢俊義
     birth: 1899
     death: 1976
@@ -330,6 +444,9 @@ humans:
     note: 戦後日本の憲法学を代表する思想家。「八月革命説」により日本国憲法の正統性を支え、丸山眞男にも大きな影響を与えた。
     wikidata: Q8013390
     wikipedia: 宮澤俊義
+    birthplace: 長野市
+    lat: 36.6487
+    lon: 138.1947
   - name: アウグスティヌス
     birth: 354
     death: 430
@@ -337,6 +454,9 @@ humans:
     note: キリスト教神学とプラトン哲学を融合し、中世スコラ哲学の土台を築いた。『告白』『神の国』など。
     wikidata: Q8018
     wikipedia: アウグスティヌス
+    birthplace: Thagaste
+    lat: 36.2864
+    lon: 7.9511
   - name: トマス・アクィナス
     birth: 1225
     death: 1274
@@ -344,6 +464,9 @@ humans:
     note: アリストテレス哲学をキリスト教に統合し、スコラ哲学の頂点を築いた。『神学大全』で知られる。
     wikidata: Q9438
     wikipedia: トマス・アクィナス
+    birthplace: castle of the counts of Aquino
+    lat: 41.5478
+    lon: 13.6704
   - name: ルネ・デカルト
     birth: 1596
     death: 1650
@@ -351,6 +474,9 @@ humans:
     note: 「我思う、ゆえに我あり」。合理主義哲学の祖であり、近代的主体の概念を切り拓いた。
     wikidata: Q9191
     wikipedia: ルネ・デカルト
+    birthplace: デカルト
+    lat: 46.9736
+    lon: 0.6978
   - name: バールーフ・スピノザ
     birth: 1632
     death: 1677
@@ -358,6 +484,9 @@ humans:
     note: 汎神論を展開し、理性と自然の同一性を説いた。自由と倫理を理性から導く試みで知られる。ベネディクトス(意味は祝福されたでバールーフと同じ)とも．
     wikidata: Q35802
     wikipedia: バールーフ・デ・スピノザ
+    birthplace: アムステルダム
+    lat: 52.3667
+    lon: 4.8833
   - name: ゴットフリート・ライプニッツ
     birth: 1646
     death: 1716
@@ -365,6 +494,9 @@ humans:
     note: 単子論と予定調和を説く合理主義者。数学・論理学にも貢献。
     wikidata: Q9047
     wikipedia: ゴットフリート・ライプニッツ
+    birthplace: ライプツィヒ
+    lat: 51.3406
+    lon: 12.3747
   - name: ルソー
     birth: 1712
     death: 1778
@@ -372,6 +504,9 @@ humans:
     note: 社会契約論を提唱し、人民主権や自然状態を重視。フランス革命に思想的影響を与えた。
     wikidata: Q6527
     wikipedia: ジャン＝ジャック・ルソー
+    birthplace: ジュネーヴ
+    lat: 46.2
+    lon: 6.15
   - name: 空海
     birth: 774
     death: 835
@@ -379,6 +514,9 @@ humans:
     note: 真言宗を開いた密教思想家。言語・身体・宇宙の一致を説く。
     wikidata: Q222227
     wikipedia: 空海
+    birthplace: 善通寺
+    lat: 34.2251
+    lon: 133.7741
   - name: 道元
     birth: 1200
     death: 1253
@@ -386,6 +524,9 @@ humans:
     note: 曹洞宗の開祖。「只管打坐」を基本とする仏教実践哲学を説いた。
     wikidata: Q318064
     wikipedia: 道元
+    birthplace: 久我村
+    lat: 34.9421
+    lon: 135.7328
   - name: 林羅山
     birth: 1583
     death: 1657
@@ -393,6 +534,9 @@ humans:
     note: 江戸初期の儒学者。朱子学を幕府の学問として確立し、官学化に寄与。
     wikidata: Q558279
     wikipedia: 林羅山
+    birthplace: 京都市
+    lat: 35.0116
+    lon: 135.7681
   - name: 伊藤仁斎
     birth: 1627
     death: 1705
@@ -400,6 +544,9 @@ humans:
     note: 古義学派を提唱し、朱子学に対して『論語』の原典重視を主張した。
     wikidata: Q640808
     wikipedia: 伊藤仁斎
+    birthplace: 京都市
+    lat: 35.0116
+    lon: 135.7681
   - name: 荻生徂徠
     birth: 1666
     death: 1728
@@ -407,6 +554,9 @@ humans:
     note: 古文辞学を唱え、実証的な儒学解釈を行う。幕政改革にも関与。
     wikidata: Q369158
     wikipedia: 荻生徂徠
+    birthplace: 江戸
+    lat: 35.6839
+    lon: 139.7744
   - name: 賀茂真淵
     birth: 1697
     death: 1769
@@ -414,6 +564,7 @@ humans:
     note: 国学の祖。日本固有の文化・精神を重視し、のちの本居宣長に影響。
     wikidata: Q1343397
     wikipedia: 賀茂真淵
+    birthplace: 伊場
   - name: 本居宣長
     birth: 1730
     death: 1801
@@ -421,6 +572,9 @@ humans:
     note: 『古事記伝』などで日本固有の精神「もののあはれ」を称揚。国学を大成した。
     wikidata: Q384647
     wikipedia: 本居宣長
+    birthplace: 松阪市
+    lat: 34.5779
+    lon: 136.5276
   - name: 山崎闇斎
     birth: 1618
     death: 1682
@@ -428,6 +582,9 @@ humans:
     note: 江戸時代前期の儒学者・神道思想家。朱子学を根幹に神道と融合させた垂加神道を創始し、幕末の尊皇思想にも影響を与えた。
     wikidata: Q6565636
     wikipedia: 山崎闇斎
+    birthplace: 京都
+    lat: 35.0111
+    lon: 135.7669
   - name: ホルヘ・ルイス・ボルヘス
     birth: 1899
     death: 1986
@@ -435,6 +592,9 @@ humans:
     note: アルゼンチンの作家・詩人。無限・鏡・迷宮・時間などを主題とした哲学的短編で知られる。ポストモダン文学の先駆とされる。
     wikidata: Q909
     wikipedia: ホルヘ・ルイス・ボルヘス
+    birthplace: ブエノスアイレス
+    lat: -34.5997
+    lon: -58.3819
   - name: ガブリエル・ガルシア＝マルケス
     birth: 1927
     death: 2014
@@ -442,6 +602,9 @@ humans:
     note: コロンビア出身。『百年の孤独』で知られる魔術的リアリズムの代表作家。ノーベル文学賞受賞。
     wikidata: Q5878
     wikipedia: ガブリエル・ガルシア＝マルケス
+    birthplace: アラカタカ
+    lat: 10.5911
+    lon: -74.185
   - name: フリオ・コルタサル
     birth: 1914
     death: 1984
@@ -449,6 +612,9 @@ humans:
     note: アルゼンチンの実験的作家。『石蹴り遊び』など構造に挑戦した作品で知られる。ボルヘスに続く世代の先鋭。
     wikidata: Q174210
     wikipedia: フリオ・コルタサル
+    birthplace: ブリュッセル市
+    lat: 50.8467
+    lon: 4.3517
   - name: マリオ・バルガス＝リョサ
     birth: 1936
     death: 
@@ -456,6 +622,9 @@ humans:
     note: ペルー出身の作家・評論家。政治参加も積極的で、自由主義的立場からラテンアメリカの現代社会を描く。ノーベル文学賞受賞。
     wikidata: Q39803
     wikipedia: マリオ・バルガス・リョサ
+    birthplace: アレキパ
+    lat: -16.3989
+    lon: -71.5369
   - name: ホセ・ドノソ
     birth: 1924
     death: 1996
@@ -463,6 +632,9 @@ humans:
     note: チリの小説家。『夜のみだらな鳥』など幻想的・怪奇的要素を含む作品で知られ、ラテンアメリカ文学ブームの主要作家の一人。
     wikidata: Q439761
     wikipedia: ホセ・ドノソ
+    birthplace: サンティアゴ
+    lat: -33.4375
+    lon: -70.65
   - name: ミゲル・アンヘル・アストゥリアス
     birth: 1899
     death: 1974
@@ -470,6 +642,9 @@ humans:
     note: グアテマラ出身の作家。マヤ神話や民間伝承を土台に、政治抑圧と民族的アイデンティティを描いた魔術的リアリズムの先駆者。ノーベル文学賞受賞。
     wikidata: Q75603
     wikipedia: ミゲル・アンヘル・アストゥリアス
+    birthplace: グアテマラシティ
+    lat: 14.6417
+    lon: -90.5133
   - name: ウィリアム・オッカム
     birth: 1287
     death: 1347
@@ -477,6 +652,9 @@ humans:
     note: 唯名論の提唱者。「オッカムの剃刀」によって、必要以上の概念の排除を説いた中世末期の合理主義者。
     wikidata: Q43936
     wikipedia: オッカムのウィリアム
+    birthplace: オッカム
+    lat: 51.298
+    lon: -0.461
   - name: ヴァージニア・ウルフ
     birth: 1882
     death: 1941
@@ -484,6 +662,9 @@ humans:
     note: 英国モダニズム文学を代表する作家・批評家。『灯台へ』『ダロウェイ夫人』などで意識の流れを描いた。『自分ひとりの部屋』はフェミニズム文学の古典。
     wikidata: Q40909
     wikipedia: ヴァージニア・ウルフ
+    birthplace: ロンドン
+    lat: 51.5072
+    lon: -0.1275
   - name: ジュディス・バトラー
     birth: 1956
     death: 
@@ -491,6 +672,9 @@ humans:
     note: 『ジェンダー・トラブル』で知られる現代フェミニズム・クィア理論の中心人物。性別は生まれつきでなく、言語的パフォーマンスによって生成されると主張。難解な文体でも知られる。
     wikidata: Q219368
     wikipedia: ジュディス・バトラー
+    birthplace: クリーブランド
+    lat: 41.4992
+    lon: -81.6947
   - name: アレイスター・クロウリー
     birth: 1875
     death: 1947
@@ -498,6 +682,9 @@ humans:
     note: イギリスの神秘主義者・儀式魔術師・詩人。『法の書』でセレマ思想を提唱し、「最も邪悪な男」と呼ばれた。現代オカルティズム・ニューエイジ運動に深い影響を与えた。
     wikidata: Q172684
     wikipedia: アレイスター・クロウリー
+    birthplace: ロイヤル・レミントン・スパ
+    lat: 52.2919
+    lon: -1.5358
   - name: エレナ・P・ブラヴァツキー
     birth: 1831
     death: 1891
@@ -505,6 +692,9 @@ humans:
     note: 神智学協会の創設者。『シークレット・ドクトリン』などで東洋思想・密教・進化論を融合した神秘体系を展開し、近代スピリチュアル思想に大きな影響を与えた。
     wikidata: Q189454
     wikipedia: ヘレナ・P・ブラヴァツキー
+    birthplace: ドニプロ
+    lat: 48.4675
+    lon: 35.04
   - name: フョードル・ドストエフスキー
     birth: 1821
     death: 1881
@@ -512,6 +702,9 @@ humans:
     note: 『罪と罰』『カラマーゾフの兄弟』などで知られるロシアの文豪。人間の内面、信仰、罪、自由を極限まで描き、哲学・文学の両面に深い影響を与えた。
     wikidata: Q991
     wikipedia: フョードル・ドストエフスキー
+    birthplace: Mariinsky Hospital for the Poor
+    lat: 55.7836
+    lon: 37.6119
   - name: レフ・トルストイ
     birth: 1828
     death: 1910
@@ -519,6 +712,9 @@ humans:
     note: 『戦争と平和』『アンナ・カレーニナ』などの作者。後期は宗教的・倫理的思想に傾倒し、非暴力主義を説いた。
     wikidata: Q7243
     wikipedia: レフ・トルストイ
+    birthplace: ヤースナヤ・ポリャーナ
+    lat: 54.0751
+    lon: 37.5264
   - name: アントン・チェーホフ
     birth: 1860
     death: 1904
@@ -526,6 +722,9 @@ humans:
     note: ロシアの劇作家・短編作家。『かもめ』『桜の園』など、日常の空虚と人間の不安を静かに描いた。
     wikidata: Q5685
     wikipedia: アントン・チェーホフ
+    birthplace: タガンログ
+    lat: 47.2333
+    lon: 38.9
   - name: アレクサンドル・プーシキン
     birth: 1799
     death: 1837
@@ -533,6 +732,9 @@ humans:
     note: ロシア近代文学の父。詩と物語を革新し、後の文学者に大きな影響を与えた。『オネーギン』『スペードの女王』など。
     wikidata: Q7200
     wikipedia: アレクサンドル・プーシキン
+    birthplace: モスクワ
+    lat: 55.7506
+    lon: 37.6175
   - name: ニコライ・ゴーゴリ
     birth: 1809
     death: 1852
@@ -540,6 +742,9 @@ humans:
     note: 『外套』『鼻』など幻想的かつ風刺的な短編で知られる。ロシア文学に怪奇と社会批判を融合させた先駆者。
     wikidata: Q43718
     wikipedia: ニコライ・ゴーゴリ
+    birthplace: ヴェルィーキ・ソローチンツィ
+    lat: 50.0253
+    lon: 33.9477
   - name: ミハイル・ブルガーコフ
     birth: 1891
     death: 1940
@@ -547,6 +752,9 @@ humans:
     note: 『巨匠とマルガリータ』で知られるソ連時代の作家。体制批判と幻想・神秘が交錯する作品群が特徴。
     wikidata: Q835
     wikipedia: ミハイル・ブルガーコフ
+    birthplace: キーウ
+    lat: 50.45
+    lon: 30.5236
   - name: ウラジーミル・ナボコフ
     birth: 1899
     death: 1977
@@ -554,6 +762,9 @@ humans:
     note: ロシアと英語の両言語で執筆。『ロリータ』『賜物』など、美学と倒錯を融合した文体で知られる。構造と意識の操作の達人。
     wikidata: Q36591
     wikipedia: ウラジーミル・ナボコフ
+    birthplace: サンクトペテルブルク
+    lat: 59.95
+    lon: 30.3167
   - name: アレクサンドル・ソルジェニーツィン
     birth: 1918
     death: 2008
@@ -561,6 +772,9 @@ humans:
     note: 『収容所群島』『イワン・デニーソヴィチの一日』などで、スターリン体制下の収容所の実態を告発。全体主義と戦った思想的作家として20世紀最大級の影響力を持つ。
     wikidata: Q34474
     wikipedia: アレクサンドル・ソルジェニーツィン
+    birthplace: キスロヴォツク
+    lat: 43.91
+    lon: 42.72
   - name: ミハイル・バフチン
     birth: 1895
     death: 1975
@@ -568,6 +782,9 @@ humans:
     note: 対話性・ポリフォニー・カーニバル理論などで文学・言語思想に革新をもたらしたロシアの思想家。ドストエフスキー研究やフランス構造主義への影響も大きい。
     wikidata: Q185375
     wikipedia: ミハイル・バフチン
+    birthplace: オリョール
+    lat: 52.9686
+    lon: 36.0694
   - name: 中村真一郎
     birth: 1918
     death: 1997
@@ -575,6 +792,9 @@ humans:
     note: 「第三の新人」として文壇に登場し、詩・小説・批評をまたにかけた多才な文人。伝統文化への深い理解をもとに、近代日本文学と精神史を交差的に読み解いた。
     wikidata: Q1344451
     wikipedia: 中村真一郎
+    birthplace: 東京
+    lat: 35.6839
+    lon: 139.7744
   - name: ジェイムズ・ジョイス
     birth: 1882
     death: 1941
@@ -582,6 +802,9 @@ humans:
     note: アイルランド出身の作家。『ユリシーズ』『フィネガンズ・ウェイク』などで意識の流れや言語実験を駆使し、モダニズム文学の頂点を築いた。
     wikidata: Q6882
     wikipedia: ジェイムズ・ジョイス
+    birthplace: ラスガー
+    lat: 53.3117
+    lon: -6.2743
   - name: ウィリアム・ワーズワス
     birth: 1770
     death: 1850
@@ -589,6 +812,9 @@ humans:
     note: イギリスのロマン派詩人。自然と感情の尊重をうたった『抒情歌謡集』で知られ、近代的な「個人の感性」の先駆者となった。
     wikidata: Q45546
     wikipedia: ウィリアム・ワーズワース
+    birthplace: コッカーマス
+    lat: 54.6613
+    lon: -3.362
   - name: ウィリアム・モリス
     birth: 1834
     death: 1896
@@ -596,6 +822,9 @@ humans:
     note: 詩人・デザイナー・社会思想家。アーツ・アンド・クラフツ運動を主導し、美術と社会改革を結びつけた。初期社会主義思想の文化的側面を体現。
     wikidata: Q182589
     wikipedia: ウィリアム・モリス
+    birthplace: ワルサムストウ
+    lat: 51.584
+    lon: -0.0211
   - name: T.S.エリオット
     birth: 1888
     death: 1965
@@ -603,6 +832,9 @@ humans:
     note: 『荒地』『四つの四重奏』などで知られる20世紀英語詩の巨人。キリスト教的伝統とモダニズムの緊張を体現し、詩と批評の両面で強い影響を与えた。
     wikidata: Q37767
     wikipedia: T・S・エリオット
+    birthplace: セイント・ルイス
+    lat: 38.6264
+    lon: -90.1994
   - name: ウィリアム・ブレイク
     birth: 1757
     death: 1827
@@ -610,6 +842,9 @@ humans:
     note: 詩人・画家・神秘思想家。『無垢と経験の歌』『天国と地獄の結婚』など象徴に満ちた作品を残し、ヴィジョンと予言の詩を描いた孤高のロマン主義者。
     wikidata: Q41513
     wikipedia: ウィリアム・ブレイク
+    birthplace: ロンドン
+    lat: 51.5072
+    lon: -0.1275
   - name: デイヴィッド・ヒューム
     birth: 1711
     death: 1776
@@ -617,6 +852,9 @@ humans:
     note: イギリス経験論の極北。懐疑主義と因果性の否定を通じて、カントに決定的な影響を与えた。道徳感情の起源を論じた政治哲学者でもある。
     wikidata: Q37160
     wikipedia: デイヴィッド・ヒューム
+    birthplace: エディンバラ
+    lat: 55.9533
+    lon: -3.1892
   - name: プロティノス
     birth: 205
     death: 270
@@ -625,6 +863,9 @@ humans:
     note: 新プラトン主義の創始者。『エンネアデス』で一者からの流出の思想を展開。
     wikidata: Q134189
     wikipedia: プロティノス
+    birthplace: リコポリス（Lycopolis)
+    lat: 30.9087
+    lon: 31.0555
   - name: ボエティウス
     birth: 480
     death: 524
@@ -633,6 +874,9 @@ humans:
     note: 『哲学の慰め』を著し、古代哲学とキリスト教思想の橋渡しを行った。
     wikidata: Q102851
     wikipedia: ボエティウス
+    birthplace: ローマ
+    lat: 41.8931
+    lon: 12.4828
   - name: アンセルムス
     birth: 1033
     death: 1109
@@ -641,6 +885,9 @@ humans:
     note: カンタベリー大司教。神の存在証明（ontological argument）で知られる。
     wikidata: Q43939
     wikipedia: アンセルムス
+    birthplace: アオスタ
+    lat: 45.7372
+    lon: 7.3206
   - name: アベラール
     birth: 1079
     death: 1142
@@ -649,6 +896,9 @@ humans:
     note: 唯名論者。ヘロワーズとの関係と神学的著作で知られる。
     wikidata: Q4295
     wikipedia: ピエール・アベラール
+    birthplace: Le Pallet
+    lat: 47.1383
+    lon: -1.3358
   - name: ダンテ
     birth: 1265
     death: 1321
@@ -658,6 +908,9 @@ humans:
     note: 『神曲』の著者。中世世界観と個人の救済の統合を試みた。
     wikidata: Q1067
     wikipedia: ダンテ・アリギエーリ
+    birthplace: フィレンツェ
+    lat: 43.7714
+    lon: 11.2542
   - name: マルシリウス・オブ・パドヴァ
     birth: 1275
     death: 1342
@@ -667,6 +920,9 @@ humans:
     note: 『平和の擁護者』で教会権力を批判し、国家と宗教の分離を先駆的に論じた。
     wikidata: Q315357
     wikipedia: パドヴァのマルシリウス
+    birthplace: パドヴァ
+    lat: 45.4078
+    lon: 11.8733
   - name: トマス・ア・ケンピス
     birth: 1380
     death: 1471
@@ -675,6 +931,9 @@ humans:
     note: 『キリストにならいて』の著者。内面の信仰と謙遜を重視した黙想書。
     wikidata: Q220976
     wikipedia: トマス・ア・ケンピス
+    birthplace: ケンペン (ドイツ)
+    lat: 51.3658
+    lon: 6.4194
   - name: クザーヌス
     birth: 1401
     death: 1464
@@ -683,6 +942,9 @@ humans:
     note: 無限や相対の概念を扱ったドイツの哲学者・神学者。知の限界を自覚することを説いた。
     wikidata: Q154751
     wikipedia: ニコラウス・クザーヌス
+    birthplace: ベルンカステル＝クース
+    lat: 49.9161
+    lon: 7.0694
   - name: ピコ・デラ・ミランドラ
     birth: 1463
     death: 1494
@@ -691,6 +953,9 @@ humans:
     note: 『人間の尊厳について』で知られ、ルネサンス期の人間中心主義を象徴する哲学者。
     wikidata: Q182128
     wikipedia: ピコ・デラ・ミランドラ
+    birthplace: ミランドラ
+    lat: 44.8873
+    lon: 11.066
   - name: エラスムス
     birth: 1466
     death: 1536
@@ -700,6 +965,9 @@ humans:
     note: キリスト教人文主義者。『痴愚神礼賛』で教会を風刺し、宗教改革に影響。
     wikidata: Q43499
     wikipedia: デジデリウス・エラスムス
+    birthplace: ロッテルダム
+    lat: 51.92
+    lon: 4.48
   - name: マルティン・ルター
     birth: 1483
     death: 1546
@@ -708,6 +976,9 @@ humans:
     note: 宗教改革の中心人物。信仰義認と聖書至上主義を主張。
     wikidata: Q9554
     wikipedia: マルティン・ルター
+    birthplace: ルターシュタット・アイスレーベン
+    lat: 51.5167
+    lon: 11.55
   - name: ジャン・カルヴァン
     birth: 1509
     death: 1564
@@ -716,6 +987,9 @@ humans:
     note: 予定説を中心とした神学体系を築き、プロテスタント思想を発展させた。
     wikidata: Q37577
     wikipedia: ジャン・カルヴァン
+    birthplace: ノワイヨン
+    lat: 49.5811
+    lon: 2.9989
   - name: ミシェル・ド・モンテーニュ
     birth: 1533
     death: 1592
@@ -725,6 +999,9 @@ humans:
     note: 『エセー』の著者。懐疑主義と自己省察の近代的形式を創出。
     wikidata: Q41568
     wikipedia: ミシェル・ド・モンテーニュ
+    birthplace: モンテーニュ城
+    lat: 44.8783
+    lon: 0.03
   - name: フランシスコ・スアレス
     birth: 1548
     death: 1617
@@ -733,6 +1010,9 @@ humans:
     note: スコラ哲学の最後の大成者。自然法と国際法の理論を展開。
     wikidata: Q316339
     wikipedia: フランシスコ・スアレス
+    birthplace: グラナダ
+    lat: 37.175
+    lon: -3.6
   - name: ヒューゴー・グロティウス
     birth: 1583
     death: 1645
@@ -742,6 +1022,9 @@ humans:
     note: 国際法の父。自然法を戦争と平和に適用し、国際秩序を理論化。
     wikidata: Q154959
     wikipedia: フーゴー・グローティウス
+    birthplace: デルフト
+    lat: 52.0117
+    lon: 4.3592
   - name: ジョージ・バークリー
     birth: 1685
     death: 1753
@@ -750,6 +1033,9 @@ humans:
     note: 観念論哲学の提唱者。「存在するとは知覚されることである」と主張。
     wikidata: Q82049
     wikipedia: ジョージ・バークリー
+    birthplace: Dysart Castle
+    lat: 52.502
+    lon: -7.1215
   - name: ドゥニ・ディドロ
     birth: 1713
     death: 1784
@@ -759,6 +1045,9 @@ humans:
     note: 『百科全書』の編者として啓蒙思想を広め、実証主義と自由思想を支持。
     wikidata: Q448
     wikipedia: ドゥニ・ディドロ
+    birthplace: ラングル
+    lat: 47.8625
+    lon: 5.3331
   - name: ポール・アンリ・ティリ・ドルバック
     birth: 1723
     death: 1789
@@ -767,6 +1056,9 @@ humans:
     note: 唯物論的無神論を展開した啓蒙期の急進的思想家。
     wikidata: Q7104
     wikipedia: ポール＝アンリ・ティリ・ドルバック
+    birthplace: イデスハイム
+    lat: 49.2642
+    lon: 8.1344
   - name: コンスタンタン・カヴァフィス
     birth: 1863
     death: 1933
@@ -776,6 +1068,9 @@ humans:
     note: ギリシャ系詩人。歴史的主題と個人の孤独を交錯させた叙情詩で知られる。
     wikidata: Q216980
     wikipedia: コンスタンディノス・カヴァフィス
+    birthplace: アレクサンドリア
+    lat: 31.1975
+    lon: 29.8925
   - name: エドワード・ギボン
     birth: 1737
     death: 1794
@@ -785,6 +1080,9 @@ humans:
     note: 『ローマ帝国衰亡史』の著者。歴史と宗教の交錯を扱う啓蒙主義的歴史家。
     wikidata: Q161841
     wikipedia: エドワード・ギボン
+    birthplace: パットニー
+    lat: 51.4649
+    lon: -0.2211
   - name: アウグスト・コント
     birth: 1798
     death: 1857
@@ -793,6 +1091,9 @@ humans:
     note: 社会学の創始者。実証主義を提唱し、知識の三段階法則を提示。
     wikidata: Q12718
     wikipedia: オーギュスト・コント
+    birthplace: モンペリエ
+    lat: 43.6109
+    lon: 3.8772
   - name: ヘルダー
     birth: 1744
     death: 1803
@@ -801,6 +1102,9 @@ humans:
     note: 言語と文化の相対性を説いたドイツ観念論前夜の思想家。民族精神の概念を提唱。
     wikidata: Q155547
     wikipedia: ヨハン・ゴットフリート・ヘルダー
+    birthplace: モロンク
+    lat: 53.9153
+    lon: 19.9272
   - name: アレクサンドル・ヘルツェン
     birth: 1812
     death: 1870
@@ -810,6 +1114,9 @@ humans:
     note: ロシア自由主義思想の父。亡命知識人として政治と倫理を論じた。
     wikidata: Q201221
     wikipedia: アレクサンドル・ゲルツェン
+    birthplace: モスクワ
+    lat: 55.7506
+    lon: 37.6175
   - name: ヴァルター・ベンヤミン
     birth: 1892
     death: 1940
@@ -819,6 +1126,9 @@ humans:
     note: 『複製技術時代の芸術』などで文化・歴史・美学を横断的に論じたユダヤ系思想家。
     wikidata: Q61078
     wikipedia: ヴァルター・ベンヤミン
+    birthplace: ベルリン
+    lat: 52.5167
+    lon: 13.3833
   - name: ノーム・チョムスキー
     birth: 1928
     death: ''
@@ -828,6 +1138,9 @@ humans:
     note: 生成文法理論を打ち立てた言語学者であり、政治的知識人としても知られる。
     wikidata: Q9049
     wikipedia: ノーム・チョムスキー
+    birthplace: イースト・オーク・レーン
+    lat: 40.0525
+    lon: -75.1283
   - name: ジャン・ボードリヤール
     birth: 1929
     death: 2007
@@ -837,6 +1150,9 @@ humans:
     note: シミュラークルとシミュレーションの概念で知られ、ポストモダンの文化批評に影響。
     wikidata: Q182847
     wikipedia: ジャン・ボードリヤール
+    birthplace: ランス
+    lat: 49.2653
+    lon: 4.0286
   - name: ジャン＝リュック・ナンシー
     birth: 1940
     death: 2021
@@ -846,6 +1162,9 @@ humans:
     note: 共同体・存在・触れあいなどをキーワードに、他者との共在性を探究した現代哲学者。
     wikidata: Q503017
     wikipedia: ジャン＝リュック・ナンシー
+    birthplace: コーデラン
+    lat: 44.8512
+    lon: -0.6169
   - name: ジョン・ロールズ
     birth: 1921
     death: 2002
@@ -856,6 +1175,9 @@ humans:
     note: 『正義論』の著者。リベラルな正義と公正さの理論で政治哲学を再構築した。
     wikidata: Q172544
     wikipedia: ジョン・ロールズ
+    birthplace: ボルティモア
+    lat: 39.2864
+    lon: -76.615
   - name: マルタ・ヌスバウム
     birth: 1947
     death: ''
@@ -866,6 +1188,9 @@ humans:
     note: ケイパビリティ・アプローチを提唱し、自由・福祉・ジェンダーにわたる倫理を論じた。
     wikidata: Q235470
     wikipedia: マーサ・ヌスバウム
+    birthplace: ニューヨーク
+    lat: 40.7128
+    lon: -74.0061
   - name: モーリス・メルロー＝ポンティ
     birth: 1908
     death: 1961
@@ -875,6 +1200,9 @@ humans:
     note: 現象学と身体性の哲学を展開。『知覚の現象学』で主観と世界の関係を再定義。
     wikidata: Q212639
     wikipedia: モーリス・メルロー＝ポンティ
+    birthplace: ロシュフォール
+    lat: 45.9419
+    lon: -0.9669
   - name: ジャック・デリダ
     birth: 1930
     death: 2004
@@ -884,6 +1212,9 @@ humans:
     note: 脱構築の提唱者。テクストと意味の不安定性を論じ、ポスト構造主義の代表的人物となる。
     wikidata: Q130631
     wikipedia: ジャック・デリダ
+    birthplace: エル・ビアル
+    lat: 36.7683
+    lon: 3.0306
   - name: ポール・リクール
     birth: 1913
     death: 2005
@@ -893,6 +1224,9 @@ humans:
     note: 解釈学・記憶・アイデンティティを主題に、倫理と物語の交差点を探究した現代哲学者。
     wikidata: Q192066
     wikipedia: ポール・リクール
+    birthplace: ヴァランス
+    lat: 44.9325
+    lon: 4.8908
   - name: ハンス・ゲオルク・ガダマー
     birth: 1900
     death: 2002
@@ -902,6 +1236,9 @@ humans:
     note: 『真理と方法』で知られる解釈学の大成者。理解と伝統の関係を哲学的に探究した。
     wikidata: Q76356
     wikipedia: ハンス・ゲオルク・ガダマー
+    birthplace: マールブルク
+    lat: 50.8167
+    lon: 8.7667
   - name: ルートヴィヒ・ウィトゲンシュタイン
     birth: 1889
     death: 1951
@@ -912,6 +1249,9 @@ humans:
     note: 『論理哲学論考』『哲学探究』を著し、言語と意味の哲学的考察に革命をもたらした。
     wikidata: Q9391
     wikipedia: ルートヴィヒ・ウィトゲンシュタイン
+    birthplace: ノイヴァルデック
+    lat: 48.2378
+    lon: 16.2861
   - name: ミシェル・フーコー
     birth: 1926
     death: 1984
@@ -921,6 +1261,9 @@ humans:
     note: 権力・知・主体を主題に『監獄の誕生』『言葉と物』などで現代思想に大きな影響を与えた。
     wikidata: Q44272
     wikipedia: ミシェル・フーコー
+    birthplace: ポワチエ
+    lat: 46.5811
+    lon: 0.3353
   - name: シルヴィア・フェデリーチ
     birth: 1942
     death: ''
@@ -939,6 +1282,9 @@ humans:
     note: ポストコロニアル理論家。『サバルタンは語ることができるか』で知られる。
     wikidata: Q240851
     wikipedia: ガヤトリ・C・スピヴァク
+    birthplace: コルカタ
+    lat: 22.5675
+    lon: 88.37
   - name: ゲイ・アトキンソン
     birth: 1937
     death: 2008
@@ -956,6 +1302,9 @@ humans:
     note: 社会的再分配と文化的承認を統合する正義理論で知られる現代フェミニズムの代表的思想家。
     wikidata: Q267536
     wikipedia: ナンシー・フレイザー
+    birthplace: ボルティモア
+    lat: 39.2864
+    lon: -76.615
   - name: ジル・ドゥルーズ
     birth: 1925
     death: 1995
@@ -965,6 +1314,9 @@ humans:
     note: フランス現代哲学者。『差異と反復』『アンチ・オイディプス』で構造主義後の哲学的思考を展開。
     wikidata: Q184226
     wikipedia: ジル・ドゥルーズ
+    birthplace: 17区
+    lat: 48.8822
+    lon: 2.3078
   - name: フェリックス・ガタリ
     birth: 1930
     death: 1992
@@ -974,6 +1326,9 @@ humans:
     note: 精神分析・政治理論を横断し、ドゥルーズとの共著『アンチ・オイディプス』で知られる。
     wikidata: Q352465
     wikipedia: フェリックス・ガタリ
+    birthplace: Villeneuve-les-Sablons
+    lat: 49.2372
+    lon: 2.0767
   - name: アラン・バディウ
     birth: 1937
     death: ''
@@ -983,6 +1338,9 @@ humans:
     note: 真理・出来事・愛などを主題に、現代における哲学の役割を再定義した。
     wikidata: Q311005
     wikipedia: アラン・バディウ
+    birthplace: ラバト
+    lat: 34.0211
+    lon: -6.8414
   - name: エマニュエル・レヴィナス
     birth: 1906
     death: 1995
@@ -992,6 +1350,9 @@ humans:
     note: 倫理を哲学の第一原理とし、他者の顔の現前から出発する倫理学を展開。
     wikidata: Q153034
     wikipedia: エマニュエル・レヴィナス
+    birthplace: カウナス
+    lat: 54.9
+    lon: 23.9333
   - name: シモーヌ・ヴェイユ
     birth: 1909
     death: 1943
@@ -1001,6 +1362,9 @@ humans:
     note: 苦悩・労働・重力と恩寵などを主題に、霊的倫理を探究した独自の思想家。
     wikidata: Q157309
     wikipedia: シモーヌ・ヴェイユ (哲学者)
+    birthplace: パリ
+    lat: 48.8567
+    lon: 2.3522
   - name: スタンレー・ミルグラム
     birth: 1933
     death: 1984
@@ -1010,6 +1374,9 @@ humans:
     note: アイヒマン実験として知られる権威への服従実験を行った社会心理学者。
     wikidata: Q208236
     wikipedia: スタンレー・ミルグラム
+    birthplace: ブロンクス区
+    lat: 40.8467
+    lon: -73.8733
   - name: スーザン・ソンタグ
     birth: 1933
     death: 2004
@@ -1020,6 +1387,9 @@ humans:
     note: 『反解釈』『写真について』などでアートと政治の関係を鋭く批評した知識人。
     wikidata: Q152824
     wikipedia: スーザン・ソンタグ
+    birthplace: ニューヨーク
+    lat: 40.7128
+    lon: -74.0061
   - name: リュス・イリガライ
     birth: 1930
     death: ''
@@ -1029,6 +1399,9 @@ humans:
     note: 言語と女性性の再定義を通して、フェミニズム思想に詩的かつ哲学的視座を持ち込んだ。
     wikidata: Q28918
     wikipedia: リュス・イリガライ
+    birthplace: Blaton
+    lat: 50.5
+    lon: 3.65
   - name: エレーヌ・シクスー
     birth: 1937
     death: ''
@@ -1039,6 +1412,9 @@ humans:
     note: 「女性の書き方（エクリチュール・フェミニン）」を提唱し、文学とジェンダー批評を融合。
     wikidata: Q234964
     wikipedia: エレーヌ・シクスー
+    birthplace: オラン
+    lat: 35.6969
+    lon: -0.6331
   - name: ウルリケ・マインホフ
     birth: 1934
     death: 1976
@@ -1048,6 +1424,9 @@ humans:
     note: ドイツのジャーナリストで、赤軍派（RAF）の創設メンバーの一人。
     wikidata: Q76543
     wikipedia: ウルリケ・マインホフ
+    birthplace: オルデンブルク
+    lat: 53.1439
+    lon: 8.2139
   - name: ロジャー・ベーコン
     birth: 1219
     death: 1292
@@ -1057,6 +1436,9 @@ humans:
     note: 経験的観察を重視し、近代科学の先駆とされるフランシスコ会士。
     wikidata: Q171677
     wikipedia: ロジャー・ベーコン
+    birthplace: イルチェスター
+    lat: 51.0011
+    lon: -2.6825
   - name: ヘンリー・ブラクトン
     birth: 1210
     death: 1268
@@ -1066,6 +1448,9 @@ humans:
     note: イングランドの法学者で、自然法と王権の限界について論じた。
     wikidata: Q1197107
     wikipedia: ヘンリー・ブラクトン
+    birthplace: デヴォン
+    lat: 50.7
+    lon: -3.8
   - name: マイモニデス
     birth: 1138
     death: 1204
@@ -1074,6 +1459,9 @@ humans:
     note: ユダヤ教の哲学者。『迷える者の導き』でアリストテレス哲学と聖書を融合。
     wikidata: Q127398
     wikipedia: モーシェ・ベン＝マイモーン
+    birthplace: コルドバ
+    lat: 37.89
+    lon: -4.78
   - name: イブン・ハルドゥーン
     birth: 1332
     death: 1406
@@ -1083,6 +1471,9 @@ humans:
     note: 『歴史序説』で知られるイスラム世界の歴史哲学者・社会理論家。
     wikidata: Q9294
     wikipedia: イブン・ハルドゥーン
+    birthplace: チュニス
+    lat: 36.8008
+    lon: 10.18
   - name: マイスター・エックハルト
     birth: 1260
     death: 1328
@@ -1091,6 +1482,9 @@ humans:
     note: ドイツ神秘主義の神学者。神との合一や「無の教義」を説いた。
     wikidata: Q76548
     wikipedia: マイスター・エックハルト
+    birthplace: Nessetal
+    lat: 51.0077
+    lon: 10.667
   - name: ヨハネス・ドゥンス・スコトゥス
     birth: 1266
     death: 1308
@@ -1099,6 +1493,9 @@ humans:
     note: スコラ哲学者。実体と個物の区別を重視し、普遍論争に新たな視点を与えた。
     wikidata: Q190089
     wikipedia: ヨハネス・ドゥンス・スコトゥス
+    birthplace: ダンス
+    lat: 55.7784
+    lon: -2.3426
   - name: ラモン・リュイ
     birth: 1232
     death: 1315
@@ -1107,6 +1504,9 @@ humans:
     note: カタルーニャ出身の哲学者・神秘家。論理的布教と普遍的真理の統一を試みた。
     wikidata: Q193660
     wikipedia: ラモン・リュイ
+    birthplace: パルマ・デ・マヨルカ
+    lat: 39.5667
+    lon: 2.6497
   - name: 張載
     birth: 1020
     death: 1077
@@ -1115,6 +1515,9 @@ humans:
     note: 宋代の儒学者。『正蒙』で理気思想を展開し、朱熹に先行した理学の礎を築いた。
     wikidata: Q197338
     wikipedia: 張載
+    birthplace: 開封市
+    lat: 34.795
+    lon: 114.345
   - name: 朱熹
     birth: 1130
     death: 1200
@@ -1123,6 +1526,9 @@ humans:
     note: 儒学者。性即理や格物致知を通じて理学を体系化し、東アジア思想に巨大な影響を与えた。
     wikidata: Q9397
     wikipedia: 朱熹
+    birthplace: 尤渓県
+    lat: 26.1725
+    lon: 118.1849
   - name: モーゼス・ナフマニデス
     birth: 1194
     death: 1270
@@ -1138,6 +1544,9 @@ humans:
     note: ペルシアの哲学者・天文学者。シーア派哲学の整合性と観測天文学に貢献。
     wikidata: Q302835
     wikipedia: ナスィールッディーン・トゥースィー
+    birthplace: トゥース
+    lat: 36.4861
+    lon: 59.5176
   - name: イブン・アラビー
     birth: 1165
     death: 1240
@@ -1146,6 +1555,9 @@ humans:
     note: イスラム神秘主義（スーフィズム）の代表的思想家。存在一性論を展開。
     wikidata: Q46420
     wikipedia: イブン・アラビー
+    birthplace: ムルシア
+    lat: 37.9833
+    lon: -1.1303
   - name: ジェラルド・オブ・ウェールズ
     birth: 1146
     death: 1223
@@ -1174,6 +1586,9 @@ humans:
     note: 自然史・地理学・イスラム自然哲学で知られるペルシアの博学者。
     wikidata: Q144639
     wikipedia: ザカリーヤー・カズウィーニー
+    birthplace: ガズヴィーン
+    lat: 36.2854
+    lon: 50.0041
   - name: 張栻
     birth: 1133
     death: 1180
@@ -1182,6 +1597,9 @@ humans:
     note: 宋代の理学者。朱熹と論争を交えつつ、実践と修養を重視する哲学を展開。
     wikidata: Q708644
     wikipedia: 張栻
+    birthplace: 綿竹市
+    lat: 31.3446
+    lon: 104.1994
   - name: ジョン・ウィクリフ
     birth: 1320
     death: 1384
@@ -1189,6 +1607,9 @@ humans:
     note: 聖書の英訳を進め、教会批判を展開。宗教改革の先駆者とされる。
     wikidata: Q173893
     wikipedia: ジョン・ウィクリフ
+    birthplace: ヒップスウェル
+    lat: 54.38
+    lon: -1.719
   - name: シャムス・タブリーズィー
     birth: 1185
     death: 1248
@@ -1211,6 +1632,9 @@ humans:
     note: スペインのドミニコ会士・スコラ神学者。恩寵と自由意志をめぐる議論で知られる。
     wikidata: Q934185
     wikipedia: ドミンゴ・バニェス
+    birthplace: メディナ・デル・カンポ
+    lat: 41.3085
+    lon: -4.9151
   - name: ウルスラ・ド・メーツ
     birth: 1350
     death: 1400
@@ -1223,6 +1647,9 @@ humans:
     note: フランスの論理学者・自然哲学者。「インペトゥス理論」でガリレオ以前の力学に影響を与えた。
     wikidata: Q275500
     wikipedia: ジャン・ビュリダン
+    birthplace: ベテューヌ
+    lat: 50.531
+    lon: 2.6393
   - name: ギヨーム・ド・オーヴェルニュ
     birth: 1180
     death: 1249
@@ -1245,6 +1672,9 @@ humans:
     note: スーフィー教団カディリー派の創設者。イスラム神秘主義の普及に貢献。
     wikidata: Q307365
     wikipedia: アブドゥルカーディル・ジーラーニー
+    birthplace: ギーラーン州
+    lat: 37.2774
+    lon: 49.589
   - name: ジャン・ド・メウング
     birth: 1240
     death: 1305
