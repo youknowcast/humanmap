@@ -209,6 +209,47 @@
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
 
+    /* バーとツールチップの隙間をまたいでもホバーが切れないようにする */
+    .tooltip::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -12px;
+      height: 12px;
+    }
+
+    .tooltip.below {
+      top: 100%;
+      bottom: auto;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+
+    .tooltip.below::after {
+      bottom: auto;
+      top: -12px;
+    }
+
+    .tooltip .wiki-link {
+      display: inline-block;
+      margin-top: 8px;
+      color: #8ecae6;
+      font-size: 13px;
+      text-decoration: underline;
+    }
+
+    .tooltip .wiki-link:hover {
+      color: #ffffff;
+    }
+
+    /* ホバーできるデバイスでは i ボタンは不要（タッチ/キーボード用に残す） */
+    @media (hover: hover) and (pointer: fine) {
+      .info-button {
+        display: none;
+      }
+    }
+
     .year-marker {
       position: absolute;
       width: 8px;
@@ -512,7 +553,7 @@
             <div class="year-line death" v-show="hoveredHuman" :style="{ left: yearToPosition(hoveredHuman?.death) + 'px' }"></div>
 
             <div v-for="human in filteredHumans" 
-                 :key="human.name"
+                 :key="human.wikidata || human.name"
                  class="human-line">
               <div class="year-labels">
                 <span class="year-label" :style="{ left: yearToPosition(human.birth) + 'px' }">
@@ -543,7 +584,8 @@
                 </div>
                 <div v-if="human.note" 
                      class="tooltip"
-                     :style="{ display: activeTooltip === human.name ? 'block' : 'none' }">
+                     :class="{ below: filteredHumans.indexOf(human) < 3 }"
+                     :style="{ display: activeTooltip === human.name || hoveredHuman?.name === human.name ? 'block' : 'none' }">
                   <div class="human-tags">
                     <span v-for="tagId in human.tags" 
                           :key="tagId" 
@@ -555,6 +597,13 @@
                   <div class="note-text">
                     {{ human.note }}
                   </div>
+                  <a v-if="human.wikipedia"
+                     class="wiki-link"
+                     :href="'https://ja.wikipedia.org/wiki/' + encodeURIComponent(human.wikipedia)"
+                     target="_blank"
+                     rel="noopener noreferrer">
+                    Wikipedia で読む
+                  </a>
                 </div>
               </div>
             </div>
